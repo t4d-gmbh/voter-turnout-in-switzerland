@@ -7,6 +7,10 @@ Switzerland consists of 2136 Municipalities as of 1 January 2023.<sup>[[1]](READ
 
 In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout is always considered as the target variable y. The other variables are considered as the input variables x_1, x_2, x_3... x_i. 
 
+## Data collection
+https://opendata.swiss/de/dataset/eidg-wahlen-2023/resource/e3e5a96f-171b-4876-9d92-ab7a1dfc8b5f
+https://www.bfs.admin.ch/bfs/de/home/statistiken/regionalstatistik/regionale-portraets-kennzahlen/gemeinden.assetdetail.15864450.html
+
 
 ## References
 
