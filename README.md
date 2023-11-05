@@ -52,11 +52,17 @@ The focus of this analysis lies on the proceeding itself rather than on the actu
 
 ## Data retrieval
 
-We retrived  the data from following data sources
-1. The voter turnouts foe the Federal elections 2023 (opendata.swiss)<sup>[X]</sup>
+We retrived  the data from following data sources:
+
+1. The voter turnouts for the Federal elections 2023 (opendata.swiss)<sup>[X]</sup>
 2. The characteristics of the municipalities (bfs.admin.ch)<sup>[X]</sup>
 
-To ensure the traceability of the analysis, all data can be found in the *data/original* directory of this repository.
+To ensure the traceability of the analysis, all data can be found in the *data/original* directory of this repository:
+
+1. data/original/sd-t-17.02-NRW2023-wahlbeteiligung-appendix.csv
+2. data/original/je-d-21.03.01-gemeindeportraits.xlsx
+
+
 
 ## Data preprocessing
 
@@ -77,6 +83,14 @@ data = pd.merge(municipalities, turnouts, on='Municipality', how='inner')
 ```
 ### Standization of values
 
+All values were standardized and saved in a separate dataframe so that variables that are on different scales can be compared with each other. Further information you find in the article *Common pitfalls in the interpretation of coefficients of linear models* on scikit-learn.org<sup>[X]</sup>
+
+```
+data_std = copy.deepcopy(data)
+for column in data_std.columns:
+  if column != "Municipality":
+    data_std[column] = stats.zscore(data_std[column], nan_policy="omit")
+```
 
 ## References
 
@@ -85,4 +99,8 @@ data = pd.merge(municipalities, turnouts, on='Municipality', how='inner')
 <sup>[X]</sup> [Federal Statistical Office FSO (opendata.swiss)](https://opendata.swiss/de/dataset/eidg-wahlen-2023/resource/e3e5a96f-171b-4876-9d92-ab7a1dfc8b5f)
 
 <sup>[X]</sup> [Federal Statistical Office FSO: Regionalporträts 2021: Kennzahlen aller Gemeinden](https://www.bfs.admin.ch/bfs/de/home/statistiken/regionalstatistik/regionale-portraets-kennzahlen/gemeinden.assetdetail.15864450.html)
+
+<sup>[X]</sup> [Common pitfalls in the interpretation of coefficients of linear models](https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html)
+
+
 
