@@ -18,7 +18,6 @@ To follow this analysis you should be familiar with following concepts. We will 
 - Normal distribution
 - Pearson correlation coefficient
 - Linear regression with least squares cost function 
-- 
 - Histogram and Scatter plot
 
 ### Recommended readings
@@ -42,7 +41,7 @@ For the last two chapters of this article, we use concepts described by Judea Pe
 
 1. Data retrieval
 2. Data preprocessing
-3. Descriptive analysis
+3. Exploratory data analysis
 4. Identify correlations and relevant variables
 5. Causal inference ( user other title...)
 6. Conclusions
@@ -96,7 +95,7 @@ for column in data_std.columns:
     data_std[column] = stats.zscore(data_std[column], nan_policy="omit")
 ```
 
-## Descriptive analysis
+## Exploratory data analysis
 
 ### General remarks
 
@@ -104,7 +103,7 @@ Finally, let's look at the data. What are we actually looking at? We have 32 var
 
 A certain inaccuracy in the analysis results from the fact that the portraits are from 2021 (the most recent data available) and the election participation is from 2023. We accept this but must take appropriate care when making interpretations.
 
-## Voter turnouts
+### Voter turnouts
 
 As we can see in the following histogram the voter turnouts are very roughly normally distributed. The red line (normal distribution calculated from the mean and standard deviation of the data) is just plotted for visualization purposes.
 
@@ -117,7 +116,7 @@ As we can see in the following histogram the voter turnouts are very roughly nor
 </p>
 
 
-## Input variables
+### Input variables
 
 ### Types of varibles
 A plot with histograms for all 31 variables you find in this repository: [Multi-plot with histograms](https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-overview.png). Among the variables we find the following types:
