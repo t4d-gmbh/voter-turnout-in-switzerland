@@ -45,10 +45,28 @@ For the last two chapters of this article, we use concepts described by Judeal P
 
 
 ## Data retrieval
-https://opendata.swiss/de/dataset/eidg-wahlen-2023/resource/e3e5a96f-171b-4876-9d92-ab7a1dfc8b5f
-https://www.bfs.admin.ch/bfs/de/home/statistiken/regionalstatistik/regionale-portraets-kennzahlen/gemeinden.assetdetail.15864450.html
+
+We retrived  the data from following data sources
+1. opendata.swiss > Organization >  Federal Statistical Office FSO<sup>[X]</sup>
+2. Oficial website of the  Federal Statistical Office FSO<sup>[X]</sup>
+
+To ensure the traceability of the analysis, all data can be found in the *data/original* directory of this repository.
+
+## Data preprocessing
+
+You find the preprocessed data files in the direcory *data/preprocessed* These files (CSV) are used for analysis.
+
+### Data cleaning
+
+The first file from openswiss.data also contains the aggregated voter turnout for the cantons and the Confederation. These entries have been deleted and we only use the voter turnouts of the municipalities. Otherwise, it is a valid CSV file that can be imported. The formatting of the second file (xlsx format) has been manually adjusted and exported to CSV. Unknown values that were marked with "X" or "*" in the original file have been replaced with empty values so that they are interpreted as *NaN* values in Python, which is easier to work with in Python.
+
 
 
 ## References
 
 <sup>[1]</sup> [Die institutionellen Gliederungen der Schweiz](https://www.bfs.admin.ch/bfs/de/home/statistiken/querschnittsthemen/raeumliche-analysen/raeumliche-gliederungen/Institutionelle-gliederungen.html)
+
+<sup>[X]</sup> [Federal Statistical Office FSO (opendata.swiss)](https://opendata.swiss/de/dataset/eidg-wahlen-2023/resource/e3e5a96f-171b-4876-9d92-ab7a1dfc8b5f)
+
+<sup>[X]</sup> [Federal Statistical Office FSO: Regionalporträts 2021: Kennzahlen aller Gemeinden](https://www.bfs.admin.ch/bfs/de/home/statistiken/regionalstatistik/regionale-portraets-kennzahlen/gemeinden.assetdetail.15864450.html)
+
