@@ -3,7 +3,7 @@
 ## Introduction
 
 ### Idea
-Switzerland consists of 2136 Municipalities as of 1 January 2023.<sup>[[1]](README.md#References)</sup> National elections are held every four years. For each election, the voter turnout is recored by the Federal Statistical Office (FSO). The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreigners in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout is always considered as the target variable $`Y`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
+Switzerland consists of 2136 Municipalities as of 1 January 2023.<sup>[[1]](README.md#References)</sup> National elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recored by the Federal Statistical Office (FSO). The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreigners in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout is always considered as the target variable $`Y`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
 
 ### Prerequisite knowledge
 
@@ -45,7 +45,7 @@ For the last two chapters of this article, we use concepts described by Judeal P
 
 ## Used tools
 
-The analysis was performed in a *Juypter notebook*. Libraries like Pandas, scipy, matplotlib, seaborn and bokeh were used. You find the jupyter notebook in this repository.
+The analysis was performed in a *Juypter notebook*. Libraries like pandas, scipy, matplotlib, seaborn and bokeh were used. You find the jupyter notebook in this repository.
 
 ## What we did not do
 The focus of this analysis lies on the proceeding itself rather than on the actual outcome. We did not optimize a statistical or a machine learning model to do optimal predictions - since we have already the data of almost all Municipalities there is not much to predict in this case. In return, we tried to find out how we can interpret the discovered correlations in terms of causal relationships, based on the concepts described in the mentioned books.
@@ -77,11 +77,11 @@ The second file contained several variables describing the voting behavior with 
 
 ### Merging files
 
-The only information we can use to merge the two datasets are the names of the municipalities. As the FSO uses different spellings for some municipalities (e.g. *Zurzach* and *Bad Zurzach*), we have harmonized the names of approximately 30 municipalities. We have also translated the German-language variables into English. The translations are based on the English terms provided by the FSO in the file (*data/original/ts-x-21.03.01-APPENDIX.ods*). Finally the files were merged:
+The only information we can use to merge the two datasets are the names of the municipalities. As the FSO uses different spellings for some municipalities (e.g. *Zurzach* and *Bad Zurzach*), we have harmonized the names of approximately 30 municipalities. We have also translated the German-language variable names into English. The translations are based on the English terms provided by the FSO in the file (*data/original/ts-x-21.03.01-APPENDIX.ods*). Finally the files were merged:
 ```
 data = pd.merge(municipalities, turnouts, on='Municipality', how='inner')
 ```
-### Standization of values
+### Standardization of values
 
 All values were standardized and saved in a separate dataframe so that variables that are on different scales can be compared with each other. Further information you find in the article *Common pitfalls in the interpretation of coefficients of linear models* on scikit-learn.org<sup>[X]</sup>
 
@@ -92,15 +92,23 @@ for column in data_std.columns:
     data_std[column] = stats.zscore(data_std[column], nan_policy="omit")
 ```
 
+## Descriptive analysis
+
+Finally, let's look at the data. What are we actually looking at? We have 32 variables from which the *voter turnout* is considered as our target variable. The other variables are input variables which are describing the Municipalities like *Population density per km²* or the *Social assistance rate*. Detailed descriptions of these variables you find on the website of the Federal Statistical Office.<sup>[X]</sup>
+
+
+
 ## References
 
 <sup>[1]</sup> [Die institutionellen Gliederungen der Schweiz](https://www.bfs.admin.ch/bfs/de/home/statistiken/querschnittsthemen/raeumliche-analysen/raeumliche-gliederungen/Institutionelle-gliederungen.html)
 
-<sup>[X]</sup> [Federal Statistical Office FSO (opendata.swiss)](https://opendata.swiss/de/dataset/eidg-wahlen-2023/resource/e3e5a96f-171b-4876-9d92-ab7a1dfc8b5f)
+<sup>[X]</sup> [Federal Statistical Office (opendata.swiss)](https://opendata.swiss/de/dataset/eidg-wahlen-2023/resource/e3e5a96f-171b-4876-9d92-ab7a1dfc8b5f)
 
-<sup>[X]</sup> [Federal Statistical Office FSO: Regionalporträts 2021: Kennzahlen aller Gemeinden](https://www.bfs.admin.ch/bfs/de/home/statistiken/regionalstatistik/regionale-portraets-kennzahlen/gemeinden.assetdetail.15864450.html)
+<sup>[X]</sup> [Regionalporträts 2021: Kennzahlen aller Gemeinden](https://www.bfs.admin.ch/bfs/de/home/statistiken/regionalstatistik/regionale-portraets-kennzahlen/gemeinden.assetdetail.15864450.html)
 
 <sup>[X]</sup> [Common pitfalls in the interpretation of coefficients of linear models](https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html)
+
+<sup>[X]</sup> [Portraits of the communes : Data and explanations ](https://www.bfs.admin.ch/bfs/en/home/statistics/regional-statistics/regional-portraits-key-figures/communes/data-explanations.html)
 
 
 
