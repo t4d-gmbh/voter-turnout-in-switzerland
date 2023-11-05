@@ -143,7 +143,7 @@ There is usually an interest in increasing voter turnout. So we focus on variabl
   <img 
     alt="Scatter plots with linear regression line for selected variables"
     src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/scatterplot-for-selected-variables.png" 
-    height="250"
+    width="750px"
   />
 </p>
 
