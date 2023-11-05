@@ -2,7 +2,9 @@
 
 ## Introduction
 
-### Idea
+Einleitender Satz, worin die Idee besteht....
+
+### Topic
 Switzerland consists of 2136 Municipalities as of 1 January 2023.<sup>[[1]](README.md#References)</sup> National elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recored by the Federal Statistical Office (FSO). The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreigners in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout is always considered as the target variable $`Y`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
 
 In some sources, the Municipalities are called communes.
@@ -137,7 +139,7 @@ Let's see how each of the input variables correlates with the voter turnout. For
 
 ### Linear regression
 
-There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line. Each point on the plot in the left column represents a Municipality which is positioned on the plot according to its voter turnout and the variable mentioned on the horizontal ax. To be able to assess the data a bit better, a residual plot is displayed on the right-hand side. If your are not familiar with the Residual plot, focus on the plots on the left side. 
+There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line. Each point on the plot in the left column represents a Municipality which is positioned on the plot according to its voter turnout and the variable mentioned on the horizontal ax. To be able to assess the data a bit better, a residual plot is displayed on the right-hand side. If your are not familiar with the Residual plot, focus on the plots on the left side. As we can see there seems to be a trend in the data (the negative correlation mentioned before) but we can also see (on the label of the y-axis) that the R²-score is quite poor. The R²-score can take values between 0 and 1 and is the proportion of the variation in the voter turnout.  This means that the regression line might indicate a trend but does not explain why the points are so widely scattered.
 
 <p align="center">
   <img 
