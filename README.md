@@ -118,7 +118,6 @@ As we can see in the following histogram the voter turnouts are very roughly nor
 
 ### Input variables
 
-### Types of varibles
 A plot with histograms for all 31 variables you find in this repository: [Multi-plot with histograms](https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-overview.png). Among the variables we find the following types:
 
 - Percentage (0 to 100%) like the Foreign nationals in % of the total popoluation
