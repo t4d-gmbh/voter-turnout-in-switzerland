@@ -5,16 +5,18 @@
 ### Idea
 Switzerland consists of 2136 Municipalities as of 1 January 2023.<sup>[[1]](README.md#References)</sup> National elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recored by the Federal Statistical Office (FSO). The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreigners in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout is always considered as the target variable $`Y`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
 
+In some sources, the Municipalities are called communes.
+
 ### Prerequisite knowledge
 
 To follow this analysis you should be familiar with following concepts. We will not explain them here since you will find a lot of good teaching material online.
 
-- Mean and standard deviation
+- Mean, standard deviation and residuals
 - Standardization of variables
 - Normal distribution
 - Pearson correlation coefficient
 - Linear regression with least squares cost function 
-- Residuals
+- 
 - Histogram and Scatter plot
 
 ### Recommended readings
