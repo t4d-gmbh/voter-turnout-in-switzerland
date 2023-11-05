@@ -133,6 +133,12 @@ Let's see how each of the input variables correlates with the voter turnout. For
    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/barchart-with-correlation-coefficients.png"
 />
 
+### Linear regression
+
+There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line.
+
+
+
 ## References
 
 <sup>[1]</sup> [Die institutionellen Gliederungen der Schweiz](https://www.bfs.admin.ch/bfs/de/home/statistiken/querschnittsthemen/raeumliche-analysen/raeumliche-gliederungen/Institutionelle-gliederungen.html)
