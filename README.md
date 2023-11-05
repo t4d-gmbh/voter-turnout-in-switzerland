@@ -47,11 +47,11 @@ For the last two chapters of this article, we use concepts described by Judea Pe
 5. Causal inference ( user other title...)
 6. Conclusions
 
-## Used tools
+### Used tools
 
 The analysis was performed in a *Juypter notebook*. Libraries like pandas, scipy, matplotlib, seaborn and bokeh were used. You find the jupyter notebook in this repository.
 
-## What we did not do
+### What we did not do
 The focus of this analysis lies on the proceeding itself rather than on the actual outcome. We did not optimize a statistical or a machine learning model to do optimal predictions - since we have already the data of almost all Municipalities there is not much to predict in this case. In return, we tried to find out how we can interpret the discovered correlations in terms of causal relationships, based on the concepts described in the mentioned books.
 
 ## Data retrieval
