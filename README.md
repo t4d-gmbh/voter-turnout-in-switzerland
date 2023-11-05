@@ -19,7 +19,7 @@ To follow this analysis you should be familiar with following concepts. We will 
 
 ### Recommended readings
 
-For the last two chapters of this article, we use concepts described by Judeal Peral et al. in the following books:
+For the last two chapters of this article, we use concepts described by Judea Pearl et al. in the following books:
 
 <p align="center">
 <img 
