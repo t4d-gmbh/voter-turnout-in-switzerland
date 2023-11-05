@@ -125,8 +125,8 @@ Since there are no categorical variables and no ordinal or nominal numbers we ca
 
 ### Correlations
 
-Let's see how each of the input variables correlates with the voter turnout. For each tuple of variables $`(X_1,Y), (X_2,Y),(X_3, Y)... (X_i,Y)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on.<sup>[X]</sup> It seems that some variables might be strongly correlated with the voter turnout but let's keep in mind that the coefficients are not very strong since they range between -0.43 and 0.2.
-¨
+Let's see how each of the input variables correlates with the voter turnout. For each tuple of variables $`(X_1,Y), (X_2,Y),(X_3, Y)... (X_i,Y)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on.<sup>[X]</sup> It might seem that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients itself are not very convincing since they range between -0.43 and 0.2.
+
 <p align="center">
 <img 
    alt="Correlation coefficients"
