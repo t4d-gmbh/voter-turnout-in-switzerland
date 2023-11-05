@@ -53,8 +53,8 @@ The focus of this analysis lies on the proceeding itself rather than on the actu
 ## Data retrieval
 
 We retrived  the data from following data sources
-1. opendata.swiss > Organization >  Federal Statistical Office FSO<sup>[X]</sup>
-2. Oficial website of the  Federal Statistical Office FSO<sup>[X]</sup>
+1. The voter turnouts foe the Federal elections 2023 (opendata.swiss)<sup>[X]</sup>
+2. The characteristics of the municipalities (bfs.admin.ch)<sup>[X]</sup>
 
 To ensure the traceability of the analysis, all data can be found in the *data/original* directory of this repository.
 
@@ -66,6 +66,16 @@ You find the preprocessed data files in the direcory *data/preprocessed* These f
 
 The first file from openswiss.data also contains the aggregated voter turnout for the cantons and the Confederation. These entries have been deleted and we only use the voter turnouts of the municipalities. Otherwise, it is a valid CSV file that can be imported. The formatting of the second file (xlsx format) has been manually adjusted and exported to CSV. Unknown values that were marked with "X" or "*" in the original file have been replaced with empty values so that they are interpreted as *NaN* values in Python, which is easier to work with in Python.
 
+The second file contained several variables describing the voting behavior with regard to individual political parties. However, these values were not available for numerous municipalities. To simplify the analysis, we deleted these variables and focussed on the more than 30 remaining variables.
+
+
+### Merging files
+
+The only information we can use to merge the two datasets are the names of the municipalities. As the FSO uses different spellings for some municipalities (e.g. *Zurzach* and *Bad Zurzach*), we have harmonized the names of approximately 30 municipalities. We have also translated the German-language variables into English. The translations are based on the English terms provided by the FSO in the file (*data/original/ts-x-21.03.01-APPENDIX.ods*). Finally the files were merged:
+```
+data = pd.merge(municipalities, turnouts, on='Municipality', how='inner')
+```
+### Standization of values
 
 
 ## References
