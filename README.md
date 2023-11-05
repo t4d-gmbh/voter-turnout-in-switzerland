@@ -100,6 +100,20 @@ Finally, let's look at the data. What are we actually looking at? We have 32 var
 
 A certain inaccuracy in the analysis results from the fact that the portraits are from 2021 (the most recent data available) and the election participation is from 2023. We accept this but must take appropriate care when making interpretations.
 
+## Voter turnouts
+
+As we can see in the folllwing histogram the voter turnouts are are very roughly normally distributed. The red line (normal distruibution caluclated fro the mean and standard deviattion from the data) is just plotted for visualiztion purposes.
+
+<p align="center">
+  <img 
+    alt="Causal Inference in Statistics: A Primer"
+    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-voter-turnouts.png" 
+    height="250"
+  />
+</p>
+   
+
+
 
 ## References
 
