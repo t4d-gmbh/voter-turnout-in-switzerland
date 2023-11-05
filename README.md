@@ -102,7 +102,7 @@ A certain inaccuracy in the analysis results from the fact that the portraits ar
 
 ## Voter turnouts
 
-As we can see in the folllwing histogram the voter turnouts are are very roughly normally distributed. The red line (normal distruibution caluclated fro the mean and standard deviattion from the data) is just plotted for visualiztion purposes.
+As we can see in the following histogram the voter turnouts are very roughly normally distributed. The red line (normal distribution calculated from the mean and standard deviation of the data) is just plotted for visualization purposes.
 
 <p align="center">
   <img 
@@ -111,8 +111,21 @@ As we can see in the folllwing histogram the voter turnouts are are very roughly
     height="250"
   />
 </p>
-   
 
+
+## Input variables
+
+### Types of varibles
+A plot with histograms for all 31 variables you find in this repository: [Multi-plot with histograms](https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-overview.png). Among the varibales with find following data types:
+
+- Percentage (0 to 100%) like the Foreign nationals in % of the total popoluation
+- Numbers (cardinal) like the number of private households or the the area of a commune (km²)
+
+Since there are no categorical variables and no ordinal or nominal numbers we can use all input variables for calculations.
+
+### Correlations
+
+Let's see how each of the input variables coorelates with the voter turnout. For each tuple of variables $`(X_1,Y), (X_2,Y),(X_3, Y)... (X_i,Y)`$ the pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on.<sup>[X]</sup>
 
 
 ## References
@@ -126,6 +139,8 @@ As we can see in the folllwing histogram the voter turnouts are are very roughly
 <sup>[X]</sup> [Common pitfalls in the interpretation of coefficients of linear models](https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html)
 
 <sup>[X]</sup> [Portraits of the communes : Data and explanations ](https://www.bfs.admin.ch/bfs/en/home/statistics/regional-statistics/regional-portraits-key-figures/communes/data-explanations.html)
+
+<sup>[X]</sup> [What is the difference between Pearson R and Simple Linear Regression?](https://sebastianraschka.com/faq/docs/pearson-r-vs-linear-regr.html)
 
 
 
