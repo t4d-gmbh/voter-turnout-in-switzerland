@@ -137,6 +137,16 @@ Let's see how each of the input variables correlates with the voter turnout. For
 
 There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line.
 
+<p align="center">
+  <img 
+    alt="Scatter plots with linear regression line for selected variables"
+    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/scatterplot-for-selected-variables.png" 
+    height="250"
+  />
+</p>
+
+.. titles and axis labes missing...
+
 
 
 ## References
