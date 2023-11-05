@@ -149,7 +149,9 @@ There is usually an interest in increasing voter turnout. So we focus on variabl
 
 .. titles and axis labes missing...
 
+## Possible causal interpretations
 
+So far we just considered correlations and the strongest correlation in the data occurs between Foreign nationals in % and the voter turnout. Here we have to mention that foreign nationals are not eligible to vote in national elections. This is different in elections at the cantonal or communal level, where foreigners in some Cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners. If we were to apply this analysis in a context where foreigners are entitled to vote, the correlation could simply be because the voter turnout decreases since foreigners vote less. Since we analyze the data from a national election we assume that the decision of each Swiss citizen is independent of the fact of how many foreigns are living in his Municipality.
 
 ## References
 
