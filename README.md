@@ -158,7 +158,7 @@ So far we just considered correlations and the strongest correlation in the data
   />
 </p>
 
-Since we analyze the data from a national election we have to investigate for other explanations and we assume that every Swiss citizen is in a position to decide whether they want to vote or not, regardless of how many foreigners live in their commune.
+Since we analyze the data from a federal election we have to investigate for other explanations and we assume that every Swiss citizen is in a position to decide whether they want to vote or not, regardless of how many foreigners live in their commune.
 
 ## References
 
