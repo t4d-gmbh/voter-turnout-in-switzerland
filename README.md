@@ -149,7 +149,16 @@ There is usually an interest in increasing voter turnout. So we focus on variabl
 
 ## Possible causal interpretations
 
-So far we just considered correlations and the strongest correlation in the data occurs between Foreign nationals in % and the voter turnout. Here we have to mention that foreign nationals are not eligible to vote in national elections. This is different in elections at the cantonal or communal level, where foreigners in some Cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners. If we were to apply this analysis in a context where foreigners are entitled to vote, the correlation could occur because foreigners vote less. Since we analyze the data from a national election we have to investigate for other explanations.
+So far we just considered correlations and the strongest correlation in the data occurs between *Foreign nationals in %* and the *voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in national elections. This is different in elections at the cantonal or communal level, where foreigners in some Cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners. We can see this effect when we analyze the cantonal elections from 2021 in the canton of Neuchâtel, where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are obvioulsy not independent.
+
+<p align="center">
+  <img 
+    alt="Scatter plots with linear regression line for selected variables"
+    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/scatterplot-for-cantonal-elections-neuchatel.png"
+  />
+</p>
+
+Since we analyze the data from a national election we have to investigate for other explanations and we assume that every Swiss citizen is in a position to decide whether they want to vote or not, regardless of how many foreigners live in their commune.
 
 ## References
 
