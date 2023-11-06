@@ -58,31 +58,28 @@ The focus of this analysis lies on the proceeding itself rather than on the actu
 We retrived  the data from following data sources:
 
 1. The voter turnouts for the Federal elections 2023 (opendata.swiss)<sup>[X]</sup>
-2. The characteristics of the municipalities (bfs.admin.ch)<sup>[X]</sup>
+2. The voter turnouts for the Federal elections 2019 (opendata.swiss)<sup>[X]</sup>
+3. Portraits of the communes (bfs.admin.ch)<sup>[X]</sup>
+4. Statistiques des élections cantonales du 18 avril 2021 (ne.ch)[X]
 
-To ensure the traceability of the analysis, all data can be found in the *data/original* directory of this repository:
-
-1. data/original/sd-t-17.02-NRW2023-wahlbeteiligung-appendix.csv
-2. data/original/je-d-21.03.01-gemeindeportraits.xlsx
-
+To ensure the traceability of the analysis, all data files were stores in the *data/original* directory of this repository.
 
 
 ## Data preprocessing
 
-You find the preprocessed data files in the direcory *data/preprocessed* These files (CSV) are used for analysis.
+You find the preprocessed data files in the direcory *data/preprocessed* These files (CSV) are used for analysis. We performed the following tasks:
 
-### Data cleaning
+- Delete data entries which were not needed for the analysis. The file with the portraits of the communes contained several variables describing the voting behavior with regard to specific political parties. However, these values were not available for numerous communes. To simplify the analysis, we deleted these variables and focussed on the more than 30 remaining variables.
+- Replace "X" and "*" characters which indicated missing values with empty values. This leads to *NaN* values in Python which are easier to work with.
+- Harmonize the names of communes since the FSO used different spellings for some communes.
+- Translated the German-language variable names into English. The translations are based on the English terms provided by the FSO.
+- Save all standardized values in a separate dataframe so that variables that are on different scales can be compared with each other. Further information you find in the article *Common pitfalls in the interpretation of coefficients of linear models* on scikit-learn.org<sup>[X]</sup>
 
-The first file from openswiss.data also contains the aggregated voter turnout for the cantons and the Confederation. These entries have been deleted and we only use the voter turnouts of the municipalities. Otherwise, it is a valid CSV file that can be imported. The formatting of the second file (xlsx format) has been manually adjusted and exported to CSV. Unknown values that were marked with "X" or "*" in the original file have been replaced with empty values so that they are interpreted as *NaN* values in Python, which is easier to work with in Python.
-
-The second file contained several variables describing the voting behavior with regard to individual political parties. However, these values were not available for numerous municipalities. To simplify the analysis, we deleted these variables and focussed on the more than 30 remaining variables.
-
-
-### Merging files
-
-The only information we can use to merge the two datasets are the names of the municipalities. As the FSO uses different spellings for some municipalities (e.g. *Zurzach* and *Bad Zurzach*), we have harmonized the names of approximately 30 municipalities. We have also translated the German-language variable names into English. The translations are based on the English terms provided by the FSO in the file (*data/original/ts-x-21.03.01-APPENDIX.ods*). Finally the files were merged:
+Finally, we merged all files:
 ```
-data = pd.merge(municipalities, turnouts, on='Municipality', how='inner')
+data = pd.merge(municipalities, turnouts2023, on='Municipality', how='inner')
+data = pd.merge(data, turnouts2019, on='Municipality', how='left')
+data = pd.merge(data, turnoutsNE, on='Municipality', how='left')
 ```
 ### Standardization of values
 
@@ -164,9 +161,13 @@ Since we analyze the data from a federal election we have to investigate for oth
 
 <sup>[1]</sup> [Die institutionellen Gliederungen der Schweiz](https://www.bfs.admin.ch/bfs/de/home/statistiken/querschnittsthemen/raeumliche-analysen/raeumliche-gliederungen/Institutionelle-gliederungen.html)
 
-<sup>[X]</sup> [Federal Statistical Office (opendata.swiss)](https://opendata.swiss/de/dataset/eidg-wahlen-2023/resource/e3e5a96f-171b-4876-9d92-ab7a1dfc8b5f)
+<sup>[X]</sup> [Federal elections 2023 (opendata.swiss)](https://opendata.swiss/de/dataset/eidg-wahlen-2023/resource/e3e5a96f-171b-4876-9d92-ab7a1dfc8b5f)
 
-<sup>[X]</sup> [Regionalporträts 2021: Kennzahlen aller Gemeinden](https://www.bfs.admin.ch/bfs/de/home/statistiken/regionalstatistik/regionale-portraets-kennzahlen/gemeinden.assetdetail.15864450.html)
+<sup>[X]</sup> [Federal elections 2019 (opendata.swiss)](https://opendata.swiss/de/dataset/eidg-wahlen-2019/resource/98db1ea4-3143-4b29-890a-98ef68fcc749)
+
+<sup>[X]</sup> [Federal Statistical Office: Portraits of the communes](https://www.bfs.admin.ch/bfs/en/home/statistics/regional-statistics/regional-portraits-key-figures/communes.assetdetail.15864450.html)
+
+<sup>[X]</sup> [Statistiques des élections cantonales du 18 avril 2021](https://www.ne.ch/autorites/CHAN/CHAN/elections-votations/stat/Pages/210418.aspx)
 
 <sup>[X]</sup> [Common pitfalls in the interpretation of coefficients of linear models](https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html)
 
