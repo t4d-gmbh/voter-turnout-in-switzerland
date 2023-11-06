@@ -81,16 +81,6 @@ data = pd.merge(municipalities, turnouts2023, on='Municipality', how='inner')
 data = pd.merge(data, turnouts2019, on='Municipality', how='left')
 data = pd.merge(data, turnoutsNE, on='Municipality', how='left')
 ```
-### Standardization of values
-
-All values were standardized and saved in a separate dataframe so that variables that are on different scales can be compared with each other. Further information you find in the article *Common pitfalls in the interpretation of coefficients of linear models* on scikit-learn.org<sup>[X]</sup>
-
-```
-data_std = copy.deepcopy(data)
-for column in data_std.columns:
-  if column != "Municipality":
-    data_std[column] = stats.zscore(data_std[column], nan_policy="omit")
-```
 
 ## Exploratory data analysis
 
