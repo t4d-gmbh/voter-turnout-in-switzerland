@@ -156,7 +156,11 @@ The often cited dogma *Correlation does not imply causation* does not prevent us
 
 Someone who believes that there is a causal relationship from the *Percentage of foreign nationals* to the *Voter turnout* might propose the *Social assistance rate* as a *mediator*. Such a person could argue that foreigners cause a high *Social assistance rate* by taking jobs away from Swiss citizens, who become unemployed and consequently dependent on welfare, and finally, out of frustration, no longer participate in elections.
 
-But perhaps the *Social assistance rate* is not a mediator, but a confounder. IN this case, a high *Social assistance rate* would cause a low *voter turnout*, perhaps because people have too many worries in life to bother with elections. The high "Social assistance rate* would also cause a high *Percentage of foreign nationals*, perhaps because foreigners move there because of the lower rents.
+But perhaps the *Social assistance rate* is not a mediator, but a confounder. In this case, a high *Social assistance rate* would cause a low *voter turnout*, perhaps because people have too many worries in life to bother with elections. The high *Social assistance rate* would also cause a high *Percentage of foreign nationals*, perhaps because foreigners tend to move to communes with low rents, and these in turn are communes with a high *Social assistance rate*. We are unable to examine this relationship in more detail here as we do not have the necessary data.
+
+So far we don't know whether one of these causal models is correct. Can we use statistical methods to find out which of these models is the more plausible?
+
+
 
 ## References
 
