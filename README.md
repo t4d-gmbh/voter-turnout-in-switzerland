@@ -138,6 +138,8 @@ See also the [interactive scatter plot](https://mmoleiro.github.io/bokeh-plots/i
 
 ## Possible causal interpretations
 
+### Preliminary remark
+
 So far we just considered correlations and the strongest correlation in the data occurs between *Foreign nationals in %* and the *voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in federal elections. This is different in elections at the cantonal or communal level, where foreigners in some cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners. We can see this effect when we analyze the cantonal elections from 2021 in the canton of Neuchâtel (27 communes), where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are obvioulsy not independent.
 
 <p align="center">
@@ -148,6 +150,9 @@ So far we just considered correlations and the strongest correlation in the data
 </p>
 
 Since we analyze the data from a federal election we have to investigate for other explanations and we assume that every Swiss citizen is in a position to decide whether they want to vote or not, regardless of how many foreigners live in their commune.
+
+### Causality
+The often cited dogma *Correlation does not imply causation* does not prevent us from *thinking* about possible causal interpretations. What would it mean to interpret the correlation between the "Percentage of foreign nationals* and *voter turnout* as a direct causation? Do the foreigerns somehow *physically* prevent the Swiss citizens from voting. This is not a credible explanation. We are not aware of any cases in which this has happened. Instead, we could think of the causation the other way: Does a low voter turnout cause a high percentage of foreigners? This might happen if Swiss citizens who do not vote are particularly pro-foreigners and invite foreigners to live in their commune. We don't know whether this is a plausible explanation.
 
 ## References
 
