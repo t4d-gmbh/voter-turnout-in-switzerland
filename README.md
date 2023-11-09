@@ -140,7 +140,7 @@ See also the [interactive scatter plot](https://mmoleiro.github.io/bokeh-plots/i
 
 ### Preliminary remark
 
-So far we just considered correlations and the strongest correlation in the data occurs between *Foreign nationals in %* and the *voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in federal elections. This is different in elections at the cantonal or communal level, where foreigners in some cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners. We can see this effect when we analyze the cantonal elections from 2021 in the canton of Neuchâtel (27 communes), where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are obvioulsy not independent.
+So far we just considered correlations and the strongest correlation in the data occurs between *Foreign nationals in %* and the *voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in federal elections. This is different in elections at the cantonal or communal level, where foreigners in some cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners. We can see this effect when we analyze the cantonal elections from 2021 in the canton of Neuchâtel (27 communes), where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are obviously  not independent.
 
 <p align="center">
   <img 
