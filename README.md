@@ -140,7 +140,7 @@ See also the [interactive scatter plot](https://mmoleiro.github.io/bokeh-plots/i
 
 ### Preliminary remark
 
-So far we just considered correlations and the strongest correlation in the data occurs between *Foreign nationals in %* and the *voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in federal elections. This is different in elections at the cantonal or communal level, where foreigners in some cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners. We can see this effect when we analyze the cantonal elections from 2021 in the canton of Neuchâtel (27 communes), where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are obviously  not independent.
+So far we just considered correlations and the strongest correlation in the data occurs between *Foreign nationals in %* and the *voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in federal elections. This is different in elections at the cantonal or communal level, where foreigners in some cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners.<sup>[X]</sup> We can see this effect when we analyze the cantonal elections from 2021 in the canton of Neuchâtel (27 communes), where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are obviously  not independent.
 
 <p align="center">
   <img 
@@ -179,6 +179,9 @@ So far we don't know whether one of these causal models is correct. Can we use s
 <sup>[X]</sup> [Portraits of the communes : Data and explanations ](https://www.bfs.admin.ch/bfs/en/home/statistics/regional-statistics/regional-portraits-key-figures/communes/data-explanations.html)
 
 <sup>[X]</sup> [What is the difference between Pearson R and Simple Linear Regression?](https://sebastianraschka.com/faq/docs/pearson-r-vs-linear-regr.html)
+
+
+<sup>[X]</sup>[In der Romandie dürfen Ausländer wählen und abstimmen – doch sie tun es praktisch nicht. Warum?](https://www.nzz.ch/schweiz/auslaenderstimmrecht-in-der-romandie-verbreitet-doch-kaum-genutzt-warum-ld.1763956)
 
 
 
