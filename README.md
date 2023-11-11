@@ -169,6 +169,7 @@ rate* could rise as the *Percentage of foreign nationals* increases without any 
 <p align="center">
   <img 
     alt="3D scatter plot"
+    width=400px
     src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/scatterplot-3D-voter-turnout-1.png"
   />
 </p>
