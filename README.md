@@ -179,8 +179,8 @@ To analyze this mediation model we use the method proposed by Baron and Kenny in
 
 | Coefficents   | Regress $`Y`$ on $`X_1`$  | Regress $`X_1`$ on $`X_2`$  | Regress $`Y`$ on $`X_1`$ and $`X_2`$ | 
 | ------------- | ------------------------- | --------------------------- | ------------------------------------ |
-| $`X_1`        | value                     | -                           | value                                |
-| $`X_2`        | -                         | value                       | value                                |
+| $`X_1`$       | value                     | -                           | value                                |
+| $`X_2`$       | -                         | value                       | value                                |
 
 ### Con-founding scenario
 
