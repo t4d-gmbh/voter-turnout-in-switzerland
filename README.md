@@ -154,9 +154,23 @@ Since we analyze the data from a federal election we have to investigate for oth
 ### Causal inference
 The often cited dogma *Correlation does not imply causation* does not prevent us from *thinking* about possible causal interpretations. What would it mean to interpret the correlation between the *Percentage of foreign nationals* and *voter turnout* as a direct causation? Do the foreigerns somehow *physically* prevent the Swiss citizens from voting? Or do some Swiss citizens say: I do not vote *because* so many foreigners are living in my commune. We are not aware of any cases in which this has happened. Instead, we could think of the causation the other way: Does a low voter turnout cause a high percentage of foreigners? This might happen if Swiss citizens who do not vote are particularly pro-foreigners and invite foreigners to live in their commune. We don't know whether this is a plausible explanation.
 
-Someone who believes that a high *Percentage of foreign nationals* causes indirectly a low *Voter turnout* might propose the *Social assistance rate* as a *mediator* since there ist, as we will see, also c correltion between the *Social assistance rate* and the *Voter turnout*. Such a person could argue that foreigners cause a high *Social assistance rate* by taking jobs away from Swiss citizens, who become unemployed and consequently dependent on welfare, and finally, out of frustration, no longer participate in elections. However, we have to keep in mind that, seen over the whole country, the *Social assistance rate* among foreigners is 3 times higher (6%) than among the Swiss citizens (2%).<sup>[X]</sup> This means that the *Social assistance rate* could rise as the *Percentage of foreign nationals* increases without any causal effect on the Swiss electorate.
+Someone who believes that a high *Percentage of foreign nationals* causes indirectly a low *Voter turnout* might propose the *Social assistance rate* as a *mediator* since there ist, as we will see, also a correlation between the *Social assistance rate* and the *Voter turnout*. Such a person could argue that foreigners cause a high *Social assistance rate* by taking jobs away from Swiss citizens, who become unemployed and consequently dependent on welfare, and finally, out of frustration, no longer participate in elections. However, we have to keep in mind that, seen over the whole country, the *Social assistance rate* among foreigners is 3 times higher (6%) than among the Swiss citizens (2%).<sup>[X]</sup> This means that the *Social assistance rate* could rise as the *Percentage of foreign nationals* increases without any causal effect on the Swiss electorate. Even if there are certain doubts, we present this scenario in the following model:
 
+<p align="center">
+  <img 
+    alt="Mediation model"
+    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/images/scm-mediator.drawio.png"
+  />
+</p>
 
+To analysze this mediation model we use the method propse by Baron and Kenny's in 1986[X]. An good example how this method is applied in practice can also be found in the Netflix Technology Blog.<sup>[X]</sup>. As part of this method, we have regressed the *Voter turnout* on *Percentage of foreig nationals* **and** *Social assistance rate*. The combination of these three variables is shown in a three-dimensional scatter plot:
+
+<p align="center">
+  <img 
+    alt="3D scatter plot"
+    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/scatterplot-3D-voter-turnout-1.png"
+  />
+</p>
 
 Perhaps the *Social assistance rate* is more of a confounder than a mediator. In this case, a high *Social assistance rate* would cause a low *voter turnout*, perhaps because people who are dependent on social welfare have too many worries in life to bother with elections. The high *Social assistance rate* would also cause a high *Percentage of foreign nationals*, perhaps because foreigners tend to move to communes with low rents, and these in turn are communes with a high *Social assistance rate*. We are unable to examine this relationship in more detail here as we do not have the necessary data.
 
@@ -184,6 +198,9 @@ So far we don't know whether one of these causal models is correct. Can we use s
 
 
 <sup>[X]</sup>[In der Romandie dürfen Ausländer wählen und abstimmen – doch sie tun es praktisch nicht. Warum?](https://www.nzz.ch/schweiz/auslaenderstimmrecht-in-der-romandie-verbreitet-doch-kaum-genutzt-warum-ld.1763956)
+
+
+<sup>[X]</sup>[Causal Machine Learning for Creative Insights (netflixtechblog.medium.com)](https://netflixtechblog.medium.com/causal-machine-learning-for-creative-insights-4b0ce22a8a96)
 
 <sup>[X]</sup>[Sozialhilfebeziehende in der Schweiz im Jahr 2021 (bfs.admin.ch)](https://www.bfs.admin.ch/bfs/de/home/statistiken/soziale-sicherheit/sozialhilfe.assetdetail.23845655.html)
 
