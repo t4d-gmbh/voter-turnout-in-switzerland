@@ -180,10 +180,31 @@ To analyze this mediation model we use the method proposed by Baron and Kenny in
 
 **Not yet verfied!**
 
+We perform following regressions:
+
 | Coefficients for   | Regress $`Y`$ on $`X_1`$  | Regress $`X_1`$ on $`X_2`$  | Regress $`Y`$ on $`X_1`$ and $`X_2`$ | 
 | ------------------ | ------------------------- | --------------------------- | ------------------------------------ |
 | $`X_1`$            | -0.4026                   | -                           | -0.3180                              |
 | $`X_2`$            | -                         | 0.3583                      | -0.2427                              |
+
+<p align="center">
+  <img 
+    alt="3D scatter plot with planes"
+    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/scatterplot-3D-voter-turnout-with-planes.png"
+  />
+</p>
+
+The purple plane is the result of the third regression: 
+$`y = -0.381 \cdot X_1 + -0.2427 \cdot X_2 + 55.18`$    
+The cyan plane is a hypothetical plane if the *Social assistance rate* would fully mediate and therefore render the variable $`X_1`$  (Percentage of foreigners) insignificant.
+$`y = 0 \cdot X_1 + -0.2427 \cdot X_2 + 55.18`$ 
+
+As we can see the planes are not identical. For that reason, we do not accept the *Social assistance rate* as a full mediator.
+
+
+
+
+
 
 ### Con-founding scenario
 
