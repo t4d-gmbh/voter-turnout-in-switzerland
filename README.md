@@ -172,6 +172,16 @@ To analyze this mediation model we use the method proposed by Baron and Kenny in
   />
 </p>
 
+
+ - $`Y`$ : Voter turnout
+ - $`X_1`$ : Percentage of foreign nationals
+ - $`X_2`$ : Social assistance rate (Mediator)
+
+| Coefficents   | Regress $`Y`$ on $`X_1`$  | Regress $`X_1`$ on $`X_2`$  | Regress $`Y`$ on $`X_1`$ and $`X_2`$ | 
+| ------------- | ------------------------- | --------------------------- | ------------------------------------ |
+| $`X_1`        | value                     | -                           | value                                |
+| $`X_2`        | -                         | value                       | value                                |
+
 ### Con-founding scenario
 
 Perhaps the *Social assistance rate* is more of a confounder than a mediator. In this case, a high *Social assistance rate* would cause a low *voter turnout*, perhaps because people who are dependent on social welfare have too many worries in life to bother with elections. The high *Social assistance rate* would also cause a high *Percentage of foreign nationals*, perhaps because foreigners tend to move to communes with low rents, and these in turn are communes with a high *Social assistance rate*. We are unable to examine this relationship in more detail here as we do not have the necessary data.
