@@ -167,7 +167,6 @@ To analyze this mediation model we use the method proposed by Baron and Kenny in
 <p align="center">
   <img 
     alt="3D scatter plot"
-    width=400px
     src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/scatterplot-3D-voter-turnout-1.png"
   />
 </p>
