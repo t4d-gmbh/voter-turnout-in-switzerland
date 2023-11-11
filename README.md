@@ -176,10 +176,12 @@ To analyze this mediation model we use the method proposed by Baron and Kenny in
  - $`X_1`$ : Percentage of foreign nationals
  - $`X_2`$ : Social assistance rate (Mediator)
 
+**Not yet verfied!**
+
 | Coefficients for   | Regress $`Y`$ on $`X_1`$  | Regress $`X_1`$ on $`X_2`$  | Regress $`Y`$ on $`X_1`$ and $`X_2`$ | 
 | ------------------ | ------------------------- | --------------------------- | ------------------------------------ |
-| $`X_1`$            | value                     | -                           | value                                |
-| $`X_2`$            | -                         | value                       | value                                |
+| $`X_1`$            | -0.4026                   | -                           | -0.3180                              |
+| $`X_2`$            | -                         | 0.3583                      | -0.2427                              |
 
 ### Con-founding scenario
 
