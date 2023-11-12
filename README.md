@@ -187,6 +187,9 @@ We perform following regressions:
 | $`X_1`$            | -0.4026                   | -                           | -0.3180                              |
 | $`X_2`$            | -                         | 0.3583                      | -0.2427                              |
 
+
+See also the animated version of following [3D Scatter plot](https://mmoleiro.github.io/bokeh-plots/scatterplot-3D-animated/index.html)
+
 <p align="center">
   <img 
     alt="3D scatter plot with planes"
