@@ -173,7 +173,7 @@ To analyze this mediation model we use the method proposed by Baron and Kenny in
   />
 </p>
 
-We perform three regression analyses:
+We performed three regression analyses:
 
  - $`Y`$ : Voter turnout
  - $`X_1`$ : Percentage of foreign nationals
@@ -182,9 +182,9 @@ We perform three regression analyses:
 
 | Steps:                 | 1                              | 2                               | 3                                        | 
 | ---------------------- | ------------------------------ | ------------------------------- | ---------------------------------------- |
-| Coefficients for       | ***Regress $`Y`$ on $`X_1`$**  | **Regress $`X_1`$ on $`X_2`$**  | **Regress $`Y`$ on $`X_1`$ and $`X_2`$** | 
-| $`X_1`$ (Coefficient)  | -0.4026                        | -                               | -0.3180                                  |
-| $`X_2`$ (Coefficient)  | -                              | 0.3583                          | -0.2427                                  |
+| Coefficients for       | **Regress $`Y`$ on $`X_1`$**  | **Regress $`X_1`$ on $`X_2`$**  | **Regress $`Y`$ on $`X_1`$ and $`X_2`$** | 
+| $`X_1`$ (coefficients)  | -0.4026                        | -                               | -0.3180                                  |
+| $`X_2`$ (coefficients)  | -                              | 0.3583                          | -0.2427                                  |
 
 As we can see, the coefficient for $`X_1`$ becomes smaller in the third regression analysis, but far from insignificant as we would expect if the  $`X_2`$ were a full mediator. Let's look at the following plot:
 
