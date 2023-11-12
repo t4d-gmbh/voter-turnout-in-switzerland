@@ -114,7 +114,7 @@ Since there are no categorical variables and no ordinal or nominal numbers we ca
 
 ### Correlations
 
-Let's see how each of the input variables $`(X_i)`$ correlates with the voter turnout $`(Y)`$. For each tuple of variables $`(X_1,Y), (X_2,Y),(X_3, Y)... (X_i,Y)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on.<sup>[X]</sup> It might seem that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients itself are not very convincing since they range between -0.43 and 0.2.
+Let's see how each of the input variables $`X_i`$ correlates with the voter turnout $`Y`$. For each tuple of variables $`(X_1,Y), (X_2,Y),(X_3, Y)... (X_i,Y)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on.<sup>[X]</sup> It might seem that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients itself are not very convincing since they range between -0.43 and 0.2.
 
 <p align="center">
 <img 
@@ -173,22 +173,20 @@ To analyze this mediation model we use the method proposed by Baron and Kenny in
   />
 </p>
 
+We perform three regression analyses:
 
  - $`Y`$ : Voter turnout
  - $`X_1`$ : Percentage of foreign nationals
  - $`X_2`$ : Social assistance rate (Mediator)
 
-**Not yet verfied!**
 
-We perform following regressions:
+| Steps:                 | 1                              | 2                               | 3                                        | 
+| ---------------------- | ------------------------------ | ------------------------------- | ---------------------------------------- |
+| Coefficients for       | ***Regress $`Y`$ on $`X_1`$**  | **Regress $`X_1`$ on $`X_2`$**  | **Regress $`Y`$ on $`X_1`$ and $`X_2`$** | 
+| $`X_1`$ (Coefficient)  | -0.4026                        | -                               | -0.3180                                  |
+| $`X_2`$ (Coefficient)  | -                              | 0.3583                          | -0.2427                                  |
 
-| Coefficients for   | Regress $`Y`$ on $`X_1`$  | Regress $`X_1`$ on $`X_2`$  | Regress $`Y`$ on $`X_1`$ and $`X_2`$ | 
-| ------------------ | ------------------------- | --------------------------- | ------------------------------------ |
-| $`X_1`$            | -0.4026                   | -                           | -0.3180                              |
-| $`X_2`$            | -                         | 0.3583                      | -0.2427                              |
-
-
-See also the animated version of following [3D Scatter plot](https://mmoleiro.github.io/bokeh-plots/scatterplot-3D-animated/index.html)
+As we can see, the coefficient for $`X_1`$ becomes smaller in the third regression analysis, but far from insignificant as we would expect if the  $`X_2`$ were a full mediator. Let's look at the following plot:
 
 <p align="center">
   <img 
@@ -197,12 +195,9 @@ See also the animated version of following [3D Scatter plot](https://mmoleiro.gi
   />
 </p>
 
-The purple plane is the result of the third regression: 
-$`y = -0.381 \cdot X_1 + -0.2427 \cdot X_2 + 55.18`$    
-The cyan plane is a hypothetical plane if the *Social assistance rate* would fully mediate and therefore render the variable $`X_1`$  (Percentage of foreigners) insignificant.
-$`y = 0 \cdot X_1 + -0.2427 \cdot X_2 + 55.18`$ 
+See also the animated version: [3D Scatter plot](https://mmoleiro.github.io/bokeh-plots/scatterplot-3D-animated/index.html)
 
-As we can see the planes are not identical. For that reason, we do not accept the *Social assistance rate* as a full mediator.
+The purple plane results from the third regression: $`y = -0.381 \cdot X_1 + -0.2427 \cdot X_2 + 55.18`$. The cyan (green) plane is a hypothetical plane if the *Social assistance rate* would fully mediate and therefore render the variable $`X_1`$  (Percentage of foreigners) insignificant: $`y = 0 \cdot X_1 + -0.2427 \cdot X_2 + 55.18`$. As we can see the planes are not identical. For that reason, we do not accept the *Social assistance rate* as a full mediator.
 
 
 
