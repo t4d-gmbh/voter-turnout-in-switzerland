@@ -205,13 +205,10 @@ As we can see, the coefficient for $`X_1`$ becomes smaller in the third regressi
   />
 </p>
 
-See also the animated version: [3D Scatter plot](https://mmoleiro.github.io/bokeh-plots/scatterplot-3D-animated/index.html)
-
-The purple plane results from the third regression: 
-$$y = -0.381 \cdot X_1 + -0.2427 \cdot X_2 + 55.18$$
-
+See also the animated version: [3D Scatter plot](https://mmoleiro.github.io/bokeh-plots/scatterplot-3D-animated/index.html).The purple plane results from the third regression: 
+$$y = -0.381 \cdot x_1 + -0.2427 \cdot x_2 + 55.18$$
 The cyan (green) plane is a hypothetical plane if the *Social assistance rate* would fully mediate and therefore render the variable $`X_1`$  (Percentage of foreigners) insignificant: 
-$$y = 0 \cdot X_1 + -0.2427 \cdot X_2 + 55.18$$
+$$y = 0 \cdot x_1 + -0.2427 \cdot x_2 + 55.18$$
 As we can see the planes are not identical. It seems that some communes with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. For that reason, we do not accept the *Social assistance rate* as a full mediator.
 
 
