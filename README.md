@@ -155,16 +155,23 @@ The often cited dogma *Correlation does not imply causation* does not prevent us
 
 ### Mediation scenario
 
-Someone who believes that a high *Percentage of foreign nationals* causes indirectly a low *Voter turnout* might propose the *Social assistance rate* as a *mediator* since there is, as we will see, also a correlation between the *Social assistance rate* and the *Percentage of foreign nationals*. Such a person could argue that foreigners cause a high *Social assistance rate* by taking jobs away from Swiss citizens, who become unemployed and consequently dependent on welfare, and finally, out of frustration, no longer participate in elections. However, we have to keep in mind that, seen over the whole country, the *Social assistance rate* among foreigners is 3 times higher (6%) than among Swiss citizens (2%).<sup>[X]</sup> This means that the *Social assistance rate* could rise as the *Percentage of foreign nationals* increases without any causal effect on the Swiss citizens. Unfortunately, we have not found a data set that shows how the *Social assistance rate* is distributed among different population groups in the individual municipalities. So we cannot analyze whether an increased *Percentage of foreign nationals* could also result in an increased *Social assistance rate* among Swiss nationals.
-Even if there are certain doubts, we present this scenario in the following model:
+Someone who believes that a high *Percentage of foreign nationals* causes indirectly a low *Voter turnout* might propose the *Social assistance rate* as a *mediator* since there is, as we will see, also a correlation between the *Social assistance rate* and the *Percentage of foreign nationals*. Such a person could argue that foreigners cause a high *Social assistance rate* by taking jobs away from Swiss citizens, who become unemployed and consequently dependent on welfare, and finally, out of frustration, no longer participate in elections. 
 
+However, we have to keep in mind that, seen over the whole country, the *Social assistance rate* among foreigners is 3 times higher (6%) than among Swiss citizens (2%).<sup>[X]</sup> This means that the *Social assistance rate* could rise as the *Percentage of foreign nationals* increases without any causal effect on the Swiss citizens. Unfortunately, we have not found a data set that shows how the *Social assistance rate* is distributed among different population groups in the individual municipalities. So we cannot analyze whether an increased *Percentage of foreign nationals* could also result in an increased *Social assistance rate* among Swiss nationals.
+
+Even if there are certain doubts, we present this scenario in the following model:
+<br>
+<br>
+<br>
 <p align="center">
   <img 
     alt="Mediation model"
     src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/images/scm-mediator.drawio.png"
   />
 </p>
-
+<br>
+<br>
+<br>
 To analyze this mediation model we use the method proposed by Baron and Kenny in 1986<sup>[X]</sup>. A good example of how this method is applied in practice can also be found in the Netflix Technology Blog.<sup>[X]</sup>. As part of this method, we have regressed the *Voter turnout* on *Percentage of foreign nationals* **and** *Social assistance rate*. The combination of these three variables is shown in a three-dimensional scatter plot:
 
 <p align="center">
