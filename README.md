@@ -43,7 +43,7 @@ For the last two chapters of this article, we use concepts described by Judea Pe
 2. Data preprocessing
 3. Exploratory data analysis
 4. Identify correlations and relevant variables
-5. Causal inference ( user other title...)
+5. Possible causal interpretations
 6. Conclusions
 
 ### Used tools
