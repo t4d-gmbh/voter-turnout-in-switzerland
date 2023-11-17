@@ -71,8 +71,7 @@ You find the preprocessed data files in the direcory *data/preprocessed* These f
 
 - Delete data entries which were not needed for the analysis. The file with the portraits of the communes contained several variables describing the voting behavior with regard to specific political parties. However, these values were not available for numerous communes. To simplify the analysis, we deleted these variables and focussed on the more than 30 remaining variables.
 - Replace "X" and "*" characters which indicated missing values with empty values. This leads to *NaN* values in Python which are easier to work with.
-- Harmonize the names of communes since the FSO used different spellings for some communes.
-- Translated the German-language variable names into English. The translations are based on the English terms provided by the FSO.
+- Harmonize a few municipalities names since the FSO used different spellings in some cases
 - Save all standardized values in a separate dataframe so that variables that are on different scales can be compared with each other. Further information you find in the article *Common pitfalls in the interpretation of coefficients of linear models* on scikit-learn.org<sup>[X]</sup>
 
 Finally, we merged all files:
