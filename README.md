@@ -17,7 +17,7 @@ To follow this analysis you should be familiar with following concepts. We will 
 - Standardization of variables
 - Normal distribution
 - Pearson correlation coefficient
-- Linear regression with least squares cost function 
+- Ordinary Least Squares regression (OLS)
 - Histogram and Scatter plot
 
 ### Recommended readings
