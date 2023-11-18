@@ -186,20 +186,15 @@ Even if there are certain doubts, we present this scenario in the following mode
 <br>
 <br>
 <br>
-To analyze this mediation model we use the method proposed by Baron and Kenny in 1986<sup>[X]</sup>. A good example of how this method is applied in practice can also be found in the Netflix Technology Blog.<sup>[X]</sup>. As part of this method, we have regressed the *Voter turnout* on *Percentage of foreign nationals* **and** *Social assistance rate*. The combination of these three variables is shown in a three-dimensional scatter plot:
+To analyze this mediation model we use the method proposed by Baron and Kenny in 1986<sup>[X]</sup>. A good example of how this method is applied in practice can also be found in the Netflix Technology Blog.<sup>[X]</sup>. The following three regression analyses were performed on the standardized values so that we can compare the coefficients of different variables:
 
-<p align="center">
-  <img 
-    alt="3D scatter plot"
-    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/scatterplot-3D-voter-turnout-1.png"
-  />
-</p>
-
-The following three regression analyses were performed on the standardized values so that we can compare the coefficients of the variables $`X_1`$ and $`X_2`$.
+<br/><br/>
 
  - $`Y`$ : Voter turnout
  - $`X_1`$ : Percentage of foreign nationals
- - $`X_2`$ : Social assistance rate (Mediator)
+ - $`X_2`$ : Social assistance rate (mediator?)
+
+<br/>
 
 | Steps:                  | 1                                   | 2                                  | 3                                        | 
 | ----------------------- | ----------------------------------- | ---------------------------------- | ---------------------------------------- |
@@ -207,6 +202,7 @@ The following three regression analyses were performed on the standardized value
 | Equation                | $$\hat{y} = \alpha +  \beta_1 x_1$$ | $$\hat{x_1} = \alpha + \beta_2 x_2$$ | $$\hat{y} = \alpha +  \beta_1 x_1 + \beta_2 x_2$$ |
 | $`\beta_1`$             | -0.4026                             | -                                  | -0.3180                                  |
 | $`\beta_2`$             | -                                   | 0.3583                             | -0.2427                                  |
+
 
 As we can see, the coefficient for $`X_1`$ becomes smaller in the third regression analysis, but far from insignificant as we would expect if the  $`X_2`$ were a full mediator. Let's look at the following plot:
 
@@ -217,23 +213,13 @@ As we can see, the coefficient for $`X_1`$ becomes smaller in the third regressi
   />
 </p>
 
-See also the animated version: [3D Scatter plot](https://mmoleiro.github.io/bokeh-plots/scatterplot-3D-animated/index.html).The purple plane results from the third regression: 
+See also the animated version: [3D Scatter plot](https://mmoleiro.github.io/bokeh-plots/scatterplot-3D-animated/index.html).
+
+The purple plane results from the third regression where the target variable depends on both input variables $`X_1`$ and $`X_2`$:
 $$y = -0.381 \cdot x_1 + -0.2427 \cdot x_2 + 55.18$$
 The cyan (green) plane is a hypothetical plane if the *Social assistance rate* would fully mediate and therefore render the variable $`X_1`$  (Percentage of foreigners) insignificant: 
 $$y = 0 \cdot x_1 + -0.2427 \cdot x_2 + 55.18$$
 As we can see the planes are not identical. It seems that some communes with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. For that reason, we do not accept the *Social assistance rate* as a full mediator.
-
-
-
-
-
-
-### Con-founding scenario
-
-Perhaps the *Social assistance rate* is more of a confounder than a mediator. In this case, a high *Social assistance rate* would cause a low *voter turnout*, perhaps because people who are dependent on social welfare have too many worries in life to bother with elections. The high *Social assistance rate* would also cause a high *Percentage of foreign nationals*, perhaps because foreigners tend to move to communes with low rents, and these in turn are communes with a high *Social assistance rate*. We are unable to examine this relationship in more detail here as we do not have the necessary data.
-
-So far we don't know whether one of these causal models is correct. Can we use statistical methods to find out which of these models is the more plausible?
-
 
 
 ## References
