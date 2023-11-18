@@ -1,4 +1,4 @@
-# Analysis of voter turnout of Municipalities of Switzerland and some thoughts on causal inference
+#  Voter turnout analysis of Municipalities of Switzerland and some thoughts on causal inference
 
 ## Introduction
 
