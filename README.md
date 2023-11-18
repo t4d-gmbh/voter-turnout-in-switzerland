@@ -22,7 +22,7 @@ To follow this analysis you should be familiar with following concepts. We will 
 
 ### Recommended readings
 
-For the last two chapters of this article, we use concepts described by Judea Pearl et al. in the following books:
+For those interested in causal inference, we recommend the following books:
 
 <p align="center">
 <img 
@@ -51,7 +51,7 @@ For the last two chapters of this article, we use concepts described by Judea Pe
 The analysis was performed in a *Juypter notebook*. Libraries like pandas, scipy, matplotlib, seaborn and bokeh were used. You find the jupyter notebook in this repository.
 
 ### What we did not do
-The focus of this analysis lies on the proceeding itself rather than on the actual outcome. We did not optimize a statistical or a machine learning model to do optimal predictions - since we have already the data of almost all Municipalities there is not much to predict in this case. In return, we tried to find out how we can interpret the discovered correlations in terms of causal relationships, based on the concepts described in the mentioned books.
+The focus of this analysis lies on the proceeding itself rather than on the actual outcome. We did not optimize a statistical or a machine learning model to do optimal predictions - since we have already the data of almost all municipalities there is not much to predict in this case. In return, we tried to find out how we can interpret the discovered correlations in terms of causal relationships.
 
 ## Data retrieval
 
