@@ -5,7 +5,7 @@
 Einleitender Satz, worin die Idee besteht....
 
 ### Topic
-Switzerland consists of 2136 Municipalities as of 1 January 2023.<sup>[[1]](README.md#References)</sup> National elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recored by the Federal Statistical Office (FSO). The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreigners in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout is always considered as the target variable $`Y`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
+Switzerland consists of 2136 Municipalities as of 1 January 2023.<sup>[[1]](README.md#References)</sup> National elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recored by the Federal Statistical Office (FSO). The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreigners in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout from the Swiss federal election 2023 is always considered as the main target variable $`Y`$ or $`Y_1`$. We will use the voter turnout from the Swiss federal election 2019 as a comparison value $`Y_2`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
 
 In some sources, the Municipalities are called communes.
 
@@ -188,9 +188,9 @@ Even if there are certain doubts, we present this scenario in the following mode
 <br>
 To analyze this mediation model we use the method proposed by Baron and Kenny in 1986<sup>[X]</sup>. A good example of how this method is applied in practice can also be found in the Netflix Technology Blog.<sup>[X]</sup>. The following three regression analyses were performed on the standardized values so that we can compare the coefficients of different variables:
 
-<br/><br/>
+<br/>
 
- - $`Y`$ : Voter turnout
+ - $`Y`$ : Voter turnout 2023
  - $`X_1`$ : Percentage of foreign nationals
  - $`X_2`$ : Social assistance rate (mediator?)
 
