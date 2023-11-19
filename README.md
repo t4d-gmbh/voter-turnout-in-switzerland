@@ -60,7 +60,8 @@ We retrived  the data from following data sources:
 1. The voter turnouts for the Federal elections 2023 (opendata.swiss)<sup>[X]</sup>
 2. The voter turnouts for the Federal elections 2019 (opendata.swiss)<sup>[X]</sup>
 3. Portraits of the communes (bfs.admin.ch)<sup>[X]</sup>
-4. Statistiques des élections cantonales du 18 avril 2021 (ne.ch)[X]
+4. Swiss official commune register (bfs.admin.ch)<sup>[X]</sup>
+5 Statistiques des élections cantonales du 18 avril 2021 (ne.ch)[X]
 
 To ensure the traceability of the analysis, all data files were stores in the *data/original* directory of this repository.
 
@@ -231,6 +232,8 @@ As we can see the planes are not identical. It seems that some communes with a l
 <sup>[X]</sup> [Federal elections 2019 (opendata.swiss)](https://opendata.swiss/de/dataset/eidg-wahlen-2019/resource/98db1ea4-3143-4b29-890a-98ef68fcc749)
 
 <sup>[X]</sup> [Federal Statistical Office: Portraits of the communes](https://www.bfs.admin.ch/bfs/en/home/statistics/regional-statistics/regional-portraits-key-figures/communes.assetdetail.15864450.html)
+
+<sup>[X]</sup> [Federal Statistical Office: Commune register](https://www.bfs.admin.ch/bfs/en/home/basics/swiss-official-commune-register.assetdetail.23886073.html)
 
 <sup>[X]</sup> [Statistiques des élections cantonales du 18 avril 2021](https://www.ne.ch/autorites/CHAN/CHAN/elections-votations/stat/Pages/210418.aspx)
 
