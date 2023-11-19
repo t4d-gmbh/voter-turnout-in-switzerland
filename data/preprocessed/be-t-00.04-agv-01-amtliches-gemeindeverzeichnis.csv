@@ -1,0 +1,2137 @@
+GDEKT;GDEBZNR;Number of commune;Name of commune;Canton
+ZH;101;1;Aeugst am Albis;Zürich
+ZH;101;2;Affoltern am Albis;Zürich
+ZH;101;3;Bonstetten;Zürich
+ZH;101;4;Hausen am Albis;Zürich
+ZH;101;5;Hedingen;Zürich
+ZH;101;6;Kappel am Albis;Zürich
+ZH;101;7;Knonau;Zürich
+ZH;101;8;Maschwanden;Zürich
+ZH;101;9;Mettmenstetten;Zürich
+ZH;101;10;Obfelden;Zürich
+ZH;101;11;Ottenbach;Zürich
+ZH;101;12;Rifferswil;Zürich
+ZH;101;13;Stallikon;Zürich
+ZH;101;14;Wettswil am Albis;Zürich
+ZH;102;22;Benken (ZH);Zürich
+ZH;102;23;Berg am Irchel;Zürich
+ZH;102;24;Buch am Irchel;Zürich
+ZH;102;25;Dachsen;Zürich
+ZH;102;26;Dorf;Zürich
+ZH;102;27;Feuerthalen;Zürich
+ZH;102;28;Flaach;Zürich
+ZH;102;29;Flurlingen;Zürich
+ZH;102;31;Henggart;Zürich
+ZH;102;33;Kleinandelfingen;Zürich
+ZH;102;34;Laufen-Uhwiesen;Zürich
+ZH;102;35;Marthalen;Zürich
+ZH;102;37;Ossingen;Zürich
+ZH;102;38;Rheinau;Zürich
+ZH;102;39;Thalheim an der Thur;Zürich
+ZH;102;40;Trüllikon;Zürich
+ZH;102;41;Truttikon;Zürich
+ZH;102;43;Volken;Zürich
+ZH;103;51;Bachenbülach;Zürich
+ZH;103;52;Bassersdorf;Zürich
+ZH;103;53;Bülach;Zürich
+ZH;103;54;Dietlikon;Zürich
+ZH;103;55;Eglisau;Zürich
+ZH;103;56;Embrach;Zürich
+ZH;103;57;Freienstein-Teufen;Zürich
+ZH;103;58;Glattfelden;Zürich
+ZH;103;59;Hochfelden;Zürich
+ZH;103;60;Höri;Zürich
+ZH;103;61;Hüntwangen;Zürich
+ZH;103;62;Kloten;Zürich
+ZH;103;63;Lufingen;Zürich
+ZH;103;64;Nürensdorf;Zürich
+ZH;103;65;Oberembrach;Zürich
+ZH;103;66;Opfikon;Zürich
+ZH;103;67;Rafz;Zürich
+ZH;103;68;Rorbas;Zürich
+ZH;103;69;Wallisellen;Zürich
+ZH;103;70;Wasterkingen;Zürich
+ZH;103;71;Wil (ZH);Zürich
+ZH;103;72;Winkel;Zürich
+ZH;104;81;Bachs;Zürich
+ZH;104;82;Boppelsen;Zürich
+ZH;104;83;Buchs (ZH);Zürich
+ZH;104;84;Dällikon;Zürich
+ZH;104;85;Dänikon;Zürich
+ZH;104;86;Dielsdorf;Zürich
+ZH;104;87;Hüttikon;Zürich
+ZH;104;88;Neerach;Zürich
+ZH;104;89;Niederglatt;Zürich
+ZH;104;90;Niederhasli;Zürich
+ZH;104;91;Niederweningen;Zürich
+ZH;104;92;Oberglatt;Zürich
+ZH;104;93;Oberweningen;Zürich
+ZH;104;94;Otelfingen;Zürich
+ZH;104;95;Regensberg;Zürich
+ZH;104;96;Regensdorf;Zürich
+ZH;104;97;Rümlang;Zürich
+ZH;104;98;Schleinikon;Zürich
+ZH;104;99;Schöfflisdorf;Zürich
+ZH;104;100;Stadel;Zürich
+ZH;104;101;Steinmaur;Zürich
+ZH;104;102;Weiach;Zürich
+ZH;105;111;Bäretswil;Zürich
+ZH;105;112;Bubikon;Zürich
+ZH;105;113;Dürnten;Zürich
+ZH;105;114;Fischenthal;Zürich
+ZH;105;115;Gossau (ZH);Zürich
+ZH;105;116;Grüningen;Zürich
+ZH;105;117;Hinwil;Zürich
+ZH;105;118;Rüti (ZH);Zürich
+ZH;105;119;Seegräben;Zürich
+ZH;105;120;Wald (ZH);Zürich
+ZH;105;121;Wetzikon (ZH);Zürich
+ZH;106;131;Adliswil;Zürich
+ZH;106;135;Kilchberg (ZH);Zürich
+ZH;106;136;Langnau am Albis;Zürich
+ZH;106;137;Oberrieden;Zürich
+ZH;106;138;Richterswil;Zürich
+ZH;106;139;Rüschlikon;Zürich
+ZH;106;141;Thalwil;Zürich
+ZH;107;151;Erlenbach (ZH);Zürich
+ZH;107;152;Herrliberg;Zürich
+ZH;107;153;Hombrechtikon;Zürich
+ZH;107;154;Küsnacht (ZH);Zürich
+ZH;107;155;Männedorf;Zürich
+ZH;107;156;Meilen;Zürich
+ZH;107;157;Oetwil am See;Zürich
+ZH;107;158;Stäfa;Zürich
+ZH;107;159;Uetikon am See;Zürich
+ZH;107;160;Zumikon;Zürich
+ZH;107;161;Zollikon;Zürich
+ZH;108;172;Fehraltorf;Zürich
+ZH;108;173;Hittnau;Zürich
+ZH;108;176;Lindau;Zürich
+ZH;108;177;Pfäffikon;Zürich
+ZH;108;178;Russikon;Zürich
+ZH;108;180;Weisslingen;Zürich
+ZH;108;181;Wila;Zürich
+ZH;108;182;Wildberg;Zürich
+ZH;109;191;Dübendorf;Zürich
+ZH;109;192;Egg;Zürich
+ZH;109;193;Fällanden;Zürich
+ZH;109;194;Greifensee;Zürich
+ZH;109;195;Maur;Zürich
+ZH;109;196;Mönchaltorf;Zürich
+ZH;109;197;Schwerzenbach;Zürich
+ZH;109;198;Uster;Zürich
+ZH;109;199;Volketswil;Zürich
+ZH;109;200;Wangen-Brüttisellen;Zürich
+ZH;110;211;Altikon;Zürich
+ZH;110;213;Brütten;Zürich
+ZH;110;214;Dägerlen;Zürich
+ZH;110;215;Dättlikon;Zürich
+ZH;110;216;Dinhard;Zürich
+ZH;110;218;Ellikon an der Thur;Zürich
+ZH;110;219;Elsau;Zürich
+ZH;110;220;Hagenbuch;Zürich
+ZH;110;221;Hettlingen;Zürich
+ZH;110;223;Neftenbach;Zürich
+ZH;110;224;Pfungen;Zürich
+ZH;110;225;Rickenbach (ZH);Zürich
+ZH;110;226;Schlatt (ZH);Zürich
+ZH;110;227;Seuzach;Zürich
+ZH;110;228;Turbenthal;Zürich
+ZH;110;230;Winterthur;Zürich
+ZH;110;231;Zell (ZH);Zürich
+ZH;111;241;Aesch (ZH);Zürich
+ZH;111;242;Birmensdorf (ZH);Zürich
+ZH;111;243;Dietikon;Zürich
+ZH;111;244;Geroldswil;Zürich
+ZH;111;245;Oberengstringen;Zürich
+ZH;111;246;Oetwil an der Limmat;Zürich
+ZH;111;247;Schlieren;Zürich
+ZH;111;248;Uitikon;Zürich
+ZH;111;249;Unterengstringen;Zürich
+ZH;111;250;Urdorf;Zürich
+ZH;111;251;Weiningen (ZH);Zürich
+ZH;112;261;Zürich;Zürich
+ZH;102;291;Andelfingen;Zürich
+ZH;102;292;Stammheim;Zürich
+ZH;106;293;Wädenswil;Zürich
+ZH;110;294;Elgg;Zürich
+ZH;106;295;Horgen;Zürich
+ZH;108;296;Illnau-Effretikon;Zürich
+ZH;108;297;Bauma;Zürich
+ZH;110;298;Wiesendangen;Zürich
+BE;243;301;Aarberg;Bern
+BE;243;302;Bargen (BE);Bern
+BE;243;303;Grossaffoltern;Bern
+BE;243;304;Kallnach;Bern
+BE;243;305;Kappelen;Bern
+BE;243;306;Lyss;Bern
+BE;246;307;Meikirch;Bern
+BE;243;309;Radelfingen;Bern
+BE;243;310;Rapperswil (BE);Bern
+BE;243;311;Schüpfen;Bern
+BE;243;312;Seedorf (BE);Bern
+BE;244;321;Aarwangen;Bern
+BE;244;322;Auswil;Bern
+BE;244;323;Bannwil;Bern
+BE;244;324;Bleienbach;Bern
+BE;244;325;Busswil bei Melchnau;Bern
+BE;244;326;Gondiswil;Bern
+BE;244;329;Langenthal;Bern
+BE;244;331;Lotzwil;Bern
+BE;244;332;Madiswil;Bern
+BE;244;333;Melchnau;Bern
+BE;244;335;Oeschenbach;Bern
+BE;244;336;Reisiswil;Bern
+BE;244;337;Roggwil (BE);Bern
+BE;244;338;Rohrbach;Bern
+BE;244;339;Rohrbachgraben;Bern
+BE;244;340;Rütschelen;Bern
+BE;244;341;Schwarzhäusern;Bern
+BE;244;342;Thunstetten;Bern
+BE;244;344;Ursenbach;Bern
+BE;244;345;Wynau;Bern
+BE;246;351;Bern;Bern
+BE;246;352;Bolligen;Bern
+BE;246;353;Bremgarten bei Bern;Bern
+BE;246;354;Kirchlindach;Bern
+BE;246;355;Köniz;Bern
+BE;246;356;Muri bei Bern;Bern
+BE;246;357;Oberbalm;Bern
+BE;246;358;Stettlen;Bern
+BE;246;359;Vechigen;Bern
+BE;246;360;Wohlen bei Bern;Bern
+BE;246;361;Zollikofen;Bern
+BE;246;362;Ittigen;Bern
+BE;246;363;Ostermundigen;Bern
+BE;242;371;Biel/Bienne;Bern
+BE;242;372;Evilard;Bern
+BE;243;381;Arch;Bern
+BE;243;382;Büetigen;Bern
+BE;243;383;Büren an der Aare;Bern
+BE;243;385;Diessbach bei Büren;Bern
+BE;243;386;Dotzigen;Bern
+BE;242;387;Lengnau (BE);Bern
+BE;243;388;Leuzigen;Bern
+BE;243;389;Meienried;Bern
+BE;242;390;Meinisberg;Bern
+BE;243;391;Oberwil bei Büren;Bern
+BE;242;392;Pieterlen;Bern
+BE;243;393;Rüti bei Büren;Bern
+BE;243;394;Wengi;Bern
+BE;245;401;Aefligen;Bern
+BE;245;402;Alchenstorf;Bern
+BE;246;403;Bäriswil;Bern
+BE;245;404;Burgdorf;Bern
+BE;245;405;Ersigen;Bern
+BE;245;406;Hasle bei Burgdorf;Bern
+BE;245;407;Heimiswil;Bern
+BE;245;408;Hellsau;Bern
+BE;245;409;Hindelbank;Bern
+BE;245;410;Höchstetten;Bern
+BE;245;411;Kernenried;Bern
+BE;245;412;Kirchberg (BE);Bern
+BE;245;413;Koppigen;Bern
+BE;245;414;Krauchthal;Bern
+BE;245;415;Lyssach;Bern
+BE;245;418;Oberburg;Bern
+BE;245;420;Rüdtligen-Alchenflüh;Bern
+BE;245;421;Rumendingen;Bern
+BE;245;422;Rüti bei Lyssach;Bern
+BE;245;423;Willadingen;Bern
+BE;245;424;Wynigen;Bern
+BE;241;431;Corgémont;Bern
+BE;241;432;Cormoret;Bern
+BE;241;433;Cortébert;Bern
+BE;241;434;Courtelary;Bern
+BE;241;435;La Ferrière;Bern
+BE;241;437;Mont-Tramelan;Bern
+BE;241;438;Orvin;Bern
+BE;241;441;Renan (BE);Bern
+BE;241;442;Romont (BE);Bern
+BE;241;443;Saint-Imier;Bern
+BE;241;444;Sonceboz-Sombeval;Bern
+BE;241;445;Sonvilier;Bern
+BE;241;446;Tramelan;Bern
+BE;241;448;Villeret;Bern
+BE;241;449;Sauge;Bern
+BE;241;450;Péry-La Heutte;Bern
+BE;243;491;Brüttelen;Bern
+BE;243;492;Erlach;Bern
+BE;243;493;Finsterhennen;Bern
+BE;243;494;Gals;Bern
+BE;243;495;Gampelen;Bern
+BE;243;496;Ins;Bern
+BE;243;497;Lüscherz;Bern
+BE;243;498;Müntschemier;Bern
+BE;243;499;Siselen;Bern
+BE;243;500;Treiten;Bern
+BE;243;501;Tschugg;Bern
+BE;243;502;Vinelz;Bern
+BE;245;533;Bätterkinden;Bern
+BE;246;535;Deisswil bei Münchenbuchsee;Bern
+BE;246;538;Fraubrunnen;Bern
+BE;246;540;Jegenstorf;Bern
+BE;246;541;Iffwil;Bern
+BE;246;543;Mattstetten;Bern
+BE;246;544;Moosseedorf;Bern
+BE;246;546;Münchenbuchsee;Bern
+BE;246;551;Urtenen-Schönbühl;Bern
+BE;245;552;Utzenstorf;Bern
+BE;246;553;Wiggiswil;Bern
+BE;245;554;Wiler bei Utzenstorf;Bern
+BE;245;556;Zielebach;Bern
+BE;246;557;Zuzwil (BE);Bern
+BE;249;561;Adelboden;Bern
+BE;249;562;Aeschi bei Spiez;Bern
+BE;249;563;Frutigen;Bern
+BE;249;564;Kandergrund;Bern
+BE;249;565;Kandersteg;Bern
+BE;249;566;Krattigen;Bern
+BE;249;567;Reichenbach im Kandertal;Bern
+BE;250;571;Beatenberg;Bern
+BE;250;572;Bönigen;Bern
+BE;250;573;Brienz (BE);Bern
+BE;250;574;Brienzwiler;Bern
+BE;250;575;Därligen;Bern
+BE;250;576;Grindelwald;Bern
+BE;250;577;Gsteigwiler;Bern
+BE;250;578;Gündlischwand;Bern
+BE;250;579;Habkern;Bern
+BE;250;580;Hofstetten bei Brienz;Bern
+BE;250;581;Interlaken;Bern
+BE;250;582;Iseltwald;Bern
+BE;250;584;Lauterbrunnen;Bern
+BE;250;585;Leissigen;Bern
+BE;250;586;Lütschental;Bern
+BE;250;587;Matten bei Interlaken;Bern
+BE;250;588;Niederried bei Interlaken;Bern
+BE;250;589;Oberried am Brienzersee;Bern
+BE;250;590;Ringgenberg (BE);Bern
+BE;250;591;Saxeten;Bern
+BE;250;592;Schwanden bei Brienz;Bern
+BE;250;593;Unterseen;Bern
+BE;250;594;Wilderswil;Bern
+BE;246;602;Arni (BE);Bern
+BE;246;603;Biglen;Bern
+BE;246;605;Bowil;Bern
+BE;246;606;Brenzikofen;Bern
+BE;246;607;Freimettigen;Bern
+BE;246;608;Grosshöchstetten;Bern
+BE;246;609;Häutligen;Bern
+BE;246;610;Herbligen;Bern
+BE;246;611;Kiesen;Bern
+BE;246;612;Konolfingen;Bern
+BE;246;613;Landiswil;Bern
+BE;246;614;Linden;Bern
+BE;246;615;Mirchel;Bern
+BE;246;616;Münsingen;Bern
+BE;246;617;Niederhünigen;Bern
+BE;246;619;Oberdiessbach;Bern
+BE;246;620;Oberthal;Bern
+BE;246;622;Oppligen;Bern
+BE;246;623;Rubigen;Bern
+BE;246;626;Walkringen;Bern
+BE;246;627;Worb;Bern
+BE;246;628;Zäziwil;Bern
+BE;246;629;Oberhünigen;Bern
+BE;246;630;Allmendingen;Bern
+BE;246;632;Wichtrach;Bern
+BE;246;662;Ferenbalm;Bern
+BE;246;663;Frauenkappelen;Bern
+BE;246;665;Gurbrü;Bern
+BE;246;666;Kriechenwil;Bern
+BE;246;667;Laupen;Bern
+BE;246;668;Mühleberg;Bern
+BE;246;669;Münchenwiler;Bern
+BE;246;670;Neuenegg;Bern
+BE;246;671;Wileroltigen;Bern
+BE;241;681;Belprahon;Bern
+BE;241;683;Champoz;Bern
+BE;241;687;Corcelles (BE);Bern
+BE;241;690;Court;Bern
+BE;241;691;Crémines;Bern
+BE;241;692;Eschert;Bern
+BE;241;694;Grandval;Bern
+BE;241;696;Loveresse;Bern
+BE;241;700;Moutier;Bern
+BE;241;701;Perrefitte;Bern
+BE;241;703;Reconvilier;Bern
+BE;241;704;Roches (BE);Bern
+BE;241;706;Saicourt;Bern
+BE;241;707;Saules (BE);Bern
+BE;241;708;Schelten;Bern
+BE;241;709;Seehof;Bern
+BE;241;711;Sorvilier;Bern
+BE;241;713;Tavannes;Bern
+BE;241;715;Rebévelier;Bern
+BE;241;716;Petit-Val;Bern
+BE;241;717;Valbirse;Bern
+BE;241;723;La Neuveville;Bern
+BE;241;724;Nods;Bern
+BE;241;726;Plateau de Diesse;Bern
+BE;242;731;Aegerten;Bern
+BE;242;732;Bellmund;Bern
+BE;242;733;Brügg;Bern
+BE;243;734;Bühl;Bern
+BE;243;735;Epsach;Bern
+BE;243;736;Hagneck;Bern
+BE;243;737;Hermrigen;Bern
+BE;243;738;Jens;Bern
+BE;242;739;Ipsach;Bern
+BE;242;740;Ligerz;Bern
+BE;243;741;Merzligen;Bern
+BE;242;742;Mörigen;Bern
+BE;242;743;Nidau;Bern
+BE;242;744;Orpund;Bern
+BE;242;745;Port;Bern
+BE;242;746;Safnern;Bern
+BE;242;747;Scheuren;Bern
+BE;242;748;Schwadernau;Bern
+BE;243;749;Studen (BE);Bern
+BE;242;750;Sutz-Lattrigen;Bern
+BE;243;751;Täuffelen;Bern
+BE;243;754;Walperswil;Bern
+BE;243;755;Worben;Bern
+BE;242;756;Twann-Tüscherz;Bern
+BE;249;761;Därstetten;Bern
+BE;249;762;Diemtigen;Bern
+BE;249;763;Erlenbach im Simmental;Bern
+BE;249;766;Oberwil im Simmental;Bern
+BE;247;767;Reutigen;Bern
+BE;249;768;Spiez;Bern
+BE;249;769;Wimmis;Bern
+BE;247;770;Stocken-Höfen;Bern
+BE;250;782;Guttannen;Bern
+BE;250;783;Hasliberg;Bern
+BE;250;784;Innertkirchen;Bern
+BE;250;785;Meiringen;Bern
+BE;250;786;Schattenhalb;Bern
+BE;248;791;Boltigen;Bern
+BE;248;792;Lenk;Bern
+BE;248;793;St. Stephan;Bern
+BE;248;794;Zweisimmen;Bern
+BE;248;841;Gsteig;Bern
+BE;248;842;Lauenen;Bern
+BE;248;843;Saanen;Bern
+BE;246;852;Guggisberg;Bern
+BE;246;853;Rüschegg;Bern
+BE;246;855;Schwarzenburg;Bern
+BE;246;861;Belp;Bern
+BE;247;863;Burgistein;Bern
+BE;246;866;Gerzensee;Bern
+BE;247;867;Gurzelen;Bern
+BE;246;868;Jaberg;Bern
+BE;246;869;Kaufdorf;Bern
+BE;246;870;Kehrsatz;Bern
+BE;246;872;Kirchdorf (BE);Bern
+BE;246;877;Niedermuhlern;Bern
+BE;246;879;Riggisberg;Bern
+BE;246;880;Rüeggisberg;Bern
+BE;247;883;Seftigen;Bern
+BE;246;884;Toffen;Bern
+BE;247;885;Uttigen;Bern
+BE;247;886;Wattenwil;Bern
+BE;246;888;Wald (BE);Bern
+BE;246;889;Thurnen;Bern
+BE;245;901;Eggiwil;Bern
+BE;245;902;Langnau im Emmental;Bern
+BE;245;903;Lauperswil;Bern
+BE;245;904;Röthenbach im Emmental;Bern
+BE;245;905;Rüderswil;Bern
+BE;245;906;Schangnau;Bern
+BE;245;907;Signau;Bern
+BE;245;908;Trub;Bern
+BE;245;909;Trubschachen;Bern
+BE;247;921;Amsoldingen;Bern
+BE;247;922;Blumenstein;Bern
+BE;247;923;Buchholterberg;Bern
+BE;247;924;Eriz;Bern
+BE;247;925;Fahrni;Bern
+BE;247;927;Heiligenschwendi;Bern
+BE;247;928;Heimberg;Bern
+BE;247;929;Hilterfingen;Bern
+BE;247;931;Homberg;Bern
+BE;247;932;Horrenbach-Buchen;Bern
+BE;247;934;Oberhofen am Thunersee;Bern
+BE;247;935;Oberlangenegg;Bern
+BE;247;936;Pohlern;Bern
+BE;247;938;Sigriswil;Bern
+BE;247;939;Steffisburg;Bern
+BE;247;940;Teuffenthal (BE);Bern
+BE;247;941;Thierachern;Bern
+BE;247;942;Thun;Bern
+BE;247;943;Uebeschi;Bern
+BE;247;944;Uetendorf;Bern
+BE;247;945;Unterlangenegg;Bern
+BE;247;946;Wachseldorn;Bern
+BE;247;947;Zwieselberg;Bern
+BE;247;948;Forst-Längenbühl;Bern
+BE;245;951;Affoltern im Emmental;Bern
+BE;245;952;Dürrenroth;Bern
+BE;244;953;Eriswil;Bern
+BE;244;954;Huttwil;Bern
+BE;245;955;Lützelflüh;Bern
+BE;245;956;Rüegsau;Bern
+BE;245;957;Sumiswald;Bern
+BE;245;958;Trachselwald;Bern
+BE;244;959;Walterswil (BE);Bern
+BE;244;960;Wyssachen;Bern
+BE;244;971;Attiswil;Bern
+BE;244;972;Berken;Bern
+BE;244;973;Bettenhausen;Bern
+BE;244;975;Farnern;Bern
+BE;244;976;Graben;Bern
+BE;244;977;Heimenhausen;Bern
+BE;244;979;Herzogenbuchsee;Bern
+BE;244;980;Inkwil;Bern
+BE;244;981;Niederbipp;Bern
+BE;244;982;Niederönz;Bern
+BE;244;983;Oberbipp;Bern
+BE;244;985;Ochlenberg;Bern
+BE;244;987;Rumisberg;Bern
+BE;244;988;Seeberg;Bern
+BE;244;989;Thörigen;Bern
+BE;244;990;Walliswil bei Niederbipp;Bern
+BE;244;991;Walliswil bei Wangen;Bern
+BE;244;992;Wangen an der Aare;Bern
+BE;244;993;Wangenried;Bern
+BE;244;995;Wiedlisbach;Bern
+LU;316;1001;Doppleschwand;Luzern
+LU;316;1002;Entlebuch;Luzern
+LU;316;1004;Flühli;Luzern
+LU;316;1005;Hasle (LU);Luzern
+LU;316;1007;Romoos;Luzern
+LU;316;1008;Schüpfheim;Luzern
+LU;316;1009;Werthenstein;Luzern
+LU;316;1010;Escholzmatt-Marbach;Luzern
+LU;313;1021;Aesch (LU);Luzern
+LU;313;1023;Ballwil;Luzern
+LU;313;1024;Emmen;Luzern
+LU;313;1025;Ermensee;Luzern
+LU;313;1026;Eschenbach (LU);Luzern
+LU;313;1030;Hitzkirch;Luzern
+LU;313;1031;Hochdorf;Luzern
+LU;313;1032;Hohenrain;Luzern
+LU;313;1033;Inwil;Luzern
+LU;313;1037;Rain;Luzern
+LU;313;1039;Römerswil;Luzern
+LU;313;1040;Rothenburg;Luzern
+LU;313;1041;Schongau;Luzern
+LU;312;1051;Adligenswil;Luzern
+LU;312;1052;Buchrain;Luzern
+LU;312;1053;Dierikon;Luzern
+LU;312;1054;Ebikon;Luzern
+LU;312;1055;Gisikon;Luzern
+LU;312;1056;Greppen;Luzern
+LU;312;1057;Honau;Luzern
+LU;312;1058;Horw;Luzern
+LU;312;1059;Kriens;Luzern
+LU;311;1061;Luzern;Luzern
+LU;312;1062;Malters;Luzern
+LU;312;1063;Meggen;Luzern
+LU;312;1064;Meierskappel;Luzern
+LU;312;1065;Root;Luzern
+LU;312;1066;Schwarzenberg;Luzern
+LU;312;1067;Udligenswil;Luzern
+LU;312;1068;Vitznau;Luzern
+LU;312;1069;Weggis;Luzern
+LU;314;1081;Beromünster;Luzern
+LU;314;1082;Büron;Luzern
+LU;314;1083;Buttisholz;Luzern
+LU;314;1084;Eich;Luzern
+LU;314;1085;Geuensee;Luzern
+LU;314;1086;Grosswangen;Luzern
+LU;314;1088;Hildisrieden;Luzern
+LU;314;1089;Knutwil;Luzern
+LU;314;1091;Mauensee;Luzern
+LU;314;1093;Neuenkirch;Luzern
+LU;314;1094;Nottwil;Luzern
+LU;314;1095;Oberkirch;Luzern
+LU;314;1097;Rickenbach (LU);Luzern
+LU;314;1098;Ruswil;Luzern
+LU;314;1099;Schenkon;Luzern
+LU;314;1100;Schlierbach;Luzern
+LU;314;1102;Sempach;Luzern
+LU;314;1103;Sursee;Luzern
+LU;314;1104;Triengen;Luzern
+LU;316;1107;Wolhusen;Luzern
+LU;315;1121;Alberswil;Luzern
+LU;315;1122;Altbüron;Luzern
+LU;315;1123;Altishofen;Luzern
+LU;315;1125;Dagmersellen;Luzern
+LU;315;1127;Egolzwil;Luzern
+LU;315;1128;Ettiswil;Luzern
+LU;315;1129;Fischbach;Luzern
+LU;315;1131;Grossdietwil;Luzern
+LU;315;1132;Hergiswil bei Willisau;Luzern
+LU;315;1135;Luthern;Luzern
+LU;315;1136;Menznau;Luzern
+LU;315;1137;Nebikon;Luzern
+LU;315;1139;Pfaffnau;Luzern
+LU;315;1140;Reiden;Luzern
+LU;315;1142;Roggliswil;Luzern
+LU;315;1143;Schötz;Luzern
+LU;315;1145;Ufhusen;Luzern
+LU;315;1146;Wauwil;Luzern
+LU;315;1147;Wikon;Luzern
+LU;315;1150;Zell (LU);Luzern
+LU;315;1151;Willisau;Luzern
+UR;400;1201;Altdorf (UR);Uri
+UR;400;1202;Andermatt;Uri
+UR;400;1203;Attinghausen;Uri
+UR;400;1205;Bürglen (UR);Uri
+UR;400;1206;Erstfeld;Uri
+UR;400;1207;Flüelen;Uri
+UR;400;1208;Göschenen;Uri
+UR;400;1209;Gurtnellen;Uri
+UR;400;1210;Hospental;Uri
+UR;400;1211;Isenthal;Uri
+UR;400;1212;Realp;Uri
+UR;400;1213;Schattdorf;Uri
+UR;400;1214;Seedorf (UR);Uri
+UR;400;1215;Seelisberg;Uri
+UR;400;1216;Silenen;Uri
+UR;400;1217;Sisikon;Uri
+UR;400;1218;Spiringen;Uri
+UR;400;1219;Unterschächen;Uri
+UR;400;1220;Wassen;Uri
+SZ;501;1301;Einsiedeln;Schwyz
+SZ;502;1311;Gersau;Schwyz
+SZ;503;1321;Feusisberg;Schwyz
+SZ;503;1322;Freienbach;Schwyz
+SZ;503;1323;Wollerau;Schwyz
+SZ;504;1331;Küssnacht (SZ);Schwyz
+SZ;505;1341;Altendorf;Schwyz
+SZ;505;1342;Galgenen;Schwyz
+SZ;505;1343;Innerthal;Schwyz
+SZ;505;1344;Lachen;Schwyz
+SZ;505;1345;Reichenburg;Schwyz
+SZ;505;1346;Schübelbach;Schwyz
+SZ;505;1347;Tuggen;Schwyz
+SZ;505;1348;Vorderthal;Schwyz
+SZ;505;1349;Wangen (SZ);Schwyz
+SZ;506;1361;Alpthal;Schwyz
+SZ;506;1362;Arth;Schwyz
+SZ;506;1363;Illgau;Schwyz
+SZ;506;1364;Ingenbohl;Schwyz
+SZ;506;1365;Lauerz;Schwyz
+SZ;506;1366;Morschach;Schwyz
+SZ;506;1367;Muotathal;Schwyz
+SZ;506;1368;Oberiberg;Schwyz
+SZ;506;1369;Riemenstalden;Schwyz
+SZ;506;1370;Rothenthurm;Schwyz
+SZ;506;1371;Sattel;Schwyz
+SZ;506;1372;Schwyz;Schwyz
+SZ;506;1373;Steinen;Schwyz
+SZ;506;1374;Steinerberg;Schwyz
+SZ;506;1375;Unteriberg;Schwyz
+OW;600;1401;Alpnach;Obwalden
+OW;600;1402;Engelberg;Obwalden
+OW;600;1403;Giswil;Obwalden
+OW;600;1404;Kerns;Obwalden
+OW;600;1405;Lungern;Obwalden
+OW;600;1406;Sachseln;Obwalden
+OW;600;1407;Sarnen;Obwalden
+NW;700;1501;Beckenried;Nidwalden
+NW;700;1502;Buochs;Nidwalden
+NW;700;1503;Dallenwil;Nidwalden
+NW;700;1504;Emmetten;Nidwalden
+NW;700;1505;Ennetbürgen;Nidwalden
+NW;700;1506;Ennetmoos;Nidwalden
+NW;700;1507;Hergiswil (NW);Nidwalden
+NW;700;1508;Oberdorf (NW);Nidwalden
+NW;700;1509;Stans;Nidwalden
+NW;700;1510;Stansstad;Nidwalden
+NW;700;1511;Wolfenschiessen;Nidwalden
+GL;800;1630;Glarus Nord;Glarus
+GL;800;1631;Glarus Süd;Glarus
+GL;800;1632;Glarus;Glarus
+ZG;900;1701;Baar;Zug
+ZG;900;1702;Cham;Zug
+ZG;900;1703;Hünenberg;Zug
+ZG;900;1704;Menzingen;Zug
+ZG;900;1705;Neuheim;Zug
+ZG;900;1706;Oberägeri;Zug
+ZG;900;1707;Risch;Zug
+ZG;900;1708;Steinhausen;Zug
+ZG;900;1709;Unterägeri;Zug
+ZG;900;1710;Walchwil;Zug
+ZG;900;1711;Zug;Zug
+FR;1001;2008;Châtillon (FR);Fribourg
+FR;1001;2011;Cugy (FR);Fribourg
+FR;1001;2016;Fétigny;Fribourg
+FR;1001;2022;Gletterens;Fribourg
+FR;1001;2025;Lully (FR);Fribourg
+FR;1001;2027;Ménières;Fribourg
+FR;1001;2029;Montagny (FR);Fribourg
+FR;1001;2035;Nuvilly;Fribourg
+FR;1001;2038;Prévondavaux;Fribourg
+FR;1001;2041;Saint-Aubin (FR);Fribourg
+FR;1001;2043;Sévaz;Fribourg
+FR;1001;2044;Surpierre;Fribourg
+FR;1001;2045;Vallon;Fribourg
+FR;1001;2050;Les Montets;Fribourg
+FR;1001;2051;Delley-Portalban;Fribourg
+FR;1001;2053;Belmont-Broye;Fribourg
+FR;1001;2054;Estavayer;Fribourg
+FR;1001;2055;Cheyres-Châbles;Fribourg
+FR;1002;2061;Auboranges;Fribourg
+FR;1002;2063;Billens-Hennens;Fribourg
+FR;1002;2066;Chapelle (Glâne);Fribourg
+FR;1002;2067;Le Châtelard;Fribourg
+FR;1002;2068;Châtonnaye;Fribourg
+FR;1002;2072;Ecublens (FR);Fribourg
+FR;1002;2079;Grangettes;Fribourg
+FR;1002;2086;Massonnens;Fribourg
+FR;1002;2087;Mézières (FR);Fribourg
+FR;1002;2089;Montet (Glâne);Fribourg
+FR;1002;2096;Romont (FR);Fribourg
+FR;1002;2097;Rue;Fribourg
+FR;1002;2099;Siviriez;Fribourg
+FR;1002;2102;Ursy;Fribourg
+FR;1002;2113;Vuisternens-devant-Romont;Fribourg
+FR;1002;2114;Villorsonnens;Fribourg
+FR;1002;2115;Torny;Fribourg
+FR;1002;2117;Villaz;Fribourg
+FR;1003;2121;Haut-Intyamon;Fribourg
+FR;1003;2122;Pont-en-Ogoz;Fribourg
+FR;1003;2123;Botterens;Fribourg
+FR;1003;2124;Broc;Fribourg
+FR;1003;2125;Bulle;Fribourg
+FR;1003;2128;Châtel-sur-Montsalvens;Fribourg
+FR;1003;2129;Corbières;Fribourg
+FR;1003;2130;Crésuz;Fribourg
+FR;1003;2131;Echarlens;Fribourg
+FR;1003;2134;Grandvillard;Fribourg
+FR;1003;2135;Gruyères;Fribourg
+FR;1003;2137;Hauteville;Fribourg
+FR;1003;2138;Jaun;Fribourg
+FR;1003;2140;Marsens;Fribourg
+FR;1003;2143;Morlon;Fribourg
+FR;1003;2145;Le Pâquier (FR);Fribourg
+FR;1003;2147;Pont-la-Ville;Fribourg
+FR;1003;2148;Riaz;Fribourg
+FR;1003;2149;La Roche;Fribourg
+FR;1003;2152;Sâles;Fribourg
+FR;1003;2153;Sorens;Fribourg
+FR;1003;2155;Vaulruz;Fribourg
+FR;1003;2160;Vuadens;Fribourg
+FR;1003;2162;Bas-Intyamon;Fribourg
+FR;1003;2163;Val-de-Charmey;Fribourg
+FR;1004;2173;Autigny;Fribourg
+FR;1004;2174;Avry;Fribourg
+FR;1004;2175;Belfaux;Fribourg
+FR;1004;2177;Chénens;Fribourg
+FR;1004;2183;Corminboeuf;Fribourg
+FR;1004;2186;Cottens (FR);Fribourg
+FR;1004;2194;Ferpicloz;Fribourg
+FR;1004;2196;Fribourg;Fribourg
+FR;1004;2197;Givisiez;Fribourg
+FR;1004;2198;Granges-Paccot;Fribourg
+FR;1004;2200;Grolley;Fribourg
+FR;1004;2206;Marly;Fribourg
+FR;1004;2208;Matran;Fribourg
+FR;1004;2211;Neyruz (FR);Fribourg
+FR;1004;2216;Pierrafortscha;Fribourg
+FR;1004;2217;Ponthaux;Fribourg
+FR;1004;2220;Le Mouret;Fribourg
+FR;1004;2226;Treyvaux;Fribourg
+FR;1004;2228;Villars-sur-Glâne;Fribourg
+FR;1004;2230;Villarsel-sur-Marly;Fribourg
+FR;1004;2233;Hauterive (FR);Fribourg
+FR;1004;2234;La Brillaz;Fribourg
+FR;1004;2235;La Sonnaz;Fribourg
+FR;1004;2236;Gibloux;Fribourg
+FR;1004;2237;Prez;Fribourg
+FR;1004;2238;Bois-d'Amont;Fribourg
+FR;1005;2250;Courgevaux;Fribourg
+FR;1005;2254;Courtepin;Fribourg
+FR;1005;2257;Cressier (FR);Fribourg
+FR;1005;2258;Fräschels;Fribourg
+FR;1005;2261;Greng;Fribourg
+FR;1005;2262;Gurmels;Fribourg
+FR;1005;2265;Kerzers;Fribourg
+FR;1005;2266;Kleinbösingen;Fribourg
+FR;1005;2271;Meyriez;Fribourg
+FR;1005;2272;Misery-Courtion;Fribourg
+FR;1005;2274;Muntelier;Fribourg
+FR;1005;2275;Murten;Fribourg
+FR;1005;2276;Ried bei Kerzers;Fribourg
+FR;1005;2278;Ulmiz;Fribourg
+FR;1005;2284;Mont-Vully;Fribourg
+FR;1006;2292;Brünisried;Fribourg
+FR;1006;2293;Düdingen;Fribourg
+FR;1006;2294;Giffers;Fribourg
+FR;1006;2295;Bösingen;Fribourg
+FR;1006;2296;Heitenried;Fribourg
+FR;1006;2299;Plaffeien;Fribourg
+FR;1006;2300;Plasselb;Fribourg
+FR;1006;2301;Rechthalten;Fribourg
+FR;1006;2303;St. Silvester;Fribourg
+FR;1006;2304;St. Ursen;Fribourg
+FR;1006;2305;Schmitten (FR);Fribourg
+FR;1006;2306;Tafers;Fribourg
+FR;1006;2307;Tentlingen;Fribourg
+FR;1006;2308;Ueberstorf;Fribourg
+FR;1006;2309;Wünnewil-Flamatt;Fribourg
+FR;1007;2321;Attalens;Fribourg
+FR;1007;2323;Bossonnens;Fribourg
+FR;1007;2325;Châtel-Saint-Denis;Fribourg
+FR;1007;2328;Granges (Veveyse);Fribourg
+FR;1007;2333;Remaufens;Fribourg
+FR;1007;2335;Saint-Martin (FR);Fribourg
+FR;1007;2336;Semsales;Fribourg
+FR;1007;2337;Le Flon;Fribourg
+FR;1007;2338;La Verrerie;Fribourg
+SO;1101;2401;Egerkingen;Solothurn
+SO;1101;2402;Härkingen;Solothurn
+SO;1101;2403;Kestenholz;Solothurn
+SO;1101;2404;Neuendorf;Solothurn
+SO;1101;2405;Niederbuchsiten;Solothurn
+SO;1101;2406;Oberbuchsiten;Solothurn
+SO;1101;2407;Oensingen;Solothurn
+SO;1101;2408;Wolfwil;Solothurn
+SO;1102;2421;Aedermannsdorf;Solothurn
+SO;1102;2422;Balsthal;Solothurn
+SO;1102;2424;Herbetswil;Solothurn
+SO;1102;2425;Holderbank (SO);Solothurn
+SO;1102;2426;Laupersdorf;Solothurn
+SO;1102;2427;Matzendorf;Solothurn
+SO;1102;2428;Mümliswil-Ramiswil;Solothurn
+SO;1102;2430;Welschenrohr-Gänsbrunnen;Solothurn
+SO;1103;2445;Biezwil;Solothurn
+SO;1103;2455;Lüterkofen-Ichertswil;Solothurn
+SO;1103;2456;Lüterswil-Gächliwil;Solothurn
+SO;1103;2457;Messen;Solothurn
+SO;1103;2461;Schnottwil;Solothurn
+SO;1103;2463;Unterramsern;Solothurn
+SO;1103;2464;Lüsslingen-Nennigkofen;Solothurn
+SO;1103;2465;Buchegg;Solothurn
+SO;1104;2471;Bättwil;Solothurn
+SO;1104;2472;Büren (SO);Solothurn
+SO;1104;2473;Dornach;Solothurn
+SO;1104;2474;Gempen;Solothurn
+SO;1104;2475;Hochwald;Solothurn
+SO;1104;2476;Hofstetten-Flüh;Solothurn
+SO;1104;2477;Metzerlen-Mariastein;Solothurn
+SO;1104;2478;Nuglar-St. Pantaleon;Solothurn
+SO;1104;2479;Rodersdorf;Solothurn
+SO;1104;2480;Seewen;Solothurn
+SO;1104;2481;Witterswil;Solothurn
+SO;1105;2491;Hauenstein-Ifenthal;Solothurn
+SO;1105;2492;Kienberg;Solothurn
+SO;1105;2493;Lostorf;Solothurn
+SO;1105;2495;Niedergösgen;Solothurn
+SO;1105;2497;Obergösgen;Solothurn
+SO;1105;2499;Stüsslingen;Solothurn
+SO;1105;2500;Trimbach;Solothurn
+SO;1105;2501;Winznau;Solothurn
+SO;1105;2502;Wisen (SO);Solothurn
+SO;1105;2503;Erlinsbach (SO);Solothurn
+SO;1106;2511;Aeschi (SO);Solothurn
+SO;1106;2513;Biberist;Solothurn
+SO;1106;2514;Bolken;Solothurn
+SO;1106;2516;Deitingen;Solothurn
+SO;1106;2517;Derendingen;Solothurn
+SO;1106;2518;Etziken;Solothurn
+SO;1106;2519;Gerlafingen;Solothurn
+SO;1106;2520;Halten;Solothurn
+SO;1106;2523;Horriwil;Solothurn
+SO;1106;2524;Hüniken;Solothurn
+SO;1106;2525;Kriegstetten;Solothurn
+SO;1106;2526;Lohn-Ammannsegg;Solothurn
+SO;1106;2527;Luterbach;Solothurn
+SO;1106;2528;Obergerlafingen;Solothurn
+SO;1106;2529;Oekingen;Solothurn
+SO;1106;2530;Recherswil;Solothurn
+SO;1106;2532;Subingen;Solothurn
+SO;1106;2534;Zuchwil;Solothurn
+SO;1106;2535;Drei Höfe;Solothurn
+SO;1107;2541;Balm bei Günsberg;Solothurn
+SO;1107;2542;Bellach;Solothurn
+SO;1107;2543;Bettlach;Solothurn
+SO;1107;2544;Feldbrunnen-St. Niklaus;Solothurn
+SO;1107;2545;Flumenthal;Solothurn
+SO;1107;2546;Grenchen;Solothurn
+SO;1107;2547;Günsberg;Solothurn
+SO;1107;2548;Hubersdorf;Solothurn
+SO;1107;2549;Kammersrohr;Solothurn
+SO;1107;2550;Langendorf;Solothurn
+SO;1107;2551;Lommiswil;Solothurn
+SO;1107;2553;Oberdorf (SO);Solothurn
+SO;1107;2554;Riedholz;Solothurn
+SO;1107;2555;Rüttenen;Solothurn
+SO;1107;2556;Selzach;Solothurn
+SO;1108;2571;Boningen;Solothurn
+SO;1108;2572;Däniken;Solothurn
+SO;1108;2573;Dulliken;Solothurn
+SO;1108;2574;Eppenberg-Wöschnau;Solothurn
+SO;1108;2575;Fulenbach;Solothurn
+SO;1108;2576;Gretzenbach;Solothurn
+SO;1108;2578;Gunzgen;Solothurn
+SO;1108;2579;Hägendorf;Solothurn
+SO;1108;2580;Kappel (SO);Solothurn
+SO;1108;2581;Olten;Solothurn
+SO;1108;2582;Rickenbach (SO);Solothurn
+SO;1108;2583;Schönenwerd;Solothurn
+SO;1108;2584;Starrkirch-Wil;Solothurn
+SO;1108;2585;Walterswil (SO);Solothurn
+SO;1108;2586;Wangen bei Olten;Solothurn
+SO;1109;2601;Solothurn;Solothurn
+SO;1110;2611;Bärschwil;Solothurn
+SO;1110;2612;Beinwil (SO);Solothurn
+SO;1110;2613;Breitenbach;Solothurn
+SO;1110;2614;Büsserach;Solothurn
+SO;1110;2615;Erschwil;Solothurn
+SO;1110;2616;Fehren;Solothurn
+SO;1110;2617;Grindel;Solothurn
+SO;1110;2618;Himmelried;Solothurn
+SO;1110;2619;Kleinlützel;Solothurn
+SO;1110;2620;Meltingen;Solothurn
+SO;1110;2621;Nunningen;Solothurn
+SO;1110;2622;Zullwil;Solothurn
+BS;1200;2701;Basel;Basel-Stadt
+BS;1200;2702;Bettingen;Basel-Stadt
+BS;1200;2703;Riehen;Basel-Stadt
+BL;1301;2761;Aesch (BL);Basel-Landschaft
+BL;1301;2762;Allschwil;Basel-Landschaft
+BL;1301;2763;Arlesheim;Basel-Landschaft
+BL;1301;2764;Biel-Benken;Basel-Landschaft
+BL;1301;2765;Binningen;Basel-Landschaft
+BL;1301;2766;Birsfelden;Basel-Landschaft
+BL;1301;2767;Bottmingen;Basel-Landschaft
+BL;1301;2768;Ettingen;Basel-Landschaft
+BL;1301;2769;Münchenstein;Basel-Landschaft
+BL;1301;2770;Muttenz;Basel-Landschaft
+BL;1301;2771;Oberwil (BL);Basel-Landschaft
+BL;1301;2772;Pfeffingen;Basel-Landschaft
+BL;1301;2773;Reinach (BL);Basel-Landschaft
+BL;1301;2774;Schönenbuch;Basel-Landschaft
+BL;1301;2775;Therwil;Basel-Landschaft
+BL;1302;2781;Blauen;Basel-Landschaft
+BL;1302;2782;Brislach;Basel-Landschaft
+BL;1302;2783;Burg im Leimental;Basel-Landschaft
+BL;1302;2784;Dittingen;Basel-Landschaft
+BL;1302;2785;Duggingen;Basel-Landschaft
+BL;1302;2786;Grellingen;Basel-Landschaft
+BL;1302;2787;Laufen;Basel-Landschaft
+BL;1302;2788;Liesberg;Basel-Landschaft
+BL;1302;2789;Nenzlingen;Basel-Landschaft
+BL;1302;2790;Roggenburg;Basel-Landschaft
+BL;1302;2791;Röschenz;Basel-Landschaft
+BL;1302;2792;Wahlen;Basel-Landschaft
+BL;1302;2793;Zwingen;Basel-Landschaft
+BL;1303;2821;Arisdorf;Basel-Landschaft
+BL;1303;2822;Augst;Basel-Landschaft
+BL;1303;2823;Bubendorf;Basel-Landschaft
+BL;1303;2824;Frenkendorf;Basel-Landschaft
+BL;1303;2825;Füllinsdorf;Basel-Landschaft
+BL;1303;2826;Giebenach;Basel-Landschaft
+BL;1303;2827;Hersberg;Basel-Landschaft
+BL;1303;2828;Lausen;Basel-Landschaft
+BL;1303;2829;Liestal;Basel-Landschaft
+BL;1303;2830;Lupsingen;Basel-Landschaft
+BL;1303;2831;Pratteln;Basel-Landschaft
+BL;1303;2832;Ramlinsburg;Basel-Landschaft
+BL;1303;2833;Seltisberg;Basel-Landschaft
+BL;1303;2834;Ziefen;Basel-Landschaft
+BL;1304;2841;Anwil;Basel-Landschaft
+BL;1304;2842;Böckten;Basel-Landschaft
+BL;1304;2843;Buckten;Basel-Landschaft
+BL;1304;2844;Buus;Basel-Landschaft
+BL;1304;2845;Diepflingen;Basel-Landschaft
+BL;1304;2846;Gelterkinden;Basel-Landschaft
+BL;1304;2847;Häfelfingen;Basel-Landschaft
+BL;1304;2848;Hemmiken;Basel-Landschaft
+BL;1304;2849;Itingen;Basel-Landschaft
+BL;1304;2850;Känerkinden;Basel-Landschaft
+BL;1304;2851;Kilchberg (BL);Basel-Landschaft
+BL;1304;2852;Läufelfingen;Basel-Landschaft
+BL;1304;2853;Maisprach;Basel-Landschaft
+BL;1304;2854;Nusshof;Basel-Landschaft
+BL;1304;2855;Oltingen;Basel-Landschaft
+BL;1304;2856;Ormalingen;Basel-Landschaft
+BL;1304;2857;Rickenbach (BL);Basel-Landschaft
+BL;1304;2858;Rothenfluh;Basel-Landschaft
+BL;1304;2859;Rümlingen;Basel-Landschaft
+BL;1304;2860;Rünenberg;Basel-Landschaft
+BL;1304;2861;Sissach;Basel-Landschaft
+BL;1304;2862;Tecknau;Basel-Landschaft
+BL;1304;2863;Tenniken;Basel-Landschaft
+BL;1304;2864;Thürnen;Basel-Landschaft
+BL;1304;2865;Wenslingen;Basel-Landschaft
+BL;1304;2866;Wintersingen;Basel-Landschaft
+BL;1304;2867;Wittinsburg;Basel-Landschaft
+BL;1304;2868;Zeglingen;Basel-Landschaft
+BL;1304;2869;Zunzgen;Basel-Landschaft
+BL;1305;2881;Arboldswil;Basel-Landschaft
+BL;1305;2882;Bennwil;Basel-Landschaft
+BL;1305;2883;Bretzwil;Basel-Landschaft
+BL;1305;2884;Diegten;Basel-Landschaft
+BL;1305;2885;Eptingen;Basel-Landschaft
+BL;1305;2886;Hölstein;Basel-Landschaft
+BL;1305;2887;Lampenberg;Basel-Landschaft
+BL;1305;2888;Langenbruck;Basel-Landschaft
+BL;1305;2889;Lauwil;Basel-Landschaft
+BL;1305;2890;Liedertswil;Basel-Landschaft
+BL;1305;2891;Niederdorf;Basel-Landschaft
+BL;1305;2892;Oberdorf (BL);Basel-Landschaft
+BL;1305;2893;Reigoldswil;Basel-Landschaft
+BL;1305;2894;Titterten;Basel-Landschaft
+BL;1305;2895;Waldenburg;Basel-Landschaft
+SH;1401;2901;Gächlingen;Schaffhausen
+SH;1401;2903;Löhningen;Schaffhausen
+SH;1401;2904;Neunkirch;Schaffhausen
+SH;1402;2914;Büttenhardt;Schaffhausen
+SH;1402;2915;Dörflingen;Schaffhausen
+SH;1402;2917;Lohn (SH);Schaffhausen
+SH;1402;2919;Stetten (SH);Schaffhausen
+SH;1402;2920;Thayngen;Schaffhausen
+SH;1403;2931;Bargen (SH);Schaffhausen
+SH;1403;2932;Beringen;Schaffhausen
+SH;1403;2933;Buchberg;Schaffhausen
+SH;1403;2936;Merishausen;Schaffhausen
+SH;1403;2937;Neuhausen am Rheinfall;Schaffhausen
+SH;1403;2938;Rüdlingen;Schaffhausen
+SH;1403;2939;Schaffhausen;Schaffhausen
+SH;1404;2951;Beggingen;Schaffhausen
+SH;1404;2952;Schleitheim;Schaffhausen
+SH;1404;2953;Siblingen;Schaffhausen
+SH;1405;2961;Buch (SH);Schaffhausen
+SH;1405;2962;Hemishofen;Schaffhausen
+SH;1405;2963;Ramsen;Schaffhausen
+SH;1405;2964;Stein am Rhein;Schaffhausen
+SH;1406;2971;Hallau;Schaffhausen
+SH;1406;2972;Oberhallau;Schaffhausen
+SH;1406;2973;Trasadingen;Schaffhausen
+SH;1406;2974;Wilchingen;Schaffhausen
+AR;1501;3001;Herisau;Appenzell Ausserrhoden
+AR;1501;3002;Hundwil;Appenzell Ausserrhoden
+AR;1501;3003;Schönengrund;Appenzell Ausserrhoden
+AR;1501;3004;Schwellbrunn;Appenzell Ausserrhoden
+AR;1501;3005;Stein (AR);Appenzell Ausserrhoden
+AR;1501;3006;Urnäsch;Appenzell Ausserrhoden
+AR;1501;3007;Waldstatt;Appenzell Ausserrhoden
+AR;1502;3021;Bühler;Appenzell Ausserrhoden
+AR;1502;3022;Gais;Appenzell Ausserrhoden
+AR;1502;3023;Speicher;Appenzell Ausserrhoden
+AR;1502;3024;Teufen (AR);Appenzell Ausserrhoden
+AR;1502;3025;Trogen;Appenzell Ausserrhoden
+AR;1503;3031;Grub (AR);Appenzell Ausserrhoden
+AR;1503;3032;Heiden;Appenzell Ausserrhoden
+AR;1503;3033;Lutzenberg;Appenzell Ausserrhoden
+AR;1503;3034;Rehetobel;Appenzell Ausserrhoden
+AR;1503;3035;Reute (AR);Appenzell Ausserrhoden
+AR;1503;3036;Wald (AR);Appenzell Ausserrhoden
+AR;1503;3037;Walzenhausen;Appenzell Ausserrhoden
+AR;1503;3038;Wolfhalden;Appenzell Ausserrhoden
+AI;1600;3101;Appenzell;Appenzell Innerrhoden
+AI;1600;3102;Gonten;Appenzell Innerrhoden
+AI;1600;3104;Schlatt-Haslen;Appenzell Innerrhoden
+AI;1600;3111;Oberegg;Appenzell Innerrhoden
+AI;1600;3112;Schwende-Rüte;Appenzell Innerrhoden
+SG;1721;3201;Häggenschwil;St. Gallen
+SG;1721;3202;Muolen;St. Gallen
+SG;1721;3203;St. Gallen;St. Gallen
+SG;1721;3204;Wittenbach;St. Gallen
+SG;1722;3211;Berg (SG);St. Gallen
+SG;1721;3212;Eggersriet;St. Gallen
+SG;1722;3213;Goldach;St. Gallen
+SG;1722;3214;Mörschwil;St. Gallen
+SG;1722;3215;Rorschach;St. Gallen
+SG;1722;3216;Rorschacherberg;St. Gallen
+SG;1722;3217;Steinach;St. Gallen
+SG;1722;3218;Tübach;St. Gallen
+SG;1722;3219;Untereggen;St. Gallen
+SG;1723;3231;Au (SG);St. Gallen
+SG;1723;3232;Balgach;St. Gallen
+SG;1723;3233;Berneck;St. Gallen
+SG;1723;3234;Diepoldsau;St. Gallen
+SG;1723;3235;Rheineck;St. Gallen
+SG;1723;3236;St. Margrethen;St. Gallen
+SG;1722;3237;Thal;St. Gallen
+SG;1723;3238;Widnau;St. Gallen
+SG;1723;3251;Altstätten;St. Gallen
+SG;1723;3252;Eichberg;St. Gallen
+SG;1723;3253;Marbach (SG);St. Gallen
+SG;1723;3254;Oberriet (SG);St. Gallen
+SG;1723;3255;Rebstein;St. Gallen
+SG;1723;3256;Rüthi (SG);St. Gallen
+SG;1724;3271;Buchs (SG);St. Gallen
+SG;1724;3272;Gams;St. Gallen
+SG;1724;3273;Grabs;St. Gallen
+SG;1724;3274;Sennwald;St. Gallen
+SG;1724;3275;Sevelen;St. Gallen
+SG;1724;3276;Wartau;St. Gallen
+SG;1725;3291;Bad Ragaz;St. Gallen
+SG;1725;3292;Flums;St. Gallen
+SG;1725;3293;Mels;St. Gallen
+SG;1725;3294;Pfäfers;St. Gallen
+SG;1725;3295;Quarten;St. Gallen
+SG;1725;3296;Sargans;St. Gallen
+SG;1725;3297;Vilters-Wangs;St. Gallen
+SG;1725;3298;Walenstadt;St. Gallen
+SG;1726;3311;Amden;St. Gallen
+SG;1726;3312;Benken (SG);St. Gallen
+SG;1726;3313;Kaltbrunn;St. Gallen
+SG;1726;3315;Schänis;St. Gallen
+SG;1726;3316;Weesen;St. Gallen
+SG;1726;3338;Schmerikon;St. Gallen
+SG;1726;3339;Uznach;St. Gallen
+SG;1726;3340;Rapperswil-Jona;St. Gallen
+SG;1726;3341;Gommiswald;St. Gallen
+SG;1726;3342;Eschenbach (SG);St. Gallen
+SG;1727;3352;Ebnat-Kappel;St. Gallen
+SG;1727;3359;Wildhaus-Alt St. Johann;St. Gallen
+SG;1727;3360;Nesslau;St. Gallen
+SG;1727;3374;Lichtensteig;St. Gallen
+SG;1727;3379;Wattwil;St. Gallen
+SG;1727;3392;Kirchberg (SG);St. Gallen
+SG;1727;3393;Lütisburg;St. Gallen
+SG;1727;3394;Mosnang;St. Gallen
+SG;1727;3395;Bütschwil-Ganterschwil;St. Gallen
+SG;1727;3396;Neckertal;St. Gallen
+SG;1728;3401;Degersheim;St. Gallen
+SG;1728;3402;Flawil;St. Gallen
+SG;1728;3405;Jonschwil;St. Gallen
+SG;1728;3407;Oberuzwil;St. Gallen
+SG;1728;3408;Uzwil;St. Gallen
+SG;1728;3422;Niederbüren;St. Gallen
+SG;1728;3423;Niederhelfenschwil;St. Gallen
+SG;1728;3424;Oberbüren;St. Gallen
+SG;1728;3426;Zuzwil (SG);St. Gallen
+SG;1728;3427;Wil (SG);St. Gallen
+SG;1721;3441;Andwil (SG);St. Gallen
+SG;1721;3442;Gaiserwald;St. Gallen
+SG;1721;3443;Gossau (SG);St. Gallen
+SG;1721;3444;Waldkirch;St. Gallen
+GR;1841;3506;Vaz/Obervaz;Graubünden
+GR;1841;3513;Lantsch/Lenz;Graubünden
+GR;1841;3514;Schmitten (GR);Graubünden
+GR;1841;3542;Albula/Alvra;Graubünden
+GR;1841;3543;Surses;Graubünden
+GR;1841;3544;Bergün Filisur;Graubünden
+GR;1842;3551;Brusio;Graubünden
+GR;1842;3561;Poschiavo;Graubünden
+GR;1850;3572;Falera;Graubünden
+GR;1850;3575;Laax;Graubünden
+GR;1850;3581;Sagogn;Graubünden
+GR;1850;3582;Schluein;Graubünden
+GR;1850;3603;Vals;Graubünden
+GR;1850;3618;Lumnezia;Graubünden
+GR;1850;3619;Ilanz/Glion;Graubünden
+GR;1851;3633;Fürstenau;Graubünden
+GR;1851;3637;Rothenbrunnen;Graubünden
+GR;1851;3638;Scharans;Graubünden
+GR;1851;3640;Sils im Domleschg;Graubünden
+GR;1851;3661;Cazis;Graubünden
+GR;1851;3662;Flerden;Graubünden
+GR;1851;3663;Masein;Graubünden
+GR;1851;3668;Thusis;Graubünden
+GR;1851;3669;Tschappina;Graubünden
+GR;1851;3670;Urmein;Graubünden
+GR;1850;3672;Safiental;Graubünden
+GR;1851;3673;Domleschg;Graubünden
+GR;1851;3681;Avers;Graubünden
+GR;1851;3695;Sufers;Graubünden
+GR;1851;3701;Andeer;Graubünden
+GR;1851;3711;Rongellen;Graubünden
+GR;1851;3712;Zillis-Reischen;Graubünden
+GR;1851;3713;Ferrera;Graubünden
+GR;1851;3714;Rheinwald;Graubünden
+GR;1851;3715;Muntogna da Schons;Graubünden
+GR;1844;3721;Bonaduz;Graubünden
+GR;1844;3722;Domat/Ems;Graubünden
+GR;1844;3723;Rhäzüns;Graubünden
+GR;1844;3731;Felsberg;Graubünden
+GR;1844;3732;Flims;Graubünden
+GR;1844;3733;Tamins;Graubünden
+GR;1844;3734;Trin;Graubünden
+GR;1843;3746;Zernez;Graubünden
+GR;1843;3752;Samnaun;Graubünden
+GR;1843;3762;Scuol;Graubünden
+GR;1843;3764;Valsot;Graubünden
+GR;1846;3781;Bever;Graubünden
+GR;1846;3782;Celerina/Schlarigna;Graubünden
+GR;1846;3783;Madulain;Graubünden
+GR;1846;3784;Pontresina;Graubünden
+GR;1846;3785;La Punt Chamues-ch;Graubünden
+GR;1846;3786;Samedan;Graubünden
+GR;1846;3787;St. Moritz;Graubünden
+GR;1846;3788;S-chanf;Graubünden
+GR;1846;3789;Sils im Engadin/Segl;Graubünden
+GR;1846;3790;Silvaplana;Graubünden
+GR;1846;3791;Zuoz;Graubünden
+GR;1846;3792;Bregaglia;Graubünden
+GR;1847;3804;Buseno;Graubünden
+GR;1847;3805;Castaneda;Graubünden
+GR;1847;3808;Rossa;Graubünden
+GR;1847;3810;Santa Maria in Calanca;Graubünden
+GR;1847;3821;Lostallo;Graubünden
+GR;1847;3822;Mesocco;Graubünden
+GR;1847;3823;Soazza;Graubünden
+GR;1847;3831;Cama;Graubünden
+GR;1847;3832;Grono;Graubünden
+GR;1847;3834;Roveredo (GR);Graubünden
+GR;1847;3835;San Vittore;Graubünden
+GR;1847;3837;Calanca;Graubünden
+GR;1843;3847;Val Müstair;Graubünden
+GR;1849;3851;Davos;Graubünden
+GR;1849;3861;Fideris;Graubünden
+GR;1849;3862;Furna;Graubünden
+GR;1849;3863;Jenaz;Graubünden
+GR;1849;3871;Klosters;Graubünden
+GR;1849;3881;Conters im Prättigau;Graubünden
+GR;1849;3882;Küblis;Graubünden
+GR;1849;3891;Luzein;Graubünden
+GR;1848;3901;Chur;Graubünden
+GR;1848;3911;Churwalden;Graubünden
+GR;1848;3921;Arosa;Graubünden
+GR;1848;3932;Tschiertschen-Praden;Graubünden
+GR;1845;3945;Trimmis;Graubünden
+GR;1845;3946;Untervaz;Graubünden
+GR;1845;3947;Zizers;Graubünden
+GR;1845;3951;Fläsch;Graubünden
+GR;1845;3952;Jenins;Graubünden
+GR;1845;3953;Maienfeld;Graubünden
+GR;1845;3954;Malans;Graubünden
+GR;1845;3955;Landquart;Graubünden
+GR;1849;3961;Grüsch;Graubünden
+GR;1849;3962;Schiers;Graubünden
+GR;1849;3972;Seewis im Prättigau;Graubünden
+GR;1850;3981;Breil/Brigels;Graubünden
+GR;1850;3982;Disentis/Mustér;Graubünden
+GR;1850;3983;Medel (Lucmagn);Graubünden
+GR;1850;3985;Sumvitg;Graubünden
+GR;1850;3986;Tujetsch;Graubünden
+GR;1850;3987;Trun;Graubünden
+GR;1850;3988;Obersaxen Mundaun;Graubünden
+AG;1901;4001;Aarau;Aargau
+AG;1901;4002;Biberstein;Aargau
+AG;1901;4003;Buchs (AG);Aargau
+AG;1901;4004;Densbüren;Aargau
+AG;1901;4005;Erlinsbach (AG);Aargau
+AG;1901;4006;Gränichen;Aargau
+AG;1901;4007;Hirschthal;Aargau
+AG;1901;4008;Küttigen;Aargau
+AG;1901;4009;Muhen;Aargau
+AG;1901;4010;Oberentfelden;Aargau
+AG;1901;4012;Suhr;Aargau
+AG;1901;4013;Unterentfelden;Aargau
+AG;1902;4021;Baden;Aargau
+AG;1902;4022;Bellikon;Aargau
+AG;1902;4023;Bergdietikon;Aargau
+AG;1902;4024;Birmenstorf (AG);Aargau
+AG;1902;4026;Ennetbaden;Aargau
+AG;1902;4027;Fislisbach;Aargau
+AG;1902;4028;Freienwil;Aargau
+AG;1902;4029;Gebenstorf;Aargau
+AG;1902;4030;Killwangen;Aargau
+AG;1902;4031;Künten;Aargau
+AG;1902;4032;Mägenwil;Aargau
+AG;1902;4033;Mellingen;Aargau
+AG;1902;4034;Neuenhof;Aargau
+AG;1902;4035;Niederrohrdorf;Aargau
+AG;1902;4037;Oberrohrdorf;Aargau
+AG;1902;4038;Obersiggenthal;Aargau
+AG;1902;4039;Remetschwil;Aargau
+AG;1902;4040;Spreitenbach;Aargau
+AG;1902;4041;Stetten (AG);Aargau
+AG;1902;4042;Turgi;Aargau
+AG;1902;4044;Untersiggenthal;Aargau
+AG;1902;4045;Wettingen;Aargau
+AG;1902;4046;Wohlenschwil;Aargau
+AG;1902;4047;Würenlingen;Aargau
+AG;1902;4048;Würenlos;Aargau
+AG;1902;4049;Ehrendingen;Aargau
+AG;1903;4061;Arni (AG);Aargau
+AG;1903;4062;Berikon;Aargau
+AG;1903;4063;Bremgarten (AG);Aargau
+AG;1903;4064;Büttikon;Aargau
+AG;1903;4065;Dottikon;Aargau
+AG;1903;4066;Eggenwil;Aargau
+AG;1903;4067;Fischbach-Göslikon;Aargau
+AG;1903;4068;Hägglingen;Aargau
+AG;1903;4071;Jonen;Aargau
+AG;1903;4072;Niederwil (AG);Aargau
+AG;1903;4073;Oberlunkhofen;Aargau
+AG;1903;4074;Oberwil-Lieli;Aargau
+AG;1903;4075;Rudolfstetten-Friedlisberg;Aargau
+AG;1903;4076;Sarmenstorf;Aargau
+AG;1903;4077;Tägerig;Aargau
+AG;1903;4078;Uezwil;Aargau
+AG;1903;4079;Unterlunkhofen;Aargau
+AG;1903;4080;Villmergen;Aargau
+AG;1903;4081;Widen;Aargau
+AG;1903;4082;Wohlen (AG);Aargau
+AG;1903;4083;Zufikon;Aargau
+AG;1903;4084;Islisberg;Aargau
+AG;1904;4091;Auenstein;Aargau
+AG;1904;4092;Birr;Aargau
+AG;1904;4093;Birrhard;Aargau
+AG;1904;4095;Brugg;Aargau
+AG;1904;4099;Habsburg;Aargau
+AG;1904;4100;Hausen (AG);Aargau
+AG;1904;4104;Lupfig;Aargau
+AG;1904;4105;Mandach;Aargau
+AG;1904;4106;Mönthal;Aargau
+AG;1904;4107;Mülligen;Aargau
+AG;1904;4110;Remigen;Aargau
+AG;1904;4111;Riniken;Aargau
+AG;1904;4112;Rüfenach;Aargau
+AG;1904;4117;Thalheim (AG);Aargau
+AG;1904;4120;Veltheim (AG);Aargau
+AG;1904;4121;Villigen;Aargau
+AG;1904;4122;Villnachern;Aargau
+AG;1904;4123;Windisch;Aargau
+AG;1904;4124;Bözberg;Aargau
+AG;1904;4125;Schinznach;Aargau
+AG;1905;4131;Beinwil am See;Aargau
+AG;1905;4132;Birrwil;Aargau
+AG;1905;4134;Dürrenäsch;Aargau
+AG;1905;4135;Gontenschwil;Aargau
+AG;1905;4136;Holziken;Aargau
+AG;1905;4137;Leimbach (AG);Aargau
+AG;1905;4138;Leutwil;Aargau
+AG;1905;4139;Menziken;Aargau
+AG;1905;4140;Oberkulm;Aargau
+AG;1905;4141;Reinach (AG);Aargau
+AG;1905;4142;Schlossrued;Aargau
+AG;1905;4143;Schmiedrued;Aargau
+AG;1905;4144;Schöftland;Aargau
+AG;1905;4145;Teufenthal (AG);Aargau
+AG;1905;4146;Unterkulm;Aargau
+AG;1905;4147;Zetzwil;Aargau
+AG;1906;4161;Eiken;Aargau
+AG;1906;4163;Frick;Aargau
+AG;1906;4164;Gansingen;Aargau
+AG;1906;4165;Gipf-Oberfrick;Aargau
+AG;1906;4169;Kaisten;Aargau
+AG;1906;4170;Laufenburg;Aargau
+AG;1906;4172;Münchwilen (AG);Aargau
+AG;1906;4173;Oberhof;Aargau
+AG;1906;4175;Oeschgen;Aargau
+AG;1906;4176;Schwaderloch;Aargau
+AG;1906;4177;Sisseln;Aargau
+AG;1906;4181;Wittnau;Aargau
+AG;1906;4182;Wölflinswil;Aargau
+AG;1906;4183;Zeihen;Aargau
+AG;1906;4184;Mettauertal;Aargau
+AG;1906;4185;Böztal;Aargau
+AG;1906;4186;Herznach-Ueken;Aargau
+AG;1907;4191;Ammerswil;Aargau
+AG;1907;4192;Boniswil;Aargau
+AG;1907;4193;Brunegg;Aargau
+AG;1907;4194;Dintikon;Aargau
+AG;1907;4195;Egliswil;Aargau
+AG;1907;4196;Fahrwangen;Aargau
+AG;1907;4197;Hallwil;Aargau
+AG;1907;4198;Hendschiken;Aargau
+AG;1907;4199;Holderbank (AG);Aargau
+AG;1907;4200;Hunzenschwil;Aargau
+AG;1907;4201;Lenzburg;Aargau
+AG;1907;4202;Meisterschwanden;Aargau
+AG;1907;4203;Möriken-Wildegg;Aargau
+AG;1907;4204;Niederlenz;Aargau
+AG;1907;4205;Othmarsingen;Aargau
+AG;1907;4206;Rupperswil;Aargau
+AG;1907;4207;Schafisheim;Aargau
+AG;1907;4208;Seengen;Aargau
+AG;1907;4209;Seon;Aargau
+AG;1907;4210;Staufen;Aargau
+AG;1908;4221;Abtwil;Aargau
+AG;1908;4222;Aristau;Aargau
+AG;1908;4223;Auw;Aargau
+AG;1908;4224;Beinwil (Freiamt);Aargau
+AG;1908;4226;Besenbüren;Aargau
+AG;1908;4227;Bettwil;Aargau
+AG;1908;4228;Boswil;Aargau
+AG;1908;4229;Bünzen;Aargau
+AG;1908;4230;Buttwil;Aargau
+AG;1908;4231;Dietwil;Aargau
+AG;1908;4232;Geltwil;Aargau
+AG;1908;4233;Kallern;Aargau
+AG;1908;4234;Merenschwand;Aargau
+AG;1908;4235;Mühlau;Aargau
+AG;1908;4236;Muri (AG);Aargau
+AG;1908;4237;Oberrüti;Aargau
+AG;1908;4238;Rottenschwil;Aargau
+AG;1908;4239;Sins;Aargau
+AG;1908;4240;Waltenschwil;Aargau
+AG;1909;4251;Hellikon;Aargau
+AG;1909;4252;Kaiseraugst;Aargau
+AG;1909;4253;Magden;Aargau
+AG;1909;4254;Möhlin;Aargau
+AG;1909;4255;Mumpf;Aargau
+AG;1909;4256;Obermumpf;Aargau
+AG;1909;4257;Olsberg;Aargau
+AG;1909;4258;Rheinfelden;Aargau
+AG;1909;4259;Schupfart;Aargau
+AG;1909;4260;Stein (AG);Aargau
+AG;1909;4261;Wallbach;Aargau
+AG;1909;4262;Wegenstetten;Aargau
+AG;1909;4263;Zeiningen;Aargau
+AG;1909;4264;Zuzgen;Aargau
+AG;1910;4271;Aarburg;Aargau
+AG;1910;4273;Bottenwil;Aargau
+AG;1910;4274;Brittnau;Aargau
+AG;1910;4275;Kirchleerau;Aargau
+AG;1910;4276;Kölliken;Aargau
+AG;1910;4277;Moosleerau;Aargau
+AG;1910;4279;Murgenthal;Aargau
+AG;1910;4280;Oftringen;Aargau
+AG;1910;4281;Reitnau;Aargau
+AG;1910;4282;Rothrist;Aargau
+AG;1910;4283;Safenwil;Aargau
+AG;1910;4284;Staffelbach;Aargau
+AG;1910;4285;Strengelbach;Aargau
+AG;1910;4286;Uerkheim;Aargau
+AG;1910;4287;Vordemwald;Aargau
+AG;1910;4288;Wiliberg;Aargau
+AG;1910;4289;Zofingen;Aargau
+AG;1911;4303;Böttstein;Aargau
+AG;1911;4304;Döttingen;Aargau
+AG;1911;4305;Endingen;Aargau
+AG;1911;4306;Fisibach;Aargau
+AG;1911;4307;Full-Reuenthal;Aargau
+AG;1911;4309;Klingnau;Aargau
+AG;1911;4310;Koblenz;Aargau
+AG;1911;4311;Leibstadt;Aargau
+AG;1911;4312;Lengnau (AG);Aargau
+AG;1911;4313;Leuggern;Aargau
+AG;1911;4314;Mellikon;Aargau
+AG;1911;4318;Schneisingen;Aargau
+AG;1911;4319;Siglistorf;Aargau
+AG;1911;4320;Tegerfelden;Aargau
+AG;1911;4324;Zurzach;Aargau
+TG;2011;4401;Arbon;Thurgau
+TG;2011;4406;Dozwil;Thurgau
+TG;2011;4411;Egnach;Thurgau
+TG;2011;4416;Hefenhofen;Thurgau
+TG;2011;4421;Horn;Thurgau
+TG;2011;4426;Kesswil;Thurgau
+TG;2011;4431;Roggwil (TG);Thurgau
+TG;2011;4436;Romanshorn;Thurgau
+TG;2011;4441;Salmsach;Thurgau
+TG;2011;4446;Sommeri;Thurgau
+TG;2011;4451;Uttwil;Thurgau
+TG;2011;4461;Amriswil;Thurgau
+TG;2015;4471;Bischofszell;Thurgau
+TG;2015;4476;Erlen;Thurgau
+TG;2015;4486;Hauptwil-Gottshaus;Thurgau
+TG;2015;4495;Hohentannen;Thurgau
+TG;2015;4501;Kradolf-Schönenberg;Thurgau
+TG;2015;4506;Sulgen;Thurgau
+TG;2015;4511;Zihlschlacht-Sitterdorf;Thurgau
+TG;2012;4536;Basadingen-Schlattingen;Thurgau
+TG;2012;4545;Diessenhofen;Thurgau
+TG;2012;4546;Schlatt (TG);Thurgau
+TG;2014;4551;Aadorf;Thurgau
+TG;2012;4561;Felben-Wellhausen;Thurgau
+TG;2012;4566;Frauenfeld;Thurgau
+TG;2012;4571;Gachnang;Thurgau
+TG;2012;4590;Hüttlingen;Thurgau
+TG;2012;4591;Matzingen;Thurgau
+TG;2012;4601;Neunforn;Thurgau
+TG;2012;4606;Stettfurt;Thurgau
+TG;2012;4611;Thundorf;Thurgau
+TG;2012;4616;Uesslingen-Buch;Thurgau
+TG;2012;4621;Warth-Weiningen;Thurgau
+TG;2013;4641;Altnau;Thurgau
+TG;2013;4643;Bottighofen;Thurgau
+TG;2013;4646;Ermatingen;Thurgau
+TG;2013;4651;Gottlieben;Thurgau
+TG;2013;4656;Güttingen;Thurgau
+TG;2013;4666;Kemmental;Thurgau
+TG;2013;4671;Kreuzlingen;Thurgau
+TG;2013;4681;Langrickenbach;Thurgau
+TG;2013;4683;Lengwil;Thurgau
+TG;2013;4691;Münsterlingen;Thurgau
+TG;2013;4696;Tägerwilen;Thurgau
+TG;2013;4701;Wäldi;Thurgau
+TG;2015;4711;Affeltrangen;Thurgau
+TG;2014;4716;Bettwiesen;Thurgau
+TG;2014;4721;Bichelsee-Balterswil;Thurgau
+TG;2014;4723;Braunau;Thurgau
+TG;2014;4724;Eschlikon;Thurgau
+TG;2014;4726;Fischingen;Thurgau
+TG;2014;4741;Lommis;Thurgau
+TG;2014;4746;Münchwilen (TG);Thurgau
+TG;2014;4751;Rickenbach (TG);Thurgau
+TG;2015;4756;Schönholzerswilen;Thurgau
+TG;2014;4761;Sirnach;Thurgau
+TG;2014;4776;Tobel-Tägerschen;Thurgau
+TG;2014;4781;Wängi;Thurgau
+TG;2014;4786;Wilen (TG);Thurgau
+TG;2015;4791;Wuppenau;Thurgau
+TG;2012;4801;Berlingen;Thurgau
+TG;2012;4806;Eschenz;Thurgau
+TG;2012;4811;Herdern;Thurgau
+TG;2012;4816;Homburg;Thurgau
+TG;2012;4821;Hüttwilen;Thurgau
+TG;2012;4826;Mammern;Thurgau
+TG;2012;4831;Müllheim;Thurgau
+TG;2012;4841;Pfyn;Thurgau
+TG;2013;4846;Raperswilen;Thurgau
+TG;2013;4851;Salenstein;Thurgau
+TG;2012;4864;Steckborn;Thurgau
+TG;2012;4871;Wagenhausen;Thurgau
+TG;2015;4881;Amlikon-Bissegg;Thurgau
+TG;2015;4891;Berg (TG);Thurgau
+TG;2015;4901;Birwinken;Thurgau
+TG;2015;4911;Bürglen (TG);Thurgau
+TG;2015;4921;Bussnang;Thurgau
+TG;2015;4941;Märstetten;Thurgau
+TG;2015;4946;Weinfelden;Thurgau
+TG;2015;4951;Wigoltingen;Thurgau
+TI;2101;5001;Arbedo-Castione;Ticino
+TI;2101;5002;Bellinzona;Ticino
+TI;2101;5003;Cadenazzo;Ticino
+TI;2101;5009;Isone;Ticino
+TI;2101;5010;Lumino;Ticino
+TI;2101;5017;Sant'Antonino;Ticino
+TI;2102;5048;Acquarossa;Ticino
+TI;2102;5049;Blenio;Ticino
+TI;2102;5050;Serravalle;Ticino
+TI;2103;5061;Airolo;Ticino
+TI;2103;5063;Bedretto;Ticino
+TI;2103;5064;Bodio;Ticino
+TI;2103;5071;Dalpe;Ticino
+TI;2103;5072;Faido;Ticino
+TI;2103;5073;Giornico;Ticino
+TI;2103;5076;Personico;Ticino
+TI;2103;5077;Pollegio;Ticino
+TI;2103;5078;Prato (Leventina);Ticino
+TI;2103;5079;Quinto;Ticino
+TI;2104;5091;Ascona;Ticino
+TI;2104;5096;Brione sopra Minusio;Ticino
+TI;2104;5097;Brissago;Ticino
+TI;2104;5108;Gordola;Ticino
+TI;2104;5112;Lavertezzo;Ticino
+TI;2104;5113;Locarno;Ticino
+TI;2104;5115;Losone;Ticino
+TI;2104;5117;Mergoscia;Ticino
+TI;2104;5118;Minusio;Ticino
+TI;2104;5120;Muralto;Ticino
+TI;2104;5121;Orselina;Ticino
+TI;2104;5125;Ronco sopra Ascona;Ticino
+TI;2104;5131;Tenero-Contra;Ticino
+TI;2104;5136;Onsernone;Ticino
+TI;2104;5138;Cugnasco-Gerra;Ticino
+TI;2105;5141;Agno;Ticino
+TI;2105;5143;Aranno;Ticino
+TI;2105;5144;Arogno;Ticino
+TI;2105;5146;Astano;Ticino
+TI;2105;5148;Bedano;Ticino
+TI;2105;5149;Bedigliora;Ticino
+TI;2105;5151;Bioggio;Ticino
+TI;2105;5154;Bissone;Ticino
+TI;2105;5160;Brusino Arsizio;Ticino
+TI;2105;5161;Cademario;Ticino
+TI;2105;5162;Cadempino;Ticino
+TI;2105;5167;Canobbio;Ticino
+TI;2105;5171;Caslano;Ticino
+TI;2105;5176;Comano;Ticino
+TI;2105;5180;Cureglia;Ticino
+TI;2105;5181;Curio;Ticino
+TI;2105;5186;Grancia;Ticino
+TI;2105;5187;Gravesano;Ticino
+TI;2105;5189;Lamone;Ticino
+TI;2105;5192;Lugano;Ticino
+TI;2105;5193;Magliaso;Ticino
+TI;2105;5194;Manno;Ticino
+TI;2105;5196;Massagno;Ticino
+TI;2105;5198;Melide;Ticino
+TI;2105;5199;Mezzovico-Vira;Ticino
+TI;2105;5200;Miglieglia;Ticino
+TI;2105;5203;Morcote;Ticino
+TI;2105;5205;Muzzano;Ticino
+TI;2105;5206;Neggio;Ticino
+TI;2105;5207;Novaggio;Ticino
+TI;2105;5208;Origlio;Ticino
+TI;2105;5210;Paradiso;Ticino
+TI;2105;5212;Ponte Capriasca;Ticino
+TI;2105;5214;Porza;Ticino
+TI;2105;5216;Pura;Ticino
+TI;2105;5221;Savosa;Ticino
+TI;2105;5225;Sorengo;Ticino
+TI;2105;5226;Capriasca;Ticino
+TI;2105;5227;Torricella-Taverne;Ticino
+TI;2105;5230;Vernate;Ticino
+TI;2105;5231;Vezia;Ticino
+TI;2105;5233;Vico Morcote;Ticino
+TI;2105;5236;Collina d'Oro;Ticino
+TI;2105;5237;Alto Malcantone;Ticino
+TI;2105;5238;Monteceneri;Ticino
+TI;2105;5239;Tresa;Ticino
+TI;2105;5240;Val Mara;Ticino
+TI;2106;5242;Balerna;Ticino
+TI;2106;5249;Castel San Pietro;Ticino
+TI;2106;5250;Chiasso;Ticino
+TI;2106;5251;Coldrerio;Ticino
+TI;2106;5254;Mendrisio;Ticino
+TI;2106;5257;Morbio Inferiore;Ticino
+TI;2106;5260;Novazzano;Ticino
+TI;2106;5263;Riva San Vitale;Ticino
+TI;2106;5266;Stabio;Ticino
+TI;2106;5268;Vacallo;Ticino
+TI;2106;5269;Breggia;Ticino
+TI;2107;5281;Biasca;Ticino
+TI;2107;5287;Riviera;Ticino
+TI;2108;5304;Bosco/Gurin;Ticino
+TI;2108;5307;Campo (Vallemaggia);Ticino
+TI;2108;5309;Cerentino;Ticino
+TI;2108;5310;Cevio;Ticino
+TI;2108;5315;Linescio;Ticino
+TI;2108;5317;Maggia;Ticino
+TI;2108;5323;Lavizzara;Ticino
+TI;2108;5324;Avegno Gordevio;Ticino
+TI;2104;5396;Terre di Pedemonte;Ticino
+TI;2104;5397;Centovalli;Ticino
+TI;2104;5398;Gambarogno;Ticino
+TI;2104;5399;Verzasca;Ticino
+VD;2221;5401;Aigle;Vaud
+VD;2221;5402;Bex;Vaud
+VD;2221;5403;Chessel;Vaud
+VD;2221;5404;Corbeyrier;Vaud
+VD;2221;5405;Gryon;Vaud
+VD;2221;5406;Lavey-Morcles;Vaud
+VD;2221;5407;Leysin;Vaud
+VD;2221;5408;Noville;Vaud
+VD;2221;5409;Ollon;Vaud
+VD;2221;5410;Ormont-Dessous;Vaud
+VD;2221;5411;Ormont-Dessus;Vaud
+VD;2221;5412;Rennaz;Vaud
+VD;2221;5413;Roche (VD);Vaud
+VD;2221;5414;Villeneuve (VD);Vaud
+VD;2221;5415;Yvorne;Vaud
+VD;2227;5422;Aubonne;Vaud
+VD;2227;5423;Ballens;Vaud
+VD;2227;5424;Berolle;Vaud
+VD;2227;5425;Bière;Vaud
+VD;2227;5426;Bougy-Villars;Vaud
+VD;2227;5427;Féchy;Vaud
+VD;2227;5428;Gimel;Vaud
+VD;2228;5429;Longirod;Vaud
+VD;2228;5430;Marchissy;Vaud
+VD;2227;5431;Mollens (VD);Vaud
+VD;2228;5434;Saint-George;Vaud
+VD;2227;5435;Saint-Livres;Vaud
+VD;2227;5436;Saint-Oyens;Vaud
+VD;2227;5437;Saubraz;Vaud
+VD;2222;5451;Avenches;Vaud
+VD;2222;5456;Cudrefin;Vaud
+VD;2222;5458;Faoug;Vaud
+VD;2222;5464;Vully-les-Lacs;Vaud
+VD;2223;5471;Bettens;Vaud
+VD;2223;5472;Bournens;Vaud
+VD;2223;5473;Boussens;Vaud
+VD;2227;5474;La Chaux (Cossonay);Vaud
+VD;2227;5475;Chavannes-le-Veyron;Vaud
+VD;2227;5476;Chevilly;Vaud
+VD;2227;5477;Cossonay;Vaud
+VD;2227;5479;Cuarnens;Vaud
+VD;2223;5480;Daillens;Vaud
+VD;2227;5481;Dizy;Vaud
+VD;2227;5482;Eclépens;Vaud
+VD;2227;5483;Ferreyres;Vaud
+VD;2227;5484;Gollion;Vaud
+VD;2227;5485;Grancy;Vaud
+VD;2227;5486;L'Isle;Vaud
+VD;2223;5487;Lussery-Villars;Vaud
+VD;2227;5488;Mauraz;Vaud
+VD;2223;5489;Mex (VD);Vaud
+VD;2227;5490;Moiry;Vaud
+VD;2227;5491;Mont-la-Ville;Vaud
+VD;2227;5492;Montricher;Vaud
+VD;2227;5493;Orny;Vaud
+VD;2223;5495;Penthalaz;Vaud
+VD;2223;5496;Penthaz;Vaud
+VD;2227;5497;Pompaples;Vaud
+VD;2227;5498;La Sarraz;Vaud
+VD;2227;5499;Senarclens;Vaud
+VD;2223;5501;Sullens;Vaud
+VD;2223;5503;Vufflens-la-Ville;Vaud
+VD;2223;5511;Assens;Vaud
+VD;2223;5512;Bercher;Vaud
+VD;2223;5514;Bottens;Vaud
+VD;2223;5515;Bretigny-sur-Morrens;Vaud
+VD;2223;5516;Cugy (VD);Vaud
+VD;2223;5518;Echallens;Vaud
+VD;2223;5520;Essertines-sur-Yverdon;Vaud
+VD;2223;5521;Etagnières;Vaud
+VD;2223;5522;Fey;Vaud
+VD;2223;5523;Froideville;Vaud
+VD;2223;5527;Morrens (VD);Vaud
+VD;2223;5529;Oulens-sous-Echallens;Vaud
+VD;2223;5530;Pailly;Vaud
+VD;2223;5531;Penthéréaz;Vaud
+VD;2223;5533;Poliez-Pittet;Vaud
+VD;2223;5534;Rueyres;Vaud
+VD;2223;5535;Saint-Barthélemy (VD);Vaud
+VD;2223;5537;Villars-le-Terroir;Vaud
+VD;2223;5539;Vuarrens;Vaud
+VD;2223;5540;Montilliez;Vaud
+VD;2223;5541;Goumoëns;Vaud
+VD;2224;5551;Bonvillars;Vaud
+VD;2224;5552;Bullet;Vaud
+VD;2224;5553;Champagne;Vaud
+VD;2224;5554;Concise;Vaud
+VD;2224;5555;Corcelles-près-Concise;Vaud
+VD;2224;5556;Fiez;Vaud
+VD;2224;5557;Fontaines-sur-Grandson;Vaud
+VD;2224;5559;Giez;Vaud
+VD;2224;5560;Grandevent;Vaud
+VD;2224;5561;Grandson;Vaud
+VD;2224;5562;Mauborget;Vaud
+VD;2224;5563;Mutrux;Vaud
+VD;2224;5564;Novalles;Vaud
+VD;2224;5565;Onnens (VD);Vaud
+VD;2224;5566;Provence;Vaud
+VD;2224;5568;Sainte-Croix;Vaud
+VD;2224;5571;Tévenon;Vaud
+VD;2226;5581;Belmont-sur-Lausanne;Vaud
+VD;2225;5582;Cheseaux-sur-Lausanne;Vaud
+VD;2229;5583;Crissier;Vaud
+VD;2225;5584;Epalinges;Vaud
+VD;2225;5585;Jouxtens-Mézery;Vaud
+VD;2225;5586;Lausanne;Vaud
+VD;2225;5587;Le Mont-sur-Lausanne;Vaud
+VD;2226;5588;Paudex;Vaud
+VD;2229;5589;Prilly;Vaud
+VD;2226;5590;Pully;Vaud
+VD;2229;5591;Renens (VD);Vaud
+VD;2225;5592;Romanel-sur-Lausanne;Vaud
+VD;2226;5601;Chexbres;Vaud
+VD;2226;5604;Forel (Lavaux);Vaud
+VD;2226;5606;Lutry;Vaud
+VD;2226;5607;Puidoux;Vaud
+VD;2226;5609;Rivaz;Vaud
+VD;2226;5610;Saint-Saphorin (Lavaux);Vaud
+VD;2226;5611;Savigny;Vaud
+VD;2226;5613;Bourg-en-Lavaux;Vaud
+VD;2227;5621;Aclens;Vaud
+VD;2227;5622;Bremblens;Vaud
+VD;2227;5623;Buchillon;Vaud
+VD;2229;5624;Bussigny;Vaud
+VD;2229;5627;Chavannes-près-Renens;Vaud
+VD;2227;5628;Chigny;Vaud
+VD;2227;5629;Clarmont;Vaud
+VD;2227;5631;Denens;Vaud
+VD;2227;5632;Denges;Vaud
+VD;2227;5633;Echandens;Vaud
+VD;2227;5634;Echichens;Vaud
+VD;2229;5635;Ecublens (VD);Vaud
+VD;2227;5636;Etoy;Vaud
+VD;2227;5637;Lavigny;Vaud
+VD;2227;5638;Lonay;Vaud
+VD;2227;5639;Lully (VD);Vaud
+VD;2227;5640;Lussy-sur-Morges;Vaud
+VD;2227;5642;Morges;Vaud
+VD;2227;5643;Préverenges;Vaud
+VD;2227;5645;Romanel-sur-Morges;Vaud
+VD;2227;5646;Saint-Prex;Vaud
+VD;2229;5648;Saint-Sulpice (VD);Vaud
+VD;2227;5649;Tolochenaz;Vaud
+VD;2227;5650;Vaux-sur-Morges;Vaud
+VD;2229;5651;Villars-Sainte-Croix;Vaud
+VD;2227;5652;Villars-sous-Yens;Vaud
+VD;2227;5653;Vufflens-le-Château;Vaud
+VD;2227;5654;Vullierens;Vaud
+VD;2227;5655;Yens;Vaud
+VD;2227;5656;Hautemorges;Vaud
+VD;2223;5661;Boulens;Vaud
+VD;2222;5663;Bussy-sur-Moudon;Vaud
+VD;2222;5665;Chavannes-sur-Moudon;Vaud
+VD;2222;5669;Curtilles;Vaud
+VD;2222;5671;Dompierre (VD);Vaud
+VD;2222;5673;Hermenches;Vaud
+VD;2222;5674;Lovatens;Vaud
+VD;2222;5675;Lucens;Vaud
+VD;2222;5678;Moudon;Vaud
+VD;2223;5680;Ogens;Vaud
+VD;2222;5683;Prévonloup;Vaud
+VD;2222;5684;Rossenges;Vaud
+VD;2222;5688;Syens;Vaud
+VD;2222;5690;Villars-le-Comte;Vaud
+VD;2222;5692;Vucherens;Vaud
+VD;2223;5693;Montanaire;Vaud
+VD;2228;5701;Arnex-sur-Nyon;Vaud
+VD;2228;5702;Arzier-Le Muids;Vaud
+VD;2228;5703;Bassins;Vaud
+VD;2228;5704;Begnins;Vaud
+VD;2228;5705;Bogis-Bossey;Vaud
+VD;2228;5706;Borex;Vaud
+VD;2228;5707;Chavannes-de-Bogis;Vaud
+VD;2228;5708;Chavannes-des-Bois;Vaud
+VD;2228;5709;Chéserex;Vaud
+VD;2228;5710;Coinsins;Vaud
+VD;2228;5711;Commugny;Vaud
+VD;2228;5712;Coppet;Vaud
+VD;2228;5713;Crans (VD);Vaud
+VD;2228;5714;Crassier;Vaud
+VD;2228;5715;Duillier;Vaud
+VD;2228;5716;Eysins;Vaud
+VD;2228;5717;Founex;Vaud
+VD;2228;5718;Genolier;Vaud
+VD;2228;5719;Gingins;Vaud
+VD;2228;5720;Givrins;Vaud
+VD;2228;5721;Gland;Vaud
+VD;2228;5722;Grens;Vaud
+VD;2228;5723;Mies;Vaud
+VD;2228;5724;Nyon;Vaud
+VD;2228;5725;Prangins;Vaud
+VD;2228;5726;La Rippe;Vaud
+VD;2228;5727;Saint-Cergue;Vaud
+VD;2228;5728;Signy-Avenex;Vaud
+VD;2228;5729;Tannay;Vaud
+VD;2228;5730;Trélex;Vaud
+VD;2228;5731;Le Vaud;Vaud
+VD;2228;5732;Vich;Vaud
+VD;2224;5741;L'Abergement;Vaud
+VD;2224;5742;Agiez;Vaud
+VD;2224;5743;Arnex-sur-Orbe;Vaud
+VD;2224;5744;Ballaigues;Vaud
+VD;2224;5745;Baulmes;Vaud
+VD;2224;5746;Bavois;Vaud
+VD;2224;5747;Bofflens;Vaud
+VD;2224;5748;Bretonnières;Vaud
+VD;2224;5749;Chavornay;Vaud
+VD;2224;5750;Les Clées;Vaud
+VD;2224;5752;Croy;Vaud
+VD;2224;5754;Juriens;Vaud
+VD;2224;5755;Lignerolle;Vaud
+VD;2224;5756;Montcherand;Vaud
+VD;2224;5757;Orbe;Vaud
+VD;2224;5758;La Praz;Vaud
+VD;2224;5759;Premier;Vaud
+VD;2224;5760;Rances;Vaud
+VD;2224;5761;Romainmôtier-Envy;Vaud
+VD;2224;5762;Sergey;Vaud
+VD;2224;5763;Valeyres-sous-Rances;Vaud
+VD;2224;5764;Vallorbe;Vaud
+VD;2224;5765;Vaulion;Vaud
+VD;2224;5766;Vuiteboeuf;Vaud
+VD;2222;5785;Corcelles-le-Jorat;Vaud
+VD;2226;5790;Maracon;Vaud
+VD;2226;5792;Montpreveyres;Vaud
+VD;2222;5798;Ropraz;Vaud
+VD;2226;5799;Servion;Vaud
+VD;2222;5803;Vulliens;Vaud
+VD;2223;5804;Jorat-Menthue;Vaud
+VD;2226;5805;Oron;Vaud
+VD;2226;5806;Jorat-Mézières;Vaud
+VD;2222;5812;Champtauroz;Vaud
+VD;2222;5813;Chevroux;Vaud
+VD;2222;5816;Corcelles-près-Payerne;Vaud
+VD;2222;5817;Grandcour;Vaud
+VD;2222;5819;Henniez;Vaud
+VD;2222;5821;Missy;Vaud
+VD;2222;5822;Payerne;Vaud
+VD;2222;5827;Trey;Vaud
+VD;2222;5828;Treytorrens (Payerne);Vaud
+VD;2222;5830;Villarzel;Vaud
+VD;2222;5831;Valbroye;Vaud
+VD;2230;5841;Château-d'Oex;Vaud
+VD;2230;5842;Rossinière;Vaud
+VD;2230;5843;Rougemont;Vaud
+VD;2227;5851;Allaman;Vaud
+VD;2228;5852;Bursinel;Vaud
+VD;2228;5853;Bursins;Vaud
+VD;2228;5854;Burtigny;Vaud
+VD;2228;5855;Dully;Vaud
+VD;2228;5856;Essertines-sur-Rolle;Vaud
+VD;2228;5857;Gilly;Vaud
+VD;2228;5858;Luins;Vaud
+VD;2228;5859;Mont-sur-Rolle;Vaud
+VD;2228;5860;Perroy;Vaud
+VD;2228;5861;Rolle;Vaud
+VD;2228;5862;Tartegnin;Vaud
+VD;2228;5863;Vinzel;Vaud
+VD;2224;5871;L'Abbaye;Vaud
+VD;2224;5872;Le Chenit;Vaud
+VD;2224;5873;Le Lieu;Vaud
+VD;2230;5882;Chardonne;Vaud
+VD;2230;5883;Corseaux;Vaud
+VD;2230;5884;Corsier-sur-Vevey;Vaud
+VD;2230;5885;Jongny;Vaud
+VD;2230;5886;Montreux;Vaud
+VD;2230;5889;La Tour-de-Peilz;Vaud
+VD;2230;5890;Vevey;Vaud
+VD;2230;5891;Veytaux;Vaud
+VD;2230;5892;Blonay - Saint-Légier;Vaud
+VD;2224;5902;Belmont-sur-Yverdon;Vaud
+VD;2224;5903;Bioley-Magnoux;Vaud
+VD;2224;5904;Chamblon;Vaud
+VD;2224;5905;Champvent;Vaud
+VD;2224;5907;Chavannes-le-Chêne;Vaud
+VD;2224;5908;Chêne-Pâquier;Vaud
+VD;2224;5909;Cheseaux-Noréaz;Vaud
+VD;2224;5910;Cronay;Vaud
+VD;2224;5911;Cuarny;Vaud
+VD;2224;5912;Démoret;Vaud
+VD;2224;5913;Donneloye;Vaud
+VD;2224;5914;Ependes (VD);Vaud
+VD;2224;5919;Mathod;Vaud
+VD;2224;5921;Molondin;Vaud
+VD;2224;5922;Montagny-près-Yverdon;Vaud
+VD;2223;5923;Oppens;Vaud
+VD;2224;5924;Orges;Vaud
+VD;2224;5925;Orzens;Vaud
+VD;2224;5926;Pomy;Vaud
+VD;2224;5928;Rovray;Vaud
+VD;2224;5929;Suchy;Vaud
+VD;2224;5930;Suscévaz;Vaud
+VD;2224;5931;Treycovagnes;Vaud
+VD;2224;5932;Ursins;Vaud
+VD;2224;5933;Valeyres-sous-Montagny;Vaud
+VD;2224;5934;Valeyres-sous-Ursins;Vaud
+VD;2224;5935;Villars-Epeney;Vaud
+VD;2224;5937;Vugelles-La Mothe;Vaud
+VD;2224;5938;Yverdon-les-Bains;Vaud
+VD;2224;5939;Yvonand;Vaud
+VS;2301;6002;Brig-Glis;Wallis
+VS;2301;6004;Eggerberg;Wallis
+VS;2301;6007;Naters;Wallis
+VS;2301;6008;Ried-Brig;Wallis
+VS;2301;6009;Simplon;Wallis
+VS;2301;6010;Termen;Wallis
+VS;2301;6011;Zwischbergen;Wallis
+VS;2302;6021;Ardon;Wallis
+VS;2302;6022;Chamoson;Wallis
+VS;2302;6023;Conthey;Wallis
+VS;2302;6024;Nendaz;Wallis
+VS;2302;6025;Vétroz;Wallis
+VS;2303;6032;Bourg-Saint-Pierre;Wallis
+VS;2303;6033;Liddes;Wallis
+VS;2303;6034;Orsières;Wallis
+VS;2303;6035;Sembrancher;Wallis
+VS;2303;6037;Val de Bagnes;Wallis
+VS;2304;6052;Bellwald;Wallis
+VS;2304;6054;Binn;Wallis
+VS;2304;6056;Ernen;Wallis
+VS;2304;6057;Fiesch;Wallis
+VS;2304;6058;Fieschertal;Wallis
+VS;2304;6061;Lax;Wallis
+VS;2304;6076;Obergoms;Wallis
+VS;2304;6077;Goms;Wallis
+VS;2305;6082;Ayent;Wallis
+VS;2305;6083;Evolène;Wallis
+VS;2305;6084;Hérémence;Wallis
+VS;2305;6087;Saint-Martin (VS);Wallis
+VS;2305;6089;Vex;Wallis
+VS;2305;6090;Mont-Noble;Wallis
+VS;2306;6101;Agarn;Wallis
+VS;2306;6102;Albinen;Wallis
+VS;2306;6104;Ergisch;Wallis
+VS;2306;6109;Inden;Wallis
+VS;2306;6110;Leuk;Wallis
+VS;2306;6111;Leukerbad;Wallis
+VS;2306;6112;Oberems;Wallis
+VS;2306;6113;Salgesch;Wallis
+VS;2306;6116;Varen;Wallis
+VS;2306;6117;Guttet-Feschel;Wallis
+VS;2306;6118;Gampel-Bratsch;Wallis
+VS;2306;6119;Turtmann-Unterems;Wallis
+VS;2307;6131;Bovernier;Wallis
+VS;2307;6133;Fully;Wallis
+VS;2307;6134;Isérables;Wallis
+VS;2307;6135;Leytron;Wallis
+VS;2307;6136;Martigny;Wallis
+VS;2307;6137;Martigny-Combe;Wallis
+VS;2307;6139;Riddes;Wallis
+VS;2307;6140;Saillon;Wallis
+VS;2307;6141;Saxon;Wallis
+VS;2307;6142;Trient;Wallis
+VS;2308;6151;Champéry;Wallis
+VS;2308;6152;Collombey-Muraz;Wallis
+VS;2308;6153;Monthey;Wallis
+VS;2308;6154;Port-Valais;Wallis
+VS;2308;6155;Saint-Gingolph;Wallis
+VS;2308;6156;Troistorrents;Wallis
+VS;2308;6157;Val-d'Illiez;Wallis
+VS;2308;6158;Vionnaz;Wallis
+VS;2308;6159;Vouvry;Wallis
+VS;2309;6172;Bister;Wallis
+VS;2309;6173;Bitsch;Wallis
+VS;2309;6177;Grengiols;Wallis
+VS;2309;6181;Riederalp;Wallis
+VS;2309;6191;Ausserberg;Wallis
+VS;2309;6192;Blatten;Wallis
+VS;2309;6193;Bürchen;Wallis
+VS;2309;6194;Eischoll;Wallis
+VS;2309;6195;Ferden;Wallis
+VS;2309;6197;Kippel;Wallis
+VS;2309;6198;Niedergesteln;Wallis
+VS;2309;6199;Raron;Wallis
+VS;2309;6201;Unterbäch;Wallis
+VS;2309;6202;Wiler (Lötschen);Wallis
+VS;2309;6203;Mörel-Filet;Wallis
+VS;2309;6204;Steg-Hohtenn;Wallis
+VS;2309;6205;Bettmeralp;Wallis
+VS;2310;6211;Collonges;Wallis
+VS;2310;6212;Dorénaz;Wallis
+VS;2310;6213;Evionnaz;Wallis
+VS;2310;6214;Finhaut;Wallis
+VS;2310;6215;Massongex;Wallis
+VS;2310;6217;Saint-Maurice;Wallis
+VS;2310;6218;Salvan;Wallis
+VS;2310;6219;Vernayaz;Wallis
+VS;2310;6220;Vérossaz;Wallis
+VS;2311;6232;Chalais;Wallis
+VS;2311;6235;Chippis;Wallis
+VS;2311;6238;Grône;Wallis
+VS;2311;6239;Icogne;Wallis
+VS;2311;6240;Lens;Wallis
+VS;2311;6246;Saint-Léonard;Wallis
+VS;2311;6248;Sierre;Wallis
+VS;2311;6252;Anniviers;Wallis
+VS;2311;6253;Crans-Montana;Wallis
+VS;2311;6254;Noble-Contrée;Wallis
+VS;2312;6261;Arbaz;Wallis
+VS;2312;6263;Grimisuat;Wallis
+VS;2312;6265;Savièse;Wallis
+VS;2312;6266;Sion;Wallis
+VS;2312;6267;Veysonnaz;Wallis
+VS;2313;6281;Baltschieder;Wallis
+VS;2313;6282;Eisten;Wallis
+VS;2313;6283;Embd;Wallis
+VS;2313;6285;Grächen;Wallis
+VS;2313;6286;Lalden;Wallis
+VS;2313;6287;Randa;Wallis
+VS;2313;6288;Saas-Almagell;Wallis
+VS;2313;6289;Saas-Balen;Wallis
+VS;2313;6290;Saas-Fee;Wallis
+VS;2313;6291;Saas-Grund;Wallis
+VS;2313;6292;St. Niklaus;Wallis
+VS;2313;6293;Stalden (VS);Wallis
+VS;2313;6294;Staldenried;Wallis
+VS;2313;6295;Täsch;Wallis
+VS;2313;6296;Törbel;Wallis
+VS;2313;6297;Visp;Wallis
+VS;2313;6298;Visperterminen;Wallis
+VS;2313;6299;Zeneggen;Wallis
+VS;2313;6300;Zermatt;Wallis
+NE;2400;6404;Boudry;Neuchâtel
+NE;2400;6408;Cortaillod;Neuchâtel
+NE;2400;6413;Rochefort;Neuchâtel
+NE;2400;6416;Milvignes;Neuchâtel
+NE;2400;6417;La Grande Béroche;Neuchâtel
+NE;2400;6421;La Chaux-de-Fonds;Neuchâtel
+NE;2400;6422;Les Planchettes;Neuchâtel
+NE;2400;6423;La Sagne;Neuchâtel
+NE;2400;6432;La Brévine;Neuchâtel
+NE;2400;6433;Brot-Plamboz;Neuchâtel
+NE;2400;6434;Le Cerneux-Péquignot;Neuchâtel
+NE;2400;6435;La Chaux-du-Milieu;Neuchâtel
+NE;2400;6436;Le Locle;Neuchâtel
+NE;2400;6437;Les Ponts-de-Martel;Neuchâtel
+NE;2400;6451;Cornaux;Neuchâtel
+NE;2400;6452;Cressier (NE);Neuchâtel
+NE;2400;6453;Enges;Neuchâtel
+NE;2400;6454;Hauterive (NE);Neuchâtel
+NE;2400;6455;Le Landeron;Neuchâtel
+NE;2400;6456;Lignières;Neuchâtel
+NE;2400;6458;Neuchâtel;Neuchâtel
+NE;2400;6459;Saint-Blaise;Neuchâtel
+NE;2400;6461;La Tène;Neuchâtel
+NE;2400;6487;Val-de-Ruz;Neuchâtel
+NE;2400;6504;La Côte-aux-Fées;Neuchâtel
+NE;2400;6511;Les Verrières;Neuchâtel
+NE;2400;6512;Val-de-Travers;Neuchâtel
+GE;2500;6601;Aire-la-Ville;Genève
+GE;2500;6602;Anières;Genève
+GE;2500;6603;Avully;Genève
+GE;2500;6604;Avusy;Genève
+GE;2500;6605;Bardonnex;Genève
+GE;2500;6606;Bellevue;Genève
+GE;2500;6607;Bernex;Genève
+GE;2500;6608;Carouge (GE);Genève
+GE;2500;6609;Cartigny;Genève
+GE;2500;6610;Céligny;Genève
+GE;2500;6611;Chancy;Genève
+GE;2500;6612;Chêne-Bougeries;Genève
+GE;2500;6613;Chêne-Bourg;Genève
+GE;2500;6614;Choulex;Genève
+GE;2500;6615;Collex-Bossy;Genève
+GE;2500;6616;Collonge-Bellerive;Genève
+GE;2500;6617;Cologny;Genève
+GE;2500;6618;Confignon;Genève
+GE;2500;6619;Corsier (GE);Genève
+GE;2500;6620;Dardagny;Genève
+GE;2500;6621;Genève;Genève
+GE;2500;6622;Genthod;Genève
+GE;2500;6623;Le Grand-Saconnex;Genève
+GE;2500;6624;Gy;Genève
+GE;2500;6625;Hermance;Genève
+GE;2500;6626;Jussy;Genève
+GE;2500;6627;Laconnex;Genève
+GE;2500;6628;Lancy;Genève
+GE;2500;6629;Meinier;Genève
+GE;2500;6630;Meyrin;Genève
+GE;2500;6631;Onex;Genève
+GE;2500;6632;Perly-Certoux;Genève
+GE;2500;6633;Plan-les-Ouates;Genève
+GE;2500;6634;Pregny-Chambésy;Genève
+GE;2500;6635;Presinge;Genève
+GE;2500;6636;Puplinge;Genève
+GE;2500;6637;Russin;Genève
+GE;2500;6638;Satigny;Genève
+GE;2500;6639;Soral;Genève
+GE;2500;6640;Thônex;Genève
+GE;2500;6641;Troinex;Genève
+GE;2500;6642;Vandoeuvres;Genève
+GE;2500;6643;Vernier;Genève
+GE;2500;6644;Versoix;Genève
+GE;2500;6645;Veyrier;Genève
+JU;2601;6702;Boécourt;Jura
+JU;2601;6703;Bourrignon;Jura
+JU;2601;6704;Châtillon (JU);Jura
+JU;2601;6706;Courchapoix;Jura
+JU;2601;6708;Courrendlin;Jura
+JU;2601;6709;Courroux;Jura
+JU;2601;6710;Courtételle;Jura
+JU;2601;6711;Delémont;Jura
+JU;2601;6712;Develier;Jura
+JU;2601;6713;Ederswiler;Jura
+JU;2601;6715;Mervelier;Jura
+JU;2601;6716;Mettembert;Jura
+JU;2601;6718;Movelier;Jura
+JU;2601;6719;Pleigne;Jura
+JU;2601;6721;Rossemaison;Jura
+JU;2601;6722;Saulcy;Jura
+JU;2601;6724;Soyhières;Jura
+JU;2601;6729;Haute-Sorne;Jura
+JU;2601;6730;Val Terbi;Jura
+JU;2602;6741;Le Bémont (JU);Jura
+JU;2602;6742;Les Bois;Jura
+JU;2602;6743;Les Breuleux;Jura
+JU;2602;6745;Les Enfers;Jura
+JU;2602;6748;Les Genevez (JU);Jura
+JU;2602;6750;Lajoux (JU);Jura
+JU;2602;6751;Montfaucon;Jura
+JU;2602;6753;Muriaux;Jura
+JU;2602;6754;Le Noirmont;Jura
+JU;2602;6757;Saignelégier;Jura
+JU;2602;6758;Saint-Brais;Jura
+JU;2602;6759;Soubey;Jura
+JU;2603;6771;Alle;Jura
+JU;2603;6773;Beurnevésin;Jura
+JU;2603;6774;Boncourt;Jura
+JU;2603;6775;Bonfol;Jura
+JU;2603;6778;Bure;Jura
+JU;2603;6781;Coeuve;Jura
+JU;2603;6782;Cornol;Jura
+JU;2603;6783;Courchavon;Jura
+JU;2603;6784;Courgenay;Jura
+JU;2603;6785;Courtedoux;Jura
+JU;2603;6789;Fahy;Jura
+JU;2603;6790;Fontenais;Jura
+JU;2603;6792;Grandfontaine;Jura
+JU;2603;6800;Porrentruy;Jura
+JU;2603;6806;Vendlincourt;Jura
+JU;2603;6807;Basse-Allaine;Jura
+JU;2603;6808;Clos du Doubs;Jura
+JU;2603;6809;Haute-Ajoie;Jura
+JU;2603;6810;La Baroche;Jura
+JU;2603;6811;Damphreux-Lugnez;Jura
