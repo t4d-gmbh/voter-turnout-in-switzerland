@@ -154,17 +154,24 @@ Since there are no ordinal or nominal numbers and categorical variables we can u
 
 Let's see how each of the input variables $`X_i`$ correlates with the voter turnout 2023 $`Y_1`$. The voter turnout from 2019  $`Y_2`$ is used as a comparative value. For each tuple of variables $`(X_1,Y_1), (X_1,Y_2),   (X_2,Y_1), (X_2,Y_2)... (X_i,Y_i)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on.<sup>[X]</sup> It might seem that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients itself are not very convincing since they range between -0.43 and 0.2.
 
+<br>
+<br>
+
 <p align="center">
 <img 
    alt="Correlation coefficients"
    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/barchart-with-correlation-coefficients.png"
 />
 
+<br>
+
 ### Linear regression
 
 There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line. Each point on the plot in the left column represents a Municipality which is positioned on the plot according to its voter turnout and the variable mentioned on the horizontal y-axis. To assess the data a bit better, a residual plot is displayed on the right-hand side. If your are not familiar with the Residual plot, focus on the plots on the left side. 
 
 See also the [interactive scatter plot](https://mmoleiro.github.io/bokeh-plots/interactive-scatter-plot.html) with bokeh.
+
+<br>
 
 <p align="center">
   <img 
