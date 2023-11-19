@@ -65,7 +65,7 @@ We retrived  the data from following data sources:
 2. The voter turnouts for the Federal elections 2019 (opendata.swiss)<sup>[X]</sup> 
 3. Portraits of the communes (bfs.admin.ch)<sup>[X]</sup> 
 4. Swiss official commune register (bfs.admin.ch)<sup>[X]</sup> 
-5 Statistiques des élections cantonales du 18 avril 2021 (ne.ch)[X] 
+5. Statistiques des élections cantonales du 18 avril 2021 (ne.ch)[X] 
 
 To ensure the traceability of the analysis, all data files were stores in the *data/original* directory of this repository. The  *Swiss official commune register* we only used to assign the municipalities to the cantons.
 
