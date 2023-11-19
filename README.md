@@ -16,6 +16,7 @@ To follow this analysis you should be familiar with following concepts. We will 
 - Mean, standard deviation and residuals
 - Standardization of variables
 - Normal distribution
+- Kernel density estimation (Gaussian)
 - Pearson correlation coefficient
 - Ordinary Least Squares regression (OLS)
 - Histogram and Scatter plot
