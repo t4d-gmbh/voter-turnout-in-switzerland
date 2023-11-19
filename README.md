@@ -116,7 +116,7 @@ As we can see in the following histogram the voter turnouts are very roughly nor
   />
 </p>
 
-Next, we see a ridgeline plot showing the distributions of the voter turnouts per Canton. The distributions were calculated from the data using the Gaussian kernel density estimator (gaussian_kde). The plot gives an interesting overview, but in the following, we will focus on the data of the individual municipalities.
+Next, we see a ridgeline plot showing the distributions of the voter turnouts per Canton. The distributions were estimated from the data using the Gaussian kernel density estimator (gaussian_kde). The plot gives an interesting overview, but in the following, we will focus on the data of the individual municipalities.
 
 <p align="center">
   <img 
