@@ -125,16 +125,16 @@ Next, we see a ridgeline plot showing the distributions of the voter turnouts pe
   />
 </p>
 
-As we can see, the voter turnout in the canton of Appenzell Innerrhoden is exceptionally low. After the federal elections, it was reported that the Federal Statistical Office made a mistake when importing the data from this canton. We do not know whether the data available to us (for this Canton) is affected by this error. It is a small canton with five municipalities.
+As we can see, the voter turnout in the canton of *Appenzell Innerrhoden* is exceptionally low. After the federal elections, it was reported that the Federal Statistical Office made a mistake when importing the data from this canton. We do not know whether the data available to us (for this Canton) is affected by this error. It is a small canton with five municipalities.
 
 ### Input variables
 
 A plot with histograms for all 31 variables you find in this repository: [Multi-plot with histograms](https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-overview.png). Among the variables we find the following types:
 
-- Percentage (0 to 100%) like the Foreign nationals in % of the total popoluation
-- Numbers (cardinal) like the number of private households or the the area of a commune (km²)
+- Percentage (0 to 100%) like the Percentage of foreign nationals
+- Numbers (cardinal) like the number of private households
 
-Since there are no categorical variables and no ordinal or nominal numbers we can use all input variables for calculations.
+Since there are no ordinal or nominal numbers and categorical variables we can use all input variables for calculations.
 
 ### Correlations
 
