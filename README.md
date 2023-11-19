@@ -22,6 +22,9 @@ To follow this analysis you should be familiar with following concepts. We will 
 
 For those interested in causal inference, we recommend the following books:
 
+<br>
+<br>
+
 <p align="center">
 <img 
    alt="Causal Inference in Statistics: A Primer"
@@ -34,6 +37,9 @@ For those interested in causal inference, we recommend the following books:
   height="250"
 />
 </p>
+
+<br>
+<br>
 
 ### Proceeding
 
@@ -105,6 +111,9 @@ A certain inaccuracy in the analysis results from the fact that the portraits ar
 
 As we can see in the following histogram the voter turnouts are very roughly normally distributed. The red line (normal distribution calculated from the mean and standard deviation of the data) is just plotted for visualization purposes.
 
+<br>
+<br>
+
 <p align="center">
   <img 
     alt="Causal Inference in Statistics: A Primer"
@@ -113,8 +122,12 @@ As we can see in the following histogram the voter turnouts are very roughly nor
   />
 </p>
 
+<br>
+<br>
+
 Next, we see a ridgeline plot showing the distributions of the voter turnouts per Canton. The distributions were estimated from the data using the Gaussian kernel density estimator (gaussian_kde). The plot gives an interesting overview, but in the following, we will focus on the data of the individual municipalities.
 
+<br>
 <p align="center">
   <img 
     alt="Ridgeline plot per Canton"
@@ -123,6 +136,8 @@ Next, we see a ridgeline plot showing the distributions of the voter turnouts pe
 </p>
 
 As we can see, the voter turnout in the canton of *Appenzell Innerrhoden* is exceptionally low. After the federal elections, it was reported that the Federal Statistical Office made a mistake when importing the data from this canton. We do not know whether the data available to us (for this Canton) is affected by this error. It is a small canton with five municipalities.
+
+<br>
 
 ### Input variables
 
