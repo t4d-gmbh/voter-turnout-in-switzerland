@@ -5,7 +5,7 @@
 Einleitender Satz, worin die Idee besteht....
 
 ### Topic
-Switzerland consists of 2136 Municipalities as of 1 January 2023.<sup>[[1]](README.md#References)</sup> Federal elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recored by the Federal Statistical Office (FSO) for each municipality. The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreign nationals in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout from the Swiss federal election 2023 (National Council) is always considered as the main target variable $`Y`$ or $`Y_1`$. We will use the voter turnout from the Swiss federal election 2019 as a comparison value $`Y_2`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
+Switzerland consists of 2136 Municipalities as of 1 January 2023<sup>[[1]](README.md#References)</sup>, grouped into 26 Cantons. Federal elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recored by the Federal Statistical Office (FSO) for each municipality. The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreign nationals in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout from the Swiss federal election 2023 (National Council) is always considered as the main target variable $`Y`$ or $`Y_1`$. We will use the voter turnout from the Swiss federal election 2019 as a comparison value $`Y_2`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
 
 In some sources, the Municipalities are called communes.
 
@@ -115,6 +115,16 @@ As we can see in the following histogram the voter turnouts are very roughly nor
   />
 </p>
 
+Next, we see a ridgeline plot showing the distributions of the voter turnouts per Canton. The distributions were calculated from the data using the Gaussian kernel density estimator (gaussian_kde). The plot gives an interesting overview, but in the following, we will focus on the data of the individual municipalities.
+
+<p align="center">
+  <img 
+    alt="Ridgeline plot per Canton"
+    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/voter-turnout-kde-per-canton.png"
+  />
+</p>
+
+As we can see, the voter turnout in the canton of Appenzell Innerrhoden is exceptionally low. After the federal elections, it was reported that the Federal Statistical Office made a mistake when importing the data from this canton. We do not know whether the data available to us (for this Canton) is affected by this error. It is a small canton with five municipalities.
 
 ### Input variables
 
