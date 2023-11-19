@@ -64,7 +64,7 @@ We retrived  the data from following data sources:
 4. Swiss official commune register (bfs.admin.ch)<sup>[X]</sup>
 5 Statistiques des élections cantonales du 18 avril 2021 (ne.ch)[X]
 
-To ensure the traceability of the analysis, all data files were stores in the *data/original* directory of this repository.
+To ensure the traceability of the analysis, all data files were stores in the *data/original* directory of this repository. The  *Swiss official commune register* we only used to assign the municipalities to the cantons.
 
 
 ## Data preprocessing
@@ -129,7 +129,8 @@ As we can see, the voter turnout in the canton of *Appenzell Innerrhoden* is exc
 
 ### Input variables
 
-A plot with histograms for all 31 variables you find in this repository: [Multi-plot with histograms](https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-overview.png). Among the variables we find the following types:
+A plot with histograms for all 31 variables you find in this repository: [Multi-plot with histograms](https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-overview.png). 
+Among the variables we find the following types:
 
 - Percentage (0 to 100%) like the Percentage of foreign nationals
 - Numbers (cardinal) like the number of private households
