@@ -132,12 +132,12 @@ Next, we see a ridgeline plot showing the distributions of the voter turnouts pe
   <img 
     alt="Ridgeline plot per Canton"
     src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/voter-turnout-kde-per-canton-1.png"
-    height="480px"
+    height="520px"
   />
   <img 
     alt="Ridgeline plot per Canton"
     src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/voter-turnout-kde-per-canton-2.png"
-    height="480"
+    height="520"
   />
   
 </p>
