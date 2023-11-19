@@ -116,7 +116,7 @@ As we can see in the following histogram the voter turnouts are very roughly nor
 
 <p align="center">
   <img 
-    alt="Causal Inference in Statistics: A Primer"
+    alt="Histogram with voter turnouts overall"
     src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-voter-turnouts.png" 
     height="250"
   />
@@ -131,8 +131,15 @@ Next, we see a ridgeline plot showing the distributions of the voter turnouts pe
 <p align="center">
   <img 
     alt="Ridgeline plot per Canton"
-    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/voter-turnout-kde-per-canton.png"
+    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/voter-turnout-kde-per-canton-1.png"
+    height="480px"
   />
+  <img 
+    alt="Ridgeline plot per Canton"
+    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/voter-turnout-kde-per-canton-2.png"
+    height="480"
+  />
+  
 </p>
 
 As we can see, the voter turnout in the canton of *Appenzell Innerrhoden* is exceptionally low. After the federal elections, it was reported that the Federal Statistical Office made a mistake when importing the data from this canton. We do not know whether the data available to us (for this Canton) is affected by this error. It is a small canton with five municipalities.
