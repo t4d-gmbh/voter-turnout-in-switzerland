@@ -126,7 +126,8 @@ As we can see, the voter turnout in the canton of *Appenzell Innerrhoden* is exc
 
 ### Input variables
 
-A plot with histograms for all 31 variables you find in this repository: [Multi-plot with histograms](https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-overview.png). 
+A plot with histograms for all 31 variables you find in this repository: [Multi-plot with histograms](https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-overview.png).
+
 Among the variables we find the following types:
 
 - Percentage (0 to 100%) like the Percentage of foreign nationals
