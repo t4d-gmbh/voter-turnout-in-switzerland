@@ -225,6 +225,8 @@ Even if there are certain doubts, we present this scenario in the following mode
 <br>
 <br>
 
+To analyze this mediation model we use the method proposed by Baron and Kenny in 1986. A good example of how this method is applied in practice can also be found in the Netflix Technology Blog: _Causal Machine Learning for Creative Insights_ (netflixtechblog.medium.com). The following three regression analyses were performed on the **standardized** values so that we can compare the coefficients of different variables:
+
 <br>
 <br>
 
