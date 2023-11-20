@@ -224,8 +224,6 @@ Even if there are certain doubts, we present this scenario in the following mode
 </p>
 <br>
 <br>
-<br>
-To analyze this mediation model we use the method proposed by Baron and Kenny in 1986. A good example of how this method is applied in practice can also be found in the Netflix Technology Blog: *Causal Machine Learning for Creative Insights* (netflixtechblog.medium.com). The following three regression analyses were performed on the **standardized** values so that we can compare the coefficients of different variables:
 
 <br>
 <br>
@@ -262,7 +260,7 @@ $$y = 0 \cdot x_1 + -0.252 \cdot x_2 - 0.089$$
 As we can see the planes are not identical. It seems that some municipalities with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. For that reason, we do not accept the *Social assistance rate* as a full mediator.
 
 ## Conclusion
-Today's tools make it easy to perform explorative data analysis and visualization, and many tools are available for optimizing machine learning models. But as soon as we interpret the correlations and models in terms of causal relationships, we are confronted with serious difficulties: Since we are not dealing with a delimited system cannot analyze specific phenomenas independently of one another. There are also many factors that we have not considered in our analysis. Especially information on the educational level of the population. To gain further insights, we will have to enrich our data. We will see if more data becomes available in the future.
+Today's tools make it easy to perform explorative data analysis and visualization, and many tools are available for optimizing machine learning models. But as soon as we interpret the correlations and models in terms of causal relationships, we are confronted with serious difficulties: Since we are dealing with a versatile system we cannot analyze specific phenomenas independently of one another. There are also many factors that we have not considered in our analysis. Especially information on the educational level of the population. To gain further insights, we will have to enrich our data. We will see if more data becomes available in the future.
 
 ## References
 
