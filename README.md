@@ -239,9 +239,8 @@ To analyze this mediation model we use the method proposed by Baron and Kenny in
 | ----------------------- | ----------------------------------- | ---------------------------------- | ---------------------------------------- |
 |                         | **Regress $`Y`$ on $`X_1`$**        | **Regress $`X_1`$ on $`X_2`$**     | **Regress $`Y`$ on $`X_1`$ and $`X_2`$** | 
 | Equation                | $$\hat{y} = \alpha +  \beta_1 x_1$$ | $$\hat{x_1} = \alpha + \beta_2 x_2$$ | $$\hat{y} = \alpha +  \beta_1 x_1 + \beta_2 x_2$$ |
-| $`\beta_1`$             | -0.405                              | -                                  | -0.3194                                  |
-| $`\beta_2`$             | -                                   | 0.3582                             | -0.2456                                  |
-| F-statistics            | 432.7                               | 237.5                              | 309.1                                    |
+| $`\beta_1`$             | -0.393                              | -                                  | -0.303                                  |
+| $`\beta_2`$             | -                                   | 0.358                              | -0.252                                  |
 
 
 As we can see, the coefficient for $`X_1`$ becomes smaller in the third regression analysis, but far from insignificant as we would expect if the  $`X_2`$ were a full mediator. Let's look at the following plot:
