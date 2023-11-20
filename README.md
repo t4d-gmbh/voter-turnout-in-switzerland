@@ -243,7 +243,7 @@ To analyze this mediation model we use the method proposed by Baron and Kenny in
 | $`\beta_2`$             | -                                   | 0.358                              | -0.252                                  |
 
 
-As we can see, the coefficient for $`X_1`$ becomes smaller in the third regression analysis, but far from insignificant as we would expect if the  $`X_2`$ were a full mediator. Let's look at the following plot:
+As we can see, the coefficient $`\beta_1`$ for $`X_1`$ becomes smaller in the third regression analysis, but far from rendered insignificant as we would expect if the  $`X_2`$ were a full mediator. Let's look at the following plot:
 
 <p align="center">
   <img 
