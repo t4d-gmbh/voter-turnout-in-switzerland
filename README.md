@@ -88,12 +88,12 @@ data = pd.merge(data, turnoutsNE, on='Municipality', how='left')
 
 ### Missing values
 
-The prepared data set contains now 2135 municipalities for which we have the voter turnout for 2023. Pretty good, considering that Switzerland had 2136 municipalities as of January 1, 2023. Unfortunately, we are facing missing values among the input variables:
+The prepared data set contains now 2128 municipalities for which we have the voter turnout for 2023. Acceptable, considering that Switzerland had 2136 municipalities as of January 1, 2023. Unfortunately, we are facing missing values among the input variables:
 
 | Input variable                  | Number of missing values    | Number of non-missing values   | Total    | 
 | ------------------------------- | --------------------------- | ------------------------------ | -------- |
-| Social assistance rate          | 459                         |    1676                        | 2135     | 
-| Business establishments total   | 279                         |    1856                        | 2135     | 
+| Social assistance rate          | 460                         |    1668                        | 2128     | 
+| Business establishments total   | 279                         |    1849                        | 2128     | 
 
 We have not tried to estimate the missing values (data imputation) and work with the data provied by the Federal Statistical Office.
 
