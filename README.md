@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Switzerland consists of 2136 Municipalities as of 1 January 2023<sup>[[1]](README.md#References)</sup>, grouped into 26 Cantons. Federal elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recored by the Federal Statistical Office (FSO) for each municipality. The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreign nationals in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout from the Swiss federal election 2023 (National Council) is always considered as the main target variable $`Y`$ or $`Y_1`$. We will use the voter turnout from the Swiss federal election 2019 as a comparison value $`Y_2`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
+Switzerland consists of 2136 Municipalities as of 1 January 2023, grouped into 26 Cantons. Federal elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recored by the Federal Statistical Office (FSO) for each municipality. The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreign nationals in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout from the Swiss federal election 2023 (National Council) is always considered as the main target variable $`Y`$ or $`Y_1`$. We will use the voter turnout from the Swiss federal election 2019 as a comparison value $`Y_2`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
 
-In some sources, the Municipalities are called communes.
+All sources (data and articles) are listed at the bottom of this article. In some sources, the Municipalities are called communes.
 
 ### Prerequisite knowledge
 
@@ -61,23 +61,23 @@ The focus of this analysis lies on the proceeding itself rather than on the actu
 
 We retrived  the data from following data sources:
 
-1. The voter turnouts for the Federal elections 2023 (opendata.swiss)<sup>[X]</sup> 
-2. The voter turnouts for the Federal elections 2019 (opendata.swiss)<sup>[X]</sup> 
-3. Portraits of the communes (bfs.admin.ch)<sup>[X]</sup> 
-4. Swiss official commune register (bfs.admin.ch)<sup>[X]</sup> 
-5. Statistiques des élections cantonales du 18 avril 2021 (ne.ch)[X] 
+1. The voter turnouts for the Federal elections 2023 (opendata.swiss)
+2. The voter turnouts for the Federal elections 2019 (opendata.swiss)
+3. Portraits of the communes (bfs.admin.ch)
+4. Swiss official commune register (bfs.admin.ch)
+5. Statistiques des élections cantonales du 18 avril 2021 (ne.ch)
 
 To ensure the traceability of the analysis, all data files were stores in the *data/original* directory of this repository. The  *Swiss official commune register* we only used to assign the municipalities to the cantons.
 
 
 ## Data preprocessing
 
-You find the preprocessed data files in the direcory *data/preprocessed* These files (CSV) are used for analysis. We performed the following tasks:
+You find the preprocessed data files in the direcory *data/preprocessed* These files (csv) are used for analysis. We performed the following tasks:
 
 - Delete data entries which were not needed for the analysis. The file with the portraits of the communes contained several variables describing the voting behavior with regard to specific political parties. However, these values were not available for numerous communes. To simplify the analysis, we deleted these variables and focussed on the more than 30 remaining variables.
 - Replace "X" and "*" characters which indicated missing values with empty values. This leads to *NaN* values in Python which are easier to work with.
 - Harmonize a few municipalities names since the FSO used different spellings in some cases
-- Save all standardized values in a separate dataframe so that variables that are on different scales can be compared with each other. Further information you find in the article *Common pitfalls in the interpretation of coefficients of linear models* on scikit-learn.org<sup>[X]</sup>
+- Save all standardized values in a separate dataframe so that variables that are on different scales can be compared with each other. Further information you find in the article *Common pitfalls in the interpretation of coefficients of linear models* on scikit-learn.org.
 
 Finally, we merged all files:
 ```
@@ -90,22 +90,21 @@ data = pd.merge(data, turnoutsNE, on='Municipality', how='left')
 
 The prepared data set contains now 2135 municipalities for which we have the voter turnout for 2023. Pretty good, considering that Switzerland had 2136 municipalities as of January 1, 2023. Unfortunately, we are facing missing values among the input variables:
 
-| Input variable                  | Number of missing values    | Number of non-missing values   | Total     | 
-| ------------------------------- | --------------------------- | ------------------------------ | --------- |
+| Input variable                  | Number of missing values    | Number of non-missing values   | Total    | 
+| ------------------------------- | --------------------------- | ------------------------------ | -------- |
 | Social assistance rate          | 459                         |    1676                        | 2135     | 
 | Business establishments total   | 279                         |    1856                        | 2135     | 
 
 We have not tried to estimate the missing values (data imputation) and work with the data provied by the Federal Statistical Office.
 
 
-
 ## Exploratory data analysis
 
 ### General remarks
 
-Let's look at the data. What are we actually looking at? We have 32 variables from which the *voter turnout* is considered as our target variable. The other variables are input variables which are describing the Municipalities like *Population density per km²* or the *Social assistance rate*. Detailed descriptions of these variables you find on the website of the Federal Statistical Office.<sup>[X]</sup>
+Let's look at the data. What are we actually looking at? We have 32 variables from which the *voter turnout* is considered as our target variable. The other variables are input variables which are describing the Municipalities like *Population density per km²* or the *Social assistance rate*. Detailed descriptions of these variables you find on the website of the Federal Statistical Office.
 
-A certain inaccuracy in the analysis results from the fact that the portraits are from 2021 (the most recent data available) and the election participation is from 2023. We accept this but must take appropriate care when making interpretations.
+A certain inaccuracy in the analysis results from the fact that the portraits are from 2021 (the most recent data available) and the voter turnouts are from 2023. The characteristics of the municipalities may have changed slightly in the meantime. Several municipalities also merged between 2020 and 2023 and therefore a clear link between the two data sets is not always possible. We accept this but must take appropriate care when making interpretations.
 
 ### Voter turnouts
 
@@ -159,7 +158,7 @@ Since there are no ordinal or nominal numbers and categorical variables we can u
 
 ### Correlations
 
-Let's see how each of the input variables $`X_i`$ correlates with the voter turnout 2023 $`Y_1`$. The voter turnout from 2019  $`Y_2`$ is used as a comparative value. For each tuple of variables $`(X_1,Y_1), (X_1,Y_2),   (X_2,Y_1), (X_2,Y_2)... (X_i,Y_i)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on.<sup>[X]</sup> It might seem that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients itself are not very convincing since they range between -0.43 and 0.2.
+Let's see how each of the input variables $`X_i`$ correlates with the voter turnout 2023 $`Y_1`$. The voter turnout from 2019  $`Y_2`$ is used as a comparative value. For each tuple of variables $`(X_1,Y_1), (X_1,Y_2),   (X_2,Y_1), (X_2,Y_2)... (X_i,Y_i)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on. It might seem that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients itself are not very convincing since they range between -0.43 and 0.2.
 
 <br>
 <br>
@@ -194,7 +193,7 @@ As we can see there seems to be a trend in the data (the negative correlation me
 
 ### Preliminary remark
 
-So far we just considered correlations and the strongest correlation in the data occurs between *Foreign nationals in %* and the *voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in federal elections. This is different in elections at the cantonal or communal level, where foreigners in some cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners.<sup>[X]</sup> We can see this effect when we analyze the **cantonal elections from 2021 in the canton of Neuchâtel (27 communes)**, where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are obviously  not independent.
+So far we just considered correlations and the strongest correlation in the data occurs between *Percentage of foreign nationals* and the *voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in federal elections. This is different in elections at the cantonal or communal level, where foreigners in some cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners. We can see this effect when we analyze the **cantonal elections from 2021 in the canton of Neuchâtel (27 communes)**, where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are obviously  not independent.
 
 <p align="center">
   <img 
@@ -211,7 +210,7 @@ The often cited dogma *Correlation does not imply causation* does not prevent us
 
 Someone who believes that a high *Percentage of foreign nationals* causes indirectly a low *Voter turnout* might propose the *Social assistance rate* as a *mediator* since there is, as we will see, also a correlation between the *Social assistance rate* and the *Percentage of foreign nationals*. Such a person could argue that foreigners cause a high *Social assistance rate* by taking jobs away from Swiss citizens, who become unemployed and consequently dependent on welfare, and finally, out of frustration, no longer participate in elections. 
 
-However, we have to keep in mind that, seen over the whole country, the *Social assistance rate* among foreigners is 3 times higher (6%) than among Swiss citizens (2%).<sup>[X]</sup> This means that the *Social assistance rate* could rise as the *Percentage of foreign nationals* increases without any causal effect on the Swiss citizens. Unfortunately, we have not found a data set that shows how the *Social assistance rate* is distributed among different population groups in the individual municipalities. So we cannot analyze whether an increased *Percentage of foreign nationals* could also result in an increased *Social assistance rate* among Swiss nationals.
+However, we have to keep in mind that, seen over the whole country, the *Social assistance rate* among foreigners is 3 times higher (6%) than among Swiss citizens (2%). This means that the *Social assistance rate* could rise as the *Percentage of foreign nationals* increases without any causal effect on the Swiss citizens. Unfortunately, we have not found a data set that shows how the *Social assistance rate* is distributed among different population groups in the individual municipalities. So we cannot analyze whether an increased *Percentage of foreign nationals* could also result in an increased *Social assistance rate* among Swiss nationals.
 
 Even if there are certain doubts, we present this scenario in the following model:
 <br>
@@ -226,7 +225,7 @@ Even if there are certain doubts, we present this scenario in the following mode
 <br>
 <br>
 <br>
-To analyze this mediation model we use the method proposed by Baron and Kenny in 1986<sup>[X]</sup>. A good example of how this method is applied in practice can also be found in the Netflix Technology Blog.<sup>[X]</sup>. The following three regression analyses were performed on the standardized values so that we can compare the coefficients of different variables:
+To analyze this mediation model we use the method proposed by Baron and Kenny in 1986. A good example of how this method is applied in practice can also be found in the Netflix Technology Blog: *Causal Machine Learning for Creative Insights* (netflixtechblog.medium.com). The following three regression analyses were performed on the standardized values so that we can compare the coefficients of different variables:
 
 <br/>
 
@@ -257,7 +256,7 @@ See also the animated version: [3D Scatter plot](https://mmoleiro.github.io/boke
 
 The purple plane results from the third regression where the target variable depends on both input variables $`X_1`$ and $`X_2`$:
 $$y = -0.381 \cdot x_1 + -0.2427 \cdot x_2 + 55.18$$
-The cyan (green) plane is a hypothetical plane if the *Social assistance rate* would fully mediate and therefore render the variable $`X_1`$  (Percentage of foreigners) insignificant: 
+The cyan (green) plane is a hypothetical plane if the *Social assistance rate* would fully mediate and therefore render the variable $`X_1`$  (Percentage of foreign nationals) insignificant: 
 $$y = 0 \cdot x_1 + -0.2427 \cdot x_2 + 55.18$$
 As we can see the planes are not identical. It seems that some communes with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. For that reason, we do not accept the *Social assistance rate* as a full mediator.
 
