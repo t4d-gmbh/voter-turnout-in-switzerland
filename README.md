@@ -297,6 +297,8 @@ Today's tools make it easy to perform explorative data analysis and visualizatio
 
 - [Causal Machine Learning for Creative Insights (netflixtechblog.medium.com)](https://netflixtechblog.medium.com/causal-machine-learning-for-creative-insights-4b0ce22a8a96)
 
+- [Hypothesis Testing in the Multiple regression model(University College London)](https://www.ucl.ac.uk/~uctp41a/b203/lecture8.pdf)
+
 
 ### General information on the topic
 
