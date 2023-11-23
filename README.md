@@ -254,10 +254,20 @@ As we can see, the coefficient $`\beta_1`$ for $`X_1`$ becomes smaller in the th
 See also the animated version: [3D Scatter plot](https://mmoleiro.github.io/bokeh-plots/scatterplot-3D-animated/index.html).
 
 The purple plane results from the third regression where the target variable depends on both input variables $`X_1`$ and $`X_2`$:
-$$y = -0.303 \cdot x_1 + -0.252 \cdot x_2 - 0.089$$
-The cyan (green) plane is a hypothetical plane if the *Social assistance rate* would fully mediate and therefore render the variable $`X_1`$  (Percentage of foreign nationals) insignificant: 
-$$y = 0 \cdot x_1 + -0.252 \cdot x_2 - 0.089$$
-As we can see the planes are not identical. It seems that some municipalities with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. For that reason, we do not accept the *Social assistance rate* as a full mediator.
+
+$$  \hat{y} = \beta_y \cdot x_1 + \beta_2 \cdot x_2 + \alpha = -0.303 \cdot x_1 + -0.252 \cdot x_2 - 0.089$$
+
+The cyan (green) plane is a (hypothetical) plane which resulats from a restricted regression model. That is if the *Social assistance rate* would fully mediate and therefore we did not need the first variable $`X_1`$  (Percentage of foreign nationals):
+
+$$ \hat{z}_2 = \beta_1 \cdot x_1 + \beta_2 \cdot x_2 + \alpha =0 \cdot x_1 + -0.252 \cdot x_2 - 0.089$$
+
+As we can see the planes are not identical. It seems that the purple plane explaines the voter turnout better than the restricted regression model. We can check this by calculating the f-statistic. To do this, we define the restricted model as the null hypothesis with $`\Beta_1 = 0`$. The unrestricted model is our alternative hypothesis with $`\beta_1 > 0`$ and $`\beta_2 > 0`$.  
+
+$$ss_u = \sum_{i=1}^n (y_i - \hat{y})^2 \qquad and \qquad  ss_r = \sum_{i=1}^n (y_i - \hat{z})^2$$
+
+$$F = \frac{ (ss_r - ss_u) / q }{ ss_u / (N-K)} $$
+
+Some municipalities with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. For that reason, we do not accept the *Social assistance rate* as a full mediator.
 
 ## Conclusion
 Today's tools make it easy to perform explorative data analysis and visualization, and many tools are available for optimizing machine learning models. But as soon as we interpret the correlations and models in terms of causal relationships, we are confronted with serious difficulties: Since we are dealing with a versatile system we cannot analyze specific phenomenas independently of one another. There are also many factors that we have not considered in our analysis. Especially information on the educational level of the population. To gain further insights, we will have to enrich our data. We will see if more data becomes available in the future.
