@@ -265,7 +265,7 @@ $$\hat{y} = \beta_1 \cdot x_1 + \beta_2 \cdot x_2 + \alpha$$
 
 $$\hat{y} = 0 \cdot x_1 + -0.252 \cdot x_2 - 0.089$$
 
-As we can see the planes are not identical. It seems that the purple plane explaines the voter turnout better than the restricted regression model. We can check this by calculating the f-statistic. To do this, we define the restricted model as the null hypothesis with $`\beta_1 = 0`$. The unrestricted model is our alternative hypothesis with $`\beta_1 > 0`$ and $`\beta_2 > 0`$. Genauer beschrieben. Link zu Quellen einfügen. F-statistics: ...
+As we can see the planes are not identical. It seems that the purple plane explaines the voter turnout better than the restricted regression model. We can check this by calculating the f-statistic. To do this, we define the restricted model as the null hypothesis with $`\beta_1 = 0`$. The unrestricted model is our alternative hypothesis with $`\beta_1 > 0`$ and $`\beta_2 > 0`$. Genauer beschreiben. Link zu Quellen einfügen. F-statistics: ...
 
 Some municipalities with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. For that reason, we do not accept the *Social assistance rate* as a full mediator.
 
