@@ -267,7 +267,7 @@ $$ss_u = \sum_{i=1}^n(y_i - \hat{y_i})^2 \qquad ss_r = \sum_{i=1}^n(y_i - \hat{z
 
 $$F = \frac{ (ss_r - ss_u) }{ \frac{ss_u}{N-K}} $$
 
-$`ss_u`$ are the residual sum of squares of the unrestricted model and $`ss_r`$ are the residual sum of squares of the restricted model. $`N`$ ist the sample size (1666) and $`K`$ the number of parameters estimated in the restircted model. 
+$`ss_u`$ are the residual sum of squares of the unrestricted model and $`ss_r`$ are the residual sum of squares of the restricted model. $`N`$ ist the sample size (1666) and $`K`$ the number of parameters estimated in the restricted model. 
 
 Some municipalities with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. For that reason, we do not accept the *Social assistance rate* as a full mediator.
 
