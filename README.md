@@ -296,6 +296,8 @@ Today's tools make it easy to perform explorative data analysis and visualizatio
 - [What is the difference between Pearson R and Simple Linear Regression?](https://sebastianraschka.com/faq/docs/pearson-r-vs-linear-regr.html)
 
 - [Causal Machine Learning for Creative Insights (netflixtechblog.medium.com)](https://netflixtechblog.medium.com/causal-machine-learning-for-creative-insights-4b0ce22a8a96)
+  
+- [The F statistic - an introduction](https://www.youtube.com/watch?v=ie-MYQp1Nic)
 
 - [Hypothesis Testing in the Multiple regression model(University College London)](https://www.ucl.ac.uk/~uctp41a/b203/lecture8.pdf)
 
