@@ -255,16 +255,24 @@ See also the animated version: [3D Scatter plot](https://mmoleiro.github.io/boke
 
 The purple plane results from the third regression where the target variable depends on both input variables $`X_1`$ and $`X_2`$:
 
+<br>
+<br>
+
 $$ \hat{y} = \beta_y \cdot x_1 + \beta_2 \cdot x_2 + \alpha$$
 
 $$ \hat{y} = -0.303 \cdot x_1 + -0.252 \cdot x_2 - 0.089$$
 
-The cyan (green) plane is a (hypothetical) plane that results from a restricted regression model. That is if the *Social assistance rate* would fully mediate and therefore we did not need the first variable $`X_1`$  (Percentage of foreign nationals):
+<br>
+<br>
 
+The cyan (green) plane is a (hypothetical) plane that results from a restricted regression model. That is if the *Social assistance rate* would fully mediate and therefore we did not need the first variable $`X_1`$  (Percentage of foreign nationals):
+<br>
+<br>
 $$\hat{y} = \beta_1 \cdot x_1 + \beta_2 \cdot x_2 + \alpha$$
 
 $$\hat{y} = 0 \cdot x_1 + -0.252 \cdot x_2 - 0.089$$
-
+<br>
+<br>
 As we can see the planes are not identical. It seems that the purple plane explains the *Voter turnout* better than the restricted regression model in which the *Percentage of foreign nationals* has no impact on the *Voter turnout*. We can test this by calculating an f-statistic. To do this, we define the restricted model as the null hypothesis with $`\beta_1 = 0`$ and $`\beta_2 \neq 0`$. The unrestricted model is our alternative hypothesis with $`\beta_1 \neq 0`$ and $`\beta_2 \neq 0`$. Detailed information on how the f-statistic was calculated you find in the juypter notebook in this repository. We get an f-statistic value of 260.5 which is pretty good. For example, if we take a look at the f-table at a significance level of 0.01 with a degree of freedom (df2) > 120 (sample size) and df1 = 1, we get the value *6.635*. Since our f-statistic results in a much higher value, we conclude that the unrestricted model explains the Voter turnout *significantly* better than the restricted model. One reason for this is that some municipalities with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. 
 
 For that reason, we do not accept the *Social assistance rate* as a full mediator.
