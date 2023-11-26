@@ -53,7 +53,7 @@ For those interested in causal inference, we recommend the following books:
 
 ### Used tools
 
-The analysis was performed in a *Juypter notebook*. Libraries like pandas, scipy, matplotlib, seaborn and bokeh were used. You find the jupyter notebook in this repository.
+This analysis was performed in a *Juypter notebook*. Libraries like pandas, scipy, matplotlib, seaborn and bokeh were used. You find the jupyter notebook in this repository.
 
 ### What we did not do
 The focus of this analysis lies on the proceeding itself rather than on the actual outcome. We did not optimize a statistical or a machine learning model to do optimal predictions - since we have already the data of almost all municipalities there is not much to predict in this case. In return, we tried to find out how we can interpret the discovered correlations in terms of causal relationships.
@@ -62,54 +62,55 @@ The focus of this analysis lies on the proceeding itself rather than on the actu
 
 We retrived  the data from following data sources:
 
-1. The voter turnouts for the Federal elections 2023 (opendata.swiss)
-2. The voter turnouts for the Federal elections 2019 (opendata.swiss)
+1. The voter turnouts for the federal elections 2023 (opendata.swiss)
+2. The voter turnouts for the federal elections 2019 (opendata.swiss)
 3. Portraits of the communes (bfs.admin.ch)
 4. Swiss official commune register (bfs.admin.ch)
 5. Statistiques des élections cantonales du 18 avril 2021 (ne.ch)
 
-All links to the data sources can be found in the [References](#references) section. To ensure the traceability of the analysis, all data files were stores in the *data/original* directory of this repository. The  *Swiss official commune register* we only used to assign the municipalities to the cantons.
+All links to the data sources can be found in the [References](#references) section. To ensure the traceability of this analysis, all data files were stored in the *data/original* directory of this repository. The *Swiss official commune register* we only used to assign the municipalities to the cantons.
 
 
 ## Data preprocessing
 
-You find the preprocessed data files in the direcory *data/preprocessed* These files (csv) are used for analysis. We performed the following tasks:
+The preprocessed data files are in the directory *data/preprocessed*. These files (csv) are used for the analysis. We performed the following tasks:
 
-- Delete data entries which were not needed for the analysis. The file with the portraits of the communes contained several variables describing the voting behavior with regard to specific political parties. However, these values were not available for numerous communes. To simplify the analysis, we deleted these variables and focussed on the more than 30 remaining variables.
+- Delete data entries that not needed for the analysis. The file with the portraits of the communes contained several variables describing the voting behavior with regard to specific political parties. However, these values were not available for numerous communes. To simplify the analysis, we deleted these variables and focussed on the more than 30 remaining variables.
 - Replace "X" and "*" characters which indicated missing values with empty values. This leads to *NaN* values in Python which are easier to work with.
-- Harmonize a few municipalities names since the FSO used different spellings in some cases
-- Save all standardized values in a separate dataframe so that variables that are on different scales can be compared with each other. Further information you find in the article *Common pitfalls in the interpretation of coefficients of linear models* on scikit-learn.org.
+- Harmonize a few municipality's names since the FSO used different spellings in some cases
+- Save all standardized values in a separate data frame so that variables that are on different scales can be compared with each other. See also the article *Common pitfalls in the interpretation of coefficients of linear models* on scikit-learn.org.
 
-Finally, we merged all files:
+Finally, all files are merged:
 ```
 data = pd.merge(municipalities, turnouts2023, on='Municipality', how='inner')
-data = pd.merge(data, turnouts2019, on='Municipality', how='left')
-data = pd.merge(data, turnoutsNE, on='Municipality', how='left')
+data = pd.merge(data, turnouts2019,           on='Municipality', how='left')
+data = pd.merge(data, turnoutsNE,             on='Municipality', how='left')
+data = pd.merge(data, commune_register,       on='Municipality', how='left')
 ```
 
 ### Missing values
 
-The prepared data set contains now 2128 municipalities for which we have the voter turnout for 2023. Acceptable, considering that Switzerland had 2136 municipalities as of January 1, 2023. Unfortunately, we are facing missing values among the input variables:
+The prepared data set contains now 2128 municipalities for which we have the voter turnout for 2023. Acceptable, considering that Switzerland had 2136 municipalities as of January 1, 2023. Unfortunately, we are facing missing values among the input variables. Two examples:
 
 | Input variable                  | Number of missing values    | Number of non-missing values   | Total    | 
 | ------------------------------- | --------------------------- | ------------------------------ | -------- |
 | Social assistance rate          | 460                         |    1668                        | 2128     | 
 | Business establishments total   | 279                         |    1849                        | 2128     | 
 
-We have not tried to estimate the missing values (data imputation) and work with the data provied by the Federal Statistical Office.
+We have not tried to estimate the missing values (data imputation). We use the data provided by the Federal Statistical Office.
 
 
 ## Exploratory data analysis
 
 ### General remarks
 
-Let's look at the data. What are we actually looking at? We have 32 variables from which the *voter turnout* is considered as our target variable. The other variables are input variables which are describing the Municipalities like *Population density per km²* or the *Social assistance rate*. Detailed descriptions of these variables you find on the website of the Federal Statistical Office. <sup>[[1]](#data-sources)</sup>
+Let's look at the data. What are we actually looking at? We have more than 30 variables from which the *voter turnout* is considered as our target variable. The other variables are input variables that describe the municipalities like *Population density per km²* or the *Social assistance rate*. Detailed descriptions of these variables you find on the website of the Federal Statistical Office. <sup>[[1]](#data-sources)</sup>
 
 A certain inaccuracy in the analysis results from the fact that the portraits are from 2021 (the most recent data available) and the voter turnouts are from 2023. The characteristics of the municipalities may have changed slightly in the meantime. Several municipalities also merged between 2020 and 2023 and therefore a clear link between the two data sets is not always possible. We accept this but must take appropriate care when making interpretations.
 
 ### Voter turnouts
 
-As we can see in the following histogram the voter turnouts are very roughly normally distributed. The red line (normal distribution calculated from the mean and standard deviation of the data) is just plotted for visualization purposes.
+As we can see in the following histogram the voter turnouts are roughly normally distributed. The red line (normal distribution calculated from the mean and standard deviation of the data) is just plotted for visualization purposes.
 
 <br>
 <br>
@@ -125,32 +126,32 @@ As we can see in the following histogram the voter turnouts are very roughly nor
 <br>
 <br>
 
-Next, we see a ridgeline plot showing the distributions of the voter turnouts of the municipalities per canton. The distributions were estimated from the data using the Gaussian kernel density estimator, weighted by the number of residents (gaussian_kde). The plot gives an interesting overview, but in the following we will not analyze the data per canton, but as a whole.
+Next, we see a ridgeline plot showing the distributions of the voter turnouts of the municipalities per canton. The distributions were estimated from the data using the Gaussian kernel density estimator, weighted by the number of residents (gaussian_kde). The plot gives an interesting overview, but in the following, we will not analyze the data per canton, but as a whole.
 
 <br>
 <p align="center">
   <img 
-    alt="Ridgeline plot per Canton"
+    alt="Ridgeline plot per canton"
     src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/voter-turnout-kde-per-canton-1.png"
     height="520px"
   />
   <img 
-    alt="Ridgeline plot per Canton"
+    alt="Ridgeline plot per canton"
     src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/voter-turnout-kde-per-canton-2.png"
     height="520"
   />
   
 </p>
 
-As we can see, the voter turnout in the canton of *Appenzell Innerrhoden* is exceptionally low. After the federal elections, it was reported that the Federal Statistical Office made a mistake when importing the data from this canton. We do not know whether the data available to us (for this Canton) is affected by this error. It is a small canton with five municipalities.
+As we can see, the voter turnout in the canton of *Appenzell Innerrhoden* is exceptionally low. After the federal elections, it was reported that the Federal Statistical Office made a mistake when importing the data from this canton. We do not know whether the data available to us (for this canton) is affected by this error. It is a small canton with five municipalities.
 
 <br>
 
 ### Input variables
 
-A plot with histograms for all 31 variables you find in this repository: [Multi-plot with histograms](https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-overview.png).
+A plot with histograms for all input variables you find in this repository: [Multi-plot with histograms](https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-overview.png).
 
-Among the variables we find the following types:
+Among the variables,we find the following types:
 
 - Percentage (0 to 100%) like the Percentage of foreign nationals
 - Numbers (cardinal) like the number of private households
@@ -159,7 +160,7 @@ Since there are no ordinal or nominal numbers and categorical variables we can u
 
 ### Correlations
 
-Let's see how each of the input variables $`X_i`$ correlates with the voter turnout 2023 $`Y_1`$. The voter turnout from 2019  $`Y_2`$ is used as a comparative value. For each tuple of variables $`(X_1,Y_1), (X_1,Y_2),   (X_2,Y_1), (X_2,Y_2)... (X_i,Y_i)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on. The variables are ordered by the **absolute** value of the correlation coefficient. It seems that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients itself are not very convincing since they range between -0.43 and 0.2. The p-value (scipy.stats.pearsonr) for the variable *Employed total* and all variables listed below is > 0.05  which is usually considered as an *insignificant* correlation.
+Let's see how each of the input variables $`X_i`$ correlates with the voter turnout 2023 $`Y_1`$. The voter turnout from 2019  $`Y_2`$ is used as a comparative value. For each tuple of variables $`(X_1,Y_1), (X_1,Y_2),   (X_2,Y_1), (X_2,Y_2)... (X_i,Y_i)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on. The variables are ordered by the **absolute** value of the correlation coefficient. It seems that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients themselves are not very convincing since they range between -0.43 and 0.2.
 
 <br>
 <br>
@@ -174,7 +175,7 @@ Let's see how each of the input variables $`X_i`$ correlates with the voter turn
 
 ### Linear regression
 
-There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line. Each point on the plot in the left column represents a Municipality which is positioned on the plot according to its voter turnout and the variable mentioned on the horizontal y-axis. To assess the data a bit better, a residual plot is displayed on the right-hand side. If your are not familiar with the Residual plot, focus on the plots on the left side. 
+There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line. Each point on the plot in the left column represents a Municipality which is positioned on the plot according to its voter turnout and the variable mentioned on the horizontal y-axis. To assess the data a bit better, a residual plot is displayed on the right-hand side. If you are not familiar with the Residual plot, focus on the plots on the left side. 
 
 See also the [interactive scatter plot](https://mmoleiro.github.io/bokeh-plots/interactive-scatter-plot.html) with bokeh.
 
@@ -194,7 +195,7 @@ As we can see there seems to be a trend in the data (the negative correlation me
 
 ### Preliminary remark
 
-So far we just considered correlations and the strongest correlation in the data occurs between *Percentage of foreign nationals* and the *voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in federal elections. This is different in elections at the cantonal or communal level, where foreigners in some cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners. We can see this effect when we analyze the **cantonal elections from 2021 in the canton of Neuchâtel (27 communes)**, where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are obviously  not independent.
+So far we just considered correlations and the strongest correlation in the data occurs between *Percentage of foreign nationals* and the *voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in federal elections. This is different in elections at the cantonal or communal level, where foreigners in some cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners. We can see this effect when we analyze the **cantonal elections from 2021 in the canton of Neuchâtel (27 communes)**, where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are obviously not independent.
 
 <p align="center">
   <img 
@@ -205,13 +206,13 @@ So far we just considered correlations and the strongest correlation in the data
 
 Since we analyze the data from a federal election we have to investigate for other explanations and we assume that every Swiss citizen is in a position to decide whether they want to vote or not, regardless of how many foreigners live in their municipality. 
 
-The often cited dogma *Correlation does not imply causation* does not prevent us from *thinking* about possible causal interpretations. What would it mean to interpret the correlation between the *Percentage of foreign nationals* and *voter turnout* as a direct causation? Do the foreigerns somehow *physically* prevent the Swiss citizens from voting? Or do some Swiss citizens say: I do not vote *because* so many foreigners are living in my minicipality. We are not aware of any cases in which this has happened. Another vague assumption is that in municipalities with a higher *percentage of foreign nationals*, there are also more naturalized Swiss citizens who vote less. Instead, we could think of the causation the other way: Does a low voter turnout cause a high percentage of foreigners? This might happen if Swiss citizens who do not vote are particularly pro-foreigners and invite foreigners to live in their minicipalities. We don't know whether these are plausible explanations.
+The often-cited dogma *Correlation does not imply causation* does not prevent us from *thinking* about possible causal interpretations. What would it mean to interpret the correlation between the *Percentage of foreign nationals* and *Voter turnout* as a direct causation? Do the foreigners somehow *physically* prevent the Swiss citizens from voting? Or do some Swiss citizens say: I do not vote *because* so many foreigners are living in my municipality. We are not aware of any cases in which this has happened. Another vague assumption is that in municipalities with a higher *Percentage of foreign nationals*, there are also more naturalized Swiss citizens who vote less. Instead, we could think of the causation the other way: Does a low *Voter turnout* cause a high *Percentage of foreign nationals*? This might happen if Swiss citizens who do not vote are particularly pro-foreigners and invite foreigners to live in their municipalities. We don't know whether these are plausible explanations.
 
 ### Mediation scenario
 
 Someone who believes that a high *Percentage of foreign nationals* causes indirectly a low *Voter turnout* might propose the *Social assistance rate* as a *mediator* since there is, as we will see, also a correlation between the *Social assistance rate* and the *Percentage of foreign nationals*. Such a person could argue that foreigners cause a high *Social assistance rate* by taking jobs away from Swiss citizens, who become unemployed and consequently dependent on welfare, and finally, out of frustration, no longer participate in elections. 
 
-However, we have to keep in mind that, seen over the whole country, the *Social assistance rate* among foreigners is 3 times higher (6%) than among Swiss citizens (2%). This means that the *Social assistance rate* could rise as the *Percentage of foreign nationals* increases without any causal effect on the Swiss citizens. Unfortunately, we have not found a data set that shows how the *Social assistance rate* is distributed among different population groups in the individual municipalities. So we cannot analyze whether an increased *Percentage of foreign nationals* could also result in an increased *Social assistance rate* among Swiss nationals.
+However, we have to keep in mind that, seen over the whole country, the *Social assistance rate* among foreigners is 3 times higher (6%) than among Swiss citizens (2%). This means that the *Social assistance rate* could rise as the *Percentage of foreign nationals* increases without any causal effect on Swiss citizens. Unfortunately, we have not found a data set that shows how the *Social assistance rate* is distributed among different population groups in the individual municipalities. So we cannot analyze whether an increased *Percentage of foreign nationals* could also result in an increased *Social assistance rate* among Swiss citizens.
 
 Even if there are certain doubts, we present this scenario in the following model:
 <br>
@@ -274,12 +275,12 @@ $$\hat{y} = \beta_1 \cdot x_1 + \beta_2 \cdot x_2 + \alpha$$
 $$\hat{y} = 0 \cdot x_1 + -0.252 \cdot x_2 - 0.089$$
 <br>
 <br>
-As we can see the planes are not identical. It seems that the purple plane explains the *Voter turnout* better than the restricted regression model in which the *Percentage of foreign nationals* has no impact on the *Voter turnout*. We can test this by calculating an f-statistic. To do this, we define the restricted model as the null hypothesis with $`\beta_1 = 0`$ and $`\beta_2 \neq 0`$. The unrestricted model is our alternative hypothesis with $`\beta_1 \neq 0`$ and $`\beta_2 \neq 0`$. Detailed information on how the f-statistic was calculated you find in the juypter notebook in this repository. We get an f-statistic value of 260.5 which is pretty good. For example, if we take a look at the f-table at a significance level of 0.01 with a degree of freedom (df2) > 120 (sample size) and df1 = 1, we get the value *6.635*. Since our f-statistic results in a much higher value, we conclude that the unrestricted model explains the Voter turnout *significantly* better than the restricted model. One reason for this is that some municipalities with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. 
+As we can see the planes are not identical. It seems that the purple plane explains the *Voter turnout* better than the restricted regression model in which the *Percentage of foreign nationals* has no impact on the *Voter turnout*. We can test this by calculating an f-statistic. To do this, we define the restricted model as the null hypothesis with $`\beta_1 = 0`$ and $`\beta_2 \neq 0`$. The unrestricted model is our alternative hypothesis with $`\beta_1 \neq 0`$ and $`\beta_2 \neq 0`$. Detailed information on how the f-statistic was calculated can be found in the juypter notebook in this repository. We get an f-statistic value of 260.5 which is pretty good. For example, if we take a look at the f-table at a significance level of 0.01 with a degree of freedom (df2) > 120 (sample size) and df1 = 1, we get the value *6.635*. Since our f-statistic results in a much higher value, we conclude that the unrestricted model explains the Voter turnout *significantly* better than the restricted model. One reason for this is that some municipalities with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. 
 
 For that reason, we do not accept the *Social assistance rate* as a full mediator.
 
 ## Conclusion
-Today's tools make it easy to perform explorative data analysis and visualization, and many tools are available for optimizing machine learning models. But as soon as we interpret the correlations and models in terms of causal relationships, we are confronted with serious difficulties: Since we are dealing with a versatile system we cannot analyze specific phenomenas independently of one another. There are also many factors that we have not considered in our analysis. Especially information on the educational level of the population. To gain further insights, we will have to enrich our data. We will see if more data becomes available in the future.
+Today's tools make it easy to perform explorative data analysis and visualization, and many tools are available for optimizing machine learning models. But as soon as we interpret the correlations and models in terms of causal relationships, we are confronted with serious difficulties: Since we are dealing with a versatile system we cannot analyze specific phenomena independently of one another. There are also many factors that we have not considered in our analysis. Especially information on the educational level of the population. To gain further insights, we will have to enrich our data. We will see if more data becomes available in the future.
 
 ## References
 
