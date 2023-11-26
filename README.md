@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Switzerland consists of 2136 Municipalities as of 1 January 2023, grouped into 26 Cantons. Federal elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recored by the Federal Statistical Office (FSO) for each municipality. The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreign nationals in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout from the Swiss federal election 2023 (National Council) is always considered as the main target variable $`Y`$ or $`Y_1`$. We will use the voter turnout from the Swiss federal election 2019 as a comparison value $`Y_2`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
+Switzerland consists of 2136 Municipalities as of 1 January 2023, grouped into 26 Cantons. Federal elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recorded by the Federal Statistical Office (FSO) for each municipality. The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreign nationals in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout from the Swiss federal election 2023 (National Council) is always considered as the main target variable $`Y`$ or $`Y_1`$. We will use the voter turnout from the Swiss federal election 2019 as a comparison value $`Y_2`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
 
 All sources (data and articles) are listed at the bottom of this article. In some sources, the Municipalities are called communes.
 
@@ -75,8 +75,8 @@ All links to the data sources can be found in the [References](#references) sect
 
 The preprocessed data files are in the directory *data/preprocessed*. These files (csv) are used for the analysis. We performed the following tasks:
 
-- Delete data entries that not needed for the analysis. The file with the portraits of the communes contained several variables describing the voting behavior with regard to specific political parties. However, these values were not available for numerous communes. To simplify the analysis, we deleted these variables and focussed on the more than 30 remaining variables.
-- Replace "X" and "*" characters which indicated missing values with empty values. This leads to *NaN* values in Python which are easier to work with.
+- Delete data entries not needed for the analysis. The file with the portraits of the communes contained several variables describing the voting behavior with regard to specific political parties. However, these values were not available for numerous communes. To simplify the analysis, we deleted these variables and focussed on the more than 30 remaining variables.
+- Replace "X" and "\*" characters which indicated missing values with empty values. This leads to *NaN* values in Python which are easier to work with.
 - Harmonize a few municipality's names since the FSO used different spellings in some cases
 - Save all standardized values in a separate data frame so that variables that are on different scales can be compared with each other. See also the article *Common pitfalls in the interpretation of coefficients of linear models* on scikit-learn.org.
 
@@ -98,7 +98,6 @@ The prepared data set contains now 2128 municipalities for which we have the vot
 | Business establishments total   | 279                         |    1849                        | 2128     | 
 
 We have not tried to estimate the missing values (data imputation). We use the data provided by the Federal Statistical Office.
-
 
 ## Exploratory data analysis
 
@@ -126,7 +125,7 @@ As we can see in the following histogram the voter turnouts are roughly normally
 <br>
 <br>
 
-Next, we see a ridgeline plot showing the distributions of the voter turnouts of the municipalities per canton. The distributions were estimated from the data using the Gaussian kernel density estimator, weighted by the number of residents (gaussian_kde). The plot gives an interesting overview, but in the following, we will not analyze the data per canton, but as a whole.
+Next, we see a ridgeline plot showing the distributions of the voter turnouts of the municipalities per canton. The distributions were estimated from the data using the Gaussian kernel density estimator, weighted by the number of residents (gaussian\_kde). The plot gives an interesting overview, but in the following, we will not analyze the data per canton, but as a whole.
 
 <br>
 <p align="center">
@@ -160,7 +159,7 @@ Since there are no ordinal or nominal numbers and categorical variables we can u
 
 ### Correlations
 
-Let's see how each of the input variables $`X_i`$ correlates with the voter turnout 2023 $`Y_1`$. The voter turnout from 2019  $`Y_2`$ is used as a comparative value. For each tuple of variables $`(X_1,Y_1), (X_1,Y_2),   (X_2,Y_1), (X_2,Y_2)... (X_i,Y_i)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on. The variables are ordered by the **absolute** value of the correlation coefficient. It seems that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients themselves are not very convincing since they range between -0.43 and 0.2.
+Let's see how each of the input variables $`X_i`$ correlates with the voter turnout 2023 $`Y_1`$. The voter turnout from 2019 $`Y_2`$ is used as a comparative value. For each tuple of variables $`(X_1,Y_1), (X_1,Y_2), (X_2,Y_1), (X_2,Y_2)... (X_i,Y_i)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on. The variables are ordered by the **absolute** value of the correlation coefficient. It seems that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients themselves are not very convincing since they range between -0.43 and 0.2.
 
 <br>
 <br>
@@ -227,7 +226,7 @@ Even if there are certain doubts, we present this scenario in the following mode
 <br>
 <br>
 
-To analyze this mediation model we use the method proposed by Baron and Kenny in 1986. A good example of how this method is applied in practice can also be found in the Netflix Technology Blog: _Causal Machine Learning for Creative Insights_ (netflixtechblog.medium.com). The following three regression analyses were performed on the **standardized** values so that we can compare the coefficients of different variables:
+To analyze this mediation model we use the method proposed by Baron and Kenny in 1986. A good example of how this method is applied in practice can also be found in the Netflix Technology Blog: _Causal Machine Learning for Creative Insights_ ([netflixtechblog.medium.com](netflixtechblog.medium.com)). The following three regression analyses were performed on the **standardized** values so that we can compare the coefficients of different variables:
 
 <br>
 
