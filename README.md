@@ -15,8 +15,9 @@ To follow this analysis you should be familiar with following concepts. We will 
 - Normal distribution
 - Kernel density estimation (Gaussian)
 - Pearson correlation coefficient
-- Ordinary Least Squares regression (OLS)
 - Histogram and Scatter plot
+- Ordinary Least Squares regression (OLS)
+- F-statistics
 
 ### Recommended readings
 
@@ -67,7 +68,7 @@ We retrived  the data from following data sources:
 4. Swiss official commune register (bfs.admin.ch)
 5. Statistiques des élections cantonales du 18 avril 2021 (ne.ch)
 
-To ensure the traceability of the analysis, all data files were stores in the *data/original* directory of this repository. The  *Swiss official commune register* we only used to assign the municipalities to the cantons.
+All links to the data sources can be found in the [References](#references) section. To ensure the traceability of the analysis, all data files were stores in the *data/original* directory of this repository. The  *Swiss official commune register* we only used to assign the municipalities to the cantons.
 
 
 ## Data preprocessing
