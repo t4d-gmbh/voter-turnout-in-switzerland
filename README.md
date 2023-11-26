@@ -29,12 +29,12 @@ For those interested in causal inference, we recommend the following books:
 <p align="center">
 <img 
    alt="Causal Inference in Statistics: A Primer"
-   src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/images/Book-Causal-inference-in-Statistics-A-Primer.jpg" 
+   src="./images/Book-Causal-inference-in-Statistics-A-Primer.jpg" 
    height="250"
 />
 <img 
   alt="The Book of Why"
-  src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/images/The-Book-of-Why.jpg" 
+  src="/images/The-Book-of-Why.jpg" 
   height="250"
 />
 </p>
@@ -117,7 +117,7 @@ As we can see in the following histogram the voter turnouts are roughly normally
 <p align="center">
   <img 
     alt="Histogram with voter turnouts overall"
-    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-voter-turnouts.png" 
+    src="./plots/histogram-voter-turnouts.png" 
     height="250"
   />
 </p>
@@ -131,12 +131,12 @@ Next, we see a ridgeline plot showing the distributions of the voter turnouts of
 <p align="center">
   <img 
     alt="Ridgeline plot per canton"
-    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/voter-turnout-kde-per-canton-1.png"
+    src="./plots/voter-turnout-kde-per-canton-1.png"
     height="520px"
   />
   <img 
     alt="Ridgeline plot per canton"
-    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/voter-turnout-kde-per-canton-2.png"
+    src="./plots/voter-turnout-kde-per-canton-2.png"
     height="520"
   />
   
@@ -148,7 +148,7 @@ As we can see, the voter turnout in the canton of *Appenzell Innerrhoden* is exc
 
 ### Input variables
 
-A plot with histograms for all input variables you find in this repository: [Multi-plot with histograms](https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/histogram-overview.png).
+A plot with histograms for all input variables you find in this repository: [Multi-plot with histograms](./plots/histogram-overview.png).
 
 Among the variables,we find the following types:
 
@@ -167,7 +167,7 @@ Let's see how each of the input variables $`X_i`$ correlates with the voter turn
 <p align="center">
 <img 
    alt="Correlation coefficients"
-   src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/barchart-with-correlation-coefficients.png"
+   src="./plots/barchart-with-correlation-coefficients.png"
 />
 
 <br>
@@ -183,7 +183,7 @@ See also the [interactive scatter plot](https://mmoleiro.github.io/bokeh-plots/i
 <p align="center">
   <img 
     alt="Scatter plots with linear regression line for selected variables"
-    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/scatterplot-for-selected-variables.png" 
+    src="./plots/scatterplot-for-selected-variables.png" 
     width="750px"
   />
 </p>
@@ -199,7 +199,7 @@ So far we just considered correlations and the strongest correlation in the data
 <p align="center">
   <img 
     alt="Scatter plots with linear regression line for selected variables"
-    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/scatterplot-for-cantonal-elections-neuchatel.png"
+    src="./plots/scatterplot-for-cantonal-elections-neuchatel.png"
   />
 </p>
 
@@ -220,7 +220,7 @@ Even if there are certain doubts, we present this scenario in the following mode
 <p align="center">
   <img 
     alt="Mediation model"
-    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/images/scm-mediator.drawio.png"
+    src="./images/scm-mediator.drawio.png"
   />
 </p>
 <br>
@@ -248,7 +248,7 @@ As we can see, the coefficient $`\beta_1`$ for $`X_1`$ becomes smaller in the th
 <p align="center">
   <img 
     alt="3D scatter plot with planes"
-    src="https://github.com/t4d-gmbh/voter-turnout-in-switzerland/blob/main/plots/scatterplot-3D-voter-turnout-with-planes.png"
+    src="./plots/scatterplot-3D-voter-turnout-with-planes.png"
   />
 </p>
 
@@ -320,6 +320,3 @@ Today's tools make it easy to perform exploratory data analysis and visualizatio
 - [In der Romandie dürfen Ausländer wählen und abstimmen – doch sie tun es praktisch nicht. Warum? (nzz.ch)](https://www.nzz.ch/schweiz/auslaenderstimmrecht-in-der-romandie-verbreitet-doch-kaum-genutzt-warum-ld.1763956)
 
 - [Sozialhilfebeziehende in der Schweiz im Jahr 2021 (bfs.admin.ch)](https://www.bfs.admin.ch/bfs/de/home/statistiken/soziale-sicherheit/sozialhilfe.assetdetail.23845655.html)
-
-
-
