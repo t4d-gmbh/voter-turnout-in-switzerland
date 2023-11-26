@@ -159,7 +159,7 @@ Since there are no ordinal or nominal numbers and categorical variables we can u
 
 ### Correlations
 
-Let's see how each of the input variables $`X_i`$ correlates with the voter turnout 2023 $`Y_1`$. The voter turnout from 2019  $`Y_2`$ is used as a comparative value. For each tuple of variables $`(X_1,Y_1), (X_1,Y_2),   (X_2,Y_1), (X_2,Y_2)... (X_i,Y_i)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on. It might seem that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients itself are not very convincing since they range between -0.43 and 0.2.
+Let's see how each of the input variables $`X_i`$ correlates with the voter turnout 2023 $`Y_1`$. The voter turnout from 2019  $`Y_2`$ is used as a comparative value. For each tuple of variables $`(X_1,Y_1), (X_1,Y_2),   (X_2,Y_1), (X_2,Y_2)... (X_i,Y_i)`$ the Pearson correlation coefficient is calculated. This correlation coefficient corresponds to the coefficient (the "slope") of a linear regression which we will use further on. The variables are ordered by the **absolute** value of the correlation coefficient. It seems that some variables are strongly correlated with the voter turnout but let's keep in mind that the coefficients itself are not very convincing since they range between -0.43 and 0.2. The p-value for the variable *Employed total* and all variables listed below is > 0.05 which is usually considered as an *insignificant* correlation.
 
 <br>
 <br>
@@ -301,6 +301,8 @@ Today's tools make it easy to perform explorative data analysis and visualizatio
 ### Articles on data analysis
 
 - [Common pitfalls in the interpretation of coefficients of linear models (scikit-learn.org)](https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html)
+  
+- [Pearson correlation coefficient and p-value for testing non-correlation(scipy.org)](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html)
   
 - [What is the difference between Pearson R and Simple Linear Regression?](https://sebastianraschka.com/faq/docs/pearson-r-vs-linear-regr.html)
 
