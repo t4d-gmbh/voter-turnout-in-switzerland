@@ -1,10 +1,10 @@
-#  Voter turnout analysis of Municipalities of Switzerland and some thoughts on causal inference
+#  Voter turnout analysis of municipalities of Switzerland and some thoughts on causal inference
 
 ## Introduction
 
-Switzerland consists of 2136 Municipalities as of 1 January 2023, grouped into 26 Cantons. Federal elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recorded by the Federal Statistical Office (FSO) for each municipality. The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreign nationals in a Municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the Municipalities. The voter turnout from the Swiss federal election 2023 (National Council) is always considered as the main target variable $`Y`$ or $`Y_1`$. We will use the voter turnout from the Swiss federal election 2019 as a comparison value $`Y_2`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
+Switzerland consists of 2136 municipalities as of 1 January 2023, grouped into 26 Cantons. Federal elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recorded by the Federal Statistical Office (FSO) for each municipality. The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreign nationals in a municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the municipalities. The voter turnout from the Swiss federal election 2023 (National Council) is always considered as the main target variable $`Y`$ or $`Y_1`$. We will use the voter turnout from the Swiss federal election 2019 as a comparison value $`Y_2`$. The other variables are considered as the input $`X_1, X_2, X_3... X_i`$. 
 
-All sources (data and articles) are listed at the bottom of this article. In some sources, the Municipalities are called communes.
+All sources (data and articles) are listed at the bottom of this article. In some sources, the municipalities are called communes.
 
 ### Prerequisite knowledge
 
@@ -279,7 +279,7 @@ As we can see the planes are not identical. It seems that the purple plane expla
 For that reason, we do not accept the *Social assistance rate* as a full mediator.
 
 ## Conclusion
-Today's tools make it easy to perform explorative data analysis and visualization, and many tools are available for optimizing machine learning models. But as soon as we interpret the correlations and models in terms of causal relationships, we are confronted with serious difficulties: Since we are dealing with a versatile system we cannot analyze specific phenomena independently of one another. There are also many factors that we have not considered in our analysis. Especially information on the educational level of the population. To gain further insights, we will have to enrich our data. We will see if more data becomes available in the future.
+Today's tools make it easy to perform exploratory data analysis and visualization, and many tools are available for optimizing machine learning models. But as soon as we interpret the correlations and models in terms of causal relationships, we are confronted with serious difficulties: Since we are dealing with a versatile system we cannot analyze specific phenomena independently of one another. There are also many factors that we have not considered in our analysis. Especially information on the educational level of the population. To gain further insights, we will have to enrich our data. We will see if more data becomes available in the future.
 
 ## References
 
