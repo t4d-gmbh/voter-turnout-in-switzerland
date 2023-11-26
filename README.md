@@ -60,7 +60,7 @@ The focus of this analysis lies on the proceeding itself rather than on the actu
 
 ## Data retrieval
 
-We retrived  the data from following data sources:
+We retrieved  the data from following data sources:
 
 1. The voter turnouts for the federal elections 2023 (opendata.swiss)
 2. The voter turnouts for the federal elections 2019 (opendata.swiss)
