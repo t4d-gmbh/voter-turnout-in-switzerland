@@ -174,7 +174,7 @@ Let's see how each of the input variables $`X_i`$ correlates with the voter turn
 
 ### Linear regression
 
-There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line. Each point on the plot in the left column represents a Municipality which is positioned on the plot according to its voter turnout and the variable mentioned on the horizontal y-axis. To assess the data a bit better, a residual plot is displayed on the right-hand side. If you are not familiar with the Residual plot, focus on the plots on the left side. 
+There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line. Each point on the plot in the left column represents a municipality which is positioned on the plot according to its voter turnout and the variable mentioned on the horizontal axis. To assess the data a bit better, a residual plot is displayed on the right-hand side. If your are not familiar with the Residual plot, focus on the plots on the left side. 
 
 See also the [interactive scatter plot](https://mmoleiro.github.io/bokeh-plots/interactive-scatter-plot.html) with bokeh.
 
@@ -188,7 +188,7 @@ See also the [interactive scatter plot](https://mmoleiro.github.io/bokeh-plots/i
   />
 </p>
 
-As we can see there seems to be a trend in the data (the negative correlation mentioned before) but we can also see (on the label of the y-axis) that the R²-scores are quite poor. The R²-score can take values between 0 and 1 and is the proportion of the variation in the voter turnout which is explained by the model (simply said: the regression line). This means that the regression line might indicate a trend but does not explain why the points are so widely scattered.
+As we can see there seems to be a trend in the data (the negative correlation mentioned before) but we can also see (on the label of the horizontal axis) that the R²-scores are quite poor. The R²-score can take values between 0 and 1 and is the proportion of the variation in the voter turnout which is explained by the model (simply said: the regression line). This means that the regression line might indicate a trend but does not explain why the points are so widely scattered.
 
 ## Possible causal interpretations
 
