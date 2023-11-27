@@ -4,7 +4,7 @@
 
 Switzerland consists of 2136 municipalities as of 1 January 2023, grouped into 26 Cantons. Federal elections are held every four years. For each election, the voter turnout (Wahlbeteiligung) is recorded by the Federal Statistical Office (FSO) for each municipality. The voter turnout is the proportion of the population entitled to vote that actually voted. Independent of that the Federal Statistical Office regularly collects data on each municipality like population size (residents) or the percentage of foreign nationals in a municipality. In this analysis, we take both datasets, merge them and try to find out if there are relations between the voter turnout and other characteristics of the municipalities. The voter turnout from the Swiss federal election 2023 (National Council) is always considered as the main target variable $`Y`$ or $`Y_1`$. We will use the voter turnout from the Swiss federal election 2019 as a comparison value $`Y_2`$. The other data the FSO collects are considered as the input variables $`X_1, X_2, X_3... X_i`$. 
 
-All sources (data and articles) are listed at the bottom of this article. In some sources, the municipalities are called communes.
+All sources (data and articles) are listed at the bottom of this article. In some sources, the municipalities are called communes. We consider those two terms as synonymous and use them interchangeably hereafter.
 
 ### Prerequisite knowledge
 
