@@ -144,7 +144,7 @@ Since there are no ordinal or nominal numbers and categorical variables we can u
 
 ### Correlations
 
-Let's see how each of the input variables $`X_i`$ correlates with the voter turnout 2023 $`Y_1`$. The voter turnout from 2019 $`Y_2`$ is used as a comparative value. For each tuple of variables $`(X_1,Y_1), (X_1,Y_2), (X_2,Y_1), (X_2,Y_2)... (X_i,Y_i)`$ the [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) is calculated. This coefficient is bounded by $-1$ and $1$ and indicates how well two variables correlate linearly, with a value of $1$ indicating a perfect positive correlation, $-1$ a perfect negative correlation, and $0$ no correlation at all. The variables are ordered by the **absolute** value of the correlation coefficient. With coefficients ranging from -0.43 to 0.2 we do in general not observe very pronounced linear correlations.
+Let's see how each of the input variables $`X_i`$ correlates with the voter turnout 2023 $`Y_1`$. The voter turnout from 2019 $`Y_2`$ is used as a comparative value. For each tuple of variables $`(X_1,Y_1), (X_1,Y_2), (X_2,Y_1), (X_2,Y_2)... (X_i,Y_i)`$ the *Pearson correlation coefficient* was calculated. This coefficient is bounded by $-1$ and $1$ and indicates how well two variables correlate linearly, with a value of $1$ indicating a perfect positive correlation, $-1$ a perfect negative correlation, and $0$ no correlation at all. The variables are ordered by the absolute value of the correlation coefficient. With coefficients ranging from -0.43 to 0.2 we do in general not observe very strong linear correlations.
 
 <br>
 <br>
@@ -159,7 +159,7 @@ Let's see how each of the input variables $`X_i`$ correlates with the voter turn
 
 ### Linear regression
 
-There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line. Each point on the plot in the left column represents a municipality that is positioned on the plot according to its voter turnout and the variable mentioned on the horizontal axis. To assess the data a bit better, a residual plot is displayed on the right-hand side. The residual plot simply illustrates the difference to the linear regression line.
+There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line. Each point on the plot in the left column represents a municipality that is positioned on the plot according to its voter turnout and the variable mentioned on the horizontal axis. To assess the data a bit better, a residual plot is displayed on the right-hand side. The residual plot illustrates the differences between the actual data points and the linear regression line.
 
 See also the [interactive scatter plot](https://mmoleiro.github.io/bokeh-plots/interactive-scatter-plot.html) with bokeh.
 
