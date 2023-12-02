@@ -161,7 +161,7 @@ Let's see how each of the input variables $`X_i`$ correlates with the voter turn
 
 There is usually an interest in increasing voter turnout. So we focus on variables that are negatively correlated with voter turnout and see if we can find out more about them. Let's look at a scatter plot with a fitted regression line. Each point on the plot in the left column represents a municipality that is positioned on the plot according to its voter turnout and the variable mentioned on the horizontal axis. To assess the data a bit better, a residual plot is displayed on the right-hand side. The residual plot illustrates the differences between the actual data points and the linear regression line.
 
-See also the [interactive scatter plot](https://mmoleiro.github.io/bokeh-plots/interactive-scatter-plot.html) with bokeh.
+See also the [interactive scatter plot](https://t4d-gmbh.github.io/voter-turnout-in-switzerland/scatterplot-2D-interactive/index.html) with bokeh.
 
 <br>
 
@@ -237,7 +237,7 @@ As we can see, the coefficient $`\beta_1`$ for $`X_1`$ becomes smaller in the th
   />
 </p>
 
-See also the animated version: [3D Scatter plot](https://mmoleiro.github.io/bokeh-plots/scatterplot-3D-animated/index.html).
+See also the animated version: [3D Scatter plot](https://t4d-gmbh.github.io/voter-turnout-in-switzerland/scatterplot-3D-animated/index.html).
 
 The purple plane results from the third regression where the target variable depends on both input variables $`X_1`$ and $`X_2`$:
 
