@@ -107,7 +107,7 @@ As we can see in the following histogram the voter turnouts are roughly normally
 <br>
 
 <p align="center">
-  <img alt="Histogram with voter turnouts overall" src="./plots/histogram-voter-turnouts.png" height="250"/>
+  <img alt="Histogram with voter turnouts overall" src="./plots/histogram-voter-turnouts.png"/>
 </p>
 
 <br>
