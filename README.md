@@ -54,8 +54,8 @@ The focus of this analysis lies on the proceeding itself rather than on the actu
 
 We retrieved  the data from the following data sources:
 
-1. The voter turnouts for the federal elections 2023 (opendata.swiss)
-2. The voter turnouts for the federal elections 2019 (opendata.swiss)
+1. Voter turnouts for the federal elections 2023 (opendata.swiss)
+2. Voter turnouts for the federal elections 2019 (opendata.swiss)
 3. Portraits of the communes (bfs.admin.ch)
 4. Swiss official commune register (bfs.admin.ch)
 5. Statistiques des élections cantonales du 18 avril 2021 (ne.ch)
@@ -65,7 +65,8 @@ All links to the data sources can be found in the [References](#data-sources) se
 
 ## Data preprocessing
 
-The preprocessed data files are in the directory *data/preprocessed*. These files (CSV) are used for the analysis. We performed the following tasks:
+The preprocessed data files are in the directory *data/preprocessed*. 
+These files (CSV) are used for the analysis. We performed the following tasks:
 
 - Delete data entries not needed for the analysis. The file with the portraits of the communes contained several variables describing the voting behavior concerning specific political parties. However, these values were not available for numerous municipalities. To simplify the analysis, we deleted these variables and focussed on the more than 30 remaining variables.
 - Replace "X" and "\*" characters which indicated missing values with empty values. This leads to *NaN* values in Python which are easier to work with.
@@ -89,7 +90,7 @@ The prepared data set contains now 2128 municipalities for which we have the vot
 | Social assistance rate          | 460                         |    1668                        | 2128     | 
 | Business establishments total   | 279                         |    1849                        | 2128     | 
 
-We have not tried to estimate the missing values (data imputation). We use the data provided by the Federal Statistical Office.
+We did not estimate the missing values (data imputation). We use the data provided by the Federal Statistical Office.
 
 ## Exploratory data analysis
 
@@ -179,7 +180,7 @@ As we can see there seems to be a trend in the data (the negative correlation me
 
 ### Preliminary remark
 
-So far we just considered correlations and the strongest correlation in the data occurs between *Percentage of foreign nationals* and the *voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in federal elections. This is different in elections at the cantonal or communal level, where foreigners in some cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners (see the article in the *Neue Zürcher Zeitung* <sup>[[2]](#general-information-on-the-topic)</sup>) We can see this effect when we analyze the **cantonal elections from 2021 in the canton of Neuchâtel (27 municipalities)**, where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are not independent.
+So far we just considered correlations and the strongest correlation in the data occurs between *Percentage of foreign nationals* and the *Voter turnout*. Here we have to mention that foreign nationals are not entitled to vote in federal elections. This is different in elections at the cantonal or communal level, where foreigners in some cantons are entitled to vote and it is a well-known fact that (unfortunately) the voter turnout is very low among foreigners (see the article in the *Neue Zürcher Zeitung* <sup>[[2]](#general-information-on-the-topic)</sup>) We can see this effect when we analyze the **cantonal elections from 2021 in the canton of Neuchâtel (27 municipalities)**, where foreigners are entitled to vote. This gives us almost a textbook example of a linear regression - mainly because foreigners vote less and therefore the two variables are not independent.
 
 <p align="center">
   <img 
@@ -242,13 +243,11 @@ See also the animated version: [3D Scatter plot](https://t4d-gmbh.github.io/vote
 The purple plane results from the third regression where the target variable depends on both input variables $`X_1`$ and $`X_2`$:
 
 <br>
-<br>
 
 $$ \hat{y} = \beta_y \cdot x_1 + \beta_2 \cdot x_2 + \alpha$$
 
 $$ \hat{y} = -0.301 \cdot x_1 + -0.249 \cdot x_2 - 0.089$$
 
-<br>
 <br>
 
 The cyan (green) plane is a (hypothetical) plane that results from a restricted regression model. That is if the *Social assistance rate* would fully mediate and therefore we did not need the first variable $`X_1`$  (Percentage of foreign nationals):
@@ -257,8 +256,9 @@ The cyan (green) plane is a (hypothetical) plane that results from a restricted 
 $$\hat{y} = \beta_1 \cdot x_1 + \beta_2 \cdot x_2 + \alpha$$
 
 $$\hat{y} = 0 \cdot x_1 + -0.249 \cdot x_2 - 0.089$$
+
 <br>
-<br>
+
 As we can see the planes are not identical. It seems that the purple plane explains the *Voter turnout* better than the restricted regression model in which the *Percentage of foreign nationals* has no impact on the *Voter turnout*. We can test this by calculating an f-statistic. To do this, we define the restricted model as the null hypothesis with $`\beta_1 = 0`$ and $`\beta_2 \neq 0`$. The unrestricted model is our alternative hypothesis with $`\beta_1 \neq 0`$ and $`\beta_2 \neq 0`$. Detailed information on how the f-statistic was calculated can be found in the juypter notebook in this repository. We get an f-statistic value of 260.5 which is pretty good. For example, if we take a look at the f-table at a significance level of 0.01 with a degree of freedom (df2) > 120 (sample size) and df1 = 1, we get the value *6.635*. Since our f-statistic results in a much higher value, we conclude that the unrestricted model explains the Voter turnout *significantly* better than the restricted model. One reason for this is that some municipalities with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. 
 
 For that reason, we do not accept the *Social assistance rate* as a full mediator.
@@ -287,7 +287,7 @@ Today's tools make it easy to perform exploratory data analysis and visualizatio
 
 - [Common pitfalls in the interpretation of coefficients of linear models (scikit-learn.org)](https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html)
   
-- [Pearson correlation coefficient and p-value for testing non-correlation(scipy.org)](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html)
+- [Pearson correlation coefficient and p-value for testing non-correlation (scipy.org)](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html)
   
 - [What is the difference between Pearson R and Simple Linear Regression?](https://sebastianraschka.com/faq/docs/pearson-r-vs-linear-regr.html)
 
