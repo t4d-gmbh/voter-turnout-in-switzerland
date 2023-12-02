@@ -173,7 +173,7 @@ See also the [interactive scatter plot](https://t4d-gmbh.github.io/voter-turnout
   />
 </p>
 
-As we can see there seems to be a trend in the data (the negative correlation mentioned before) but we can also see (on the label of the horizontal axis) that the R²-scores are quite poor. The R²-score can take values between 0 and 1 and is the proportion of the variation in the voter turnout which is explained by the model (simply said: the regression line). This means that the regression line might indicate a trend but does not explain why the points are so widely scattered.
+As we can see there seems to be a trend in the data (the negative correlation mentioned before) but we can also see (on the label of the horizontal axis) that the R²-scores are quite poor. The R²-score ranges between 0 and 1 and is the proportion of the variation in the voter turnout which is explained by the regression model. This means that the regression line might indicate a trend but does not explain why the points are so widely scattered.
 
 ## Possible causal interpretations
 
