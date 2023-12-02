@@ -9,6 +9,10 @@ p {
   font-family: "Segoe UI","Noto Sans", Helvetica, Arial
 }
 
+p.small {
+  font-size: 0.7em
+}
+
 .slidecontainer {
   width: 50%;
 }
@@ -53,7 +57,7 @@ img.scatter-plot {
 }
 
 .plots-container {
-  height: 650px;
+  height: 700px;
   width: 720px;
   overflow: hidden;
   position: relative;
@@ -64,7 +68,7 @@ img.scatter-plot {
   display: flex;
   position: absolute;
   left: -111600px;
-  top: -70px;
+  top: -20px;
 }
 
 
@@ -103,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="slidecontainer">
       <input type="range" min="0" max="359" value="150" class="slider" id="slider">
     </div>
-	<p>All values (x,y,z axis) are standardized.</p>
+	<p class="small">All values (x,y,z axis) are standardized.</p>
   </center>
   
   <div class="plots-container">
