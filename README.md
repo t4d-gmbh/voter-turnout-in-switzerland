@@ -95,7 +95,7 @@ We have not tried to estimate the missing values (data imputation). We use the d
 
 ### General remarks
 
-Let's look at the data. What are we actually looking at? We have more than 30 variables from which the *voter turnout* is considered as our target variable. The other variables are input variables that describe the municipalities like *Population density per km²* or the *Social assistance rate*. Detailed descriptions of these variables can be found on the website of the Federal Statistical Office. <sup>[[1]](#data-sources)</sup>
+Let's look at the data. What are we actually looking at? We have more than 30 variables from which the *Voter turnout* is considered as our target variable. The other variables are input variables that describe the municipalities like *Population density per km²* or the *Social assistance rate*. An overview of all variables you will find below in the bar chart. Detailed descriptions of these variables can be found on the website of the Federal Statistical Office. <sup>[[1]](#data-sources)</sup>
 
 A certain inaccuracy in the analysis results from the fact that the portraits are from 2021 (the most recent data available) and the voter turnouts are from 2023. The characteristics of the municipalities may have changed slightly in the meantime. Several municipalities also merged between 2020 and 2023 and therefore a clear link between the two data sets is not always possible. We accept this but must take appropriate care when making interpretations.
 
