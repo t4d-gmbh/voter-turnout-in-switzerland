@@ -225,8 +225,8 @@ To analyze this mediation model we use the method proposed by Baron and Kenny in
 | ----------------------- | ----------------------------------- | ---------------------------------- | ---------------------------------------- |
 |                         | **Regress $`Y`$ on $`X_1`$**        | **Regress $`X_1`$ on $`X_2`$**     | **Regress $`Y`$ on $`X_1`$ and $`X_2`$** | 
 | Equation                | $$\hat{y} = \alpha +  \beta_1 x_1$$ | $$\hat{x_1} = \alpha + \beta_2 x_2$$ | $$\hat{y} = \alpha +  \beta_1 x_1 + \beta_2 x_2$$ |
-| $`\beta_1`$             | -0.393                              | -                                  | -0.303                                  |
-| $`\beta_2`$             | -                                   | 0.358                              | -0.252                                  |
+| $`\beta_1`$             | -0.391                              | -                                  | -0.301                                  |
+| $`\beta_2`$             | -                                   | 0.358                              | -0.249                                 |
 
 
 As we can see, the coefficient $`\beta_1`$ for $`X_1`$ becomes smaller in the third regression analysis, but far from rendered insignificant as we would expect if the  $`X_2`$ were a full mediator. Let's look at the following plot:
@@ -246,7 +246,7 @@ The purple plane results from the third regression where the target variable dep
 
 $$ \hat{y} = \beta_y \cdot x_1 + \beta_2 \cdot x_2 + \alpha$$
 
-$$ \hat{y} = -0.303 \cdot x_1 + -0.252 \cdot x_2 - 0.089$$
+$$ \hat{y} = -0.301 \cdot x_1 + -0.249 \cdot x_2 - 0.089$$
 
 <br>
 <br>
@@ -256,7 +256,7 @@ The cyan (green) plane is a (hypothetical) plane that results from a restricted 
 <br>
 $$\hat{y} = \beta_1 \cdot x_1 + \beta_2 \cdot x_2 + \alpha$$
 
-$$\hat{y} = 0 \cdot x_1 + -0.252 \cdot x_2 - 0.089$$
+$$\hat{y} = 0 \cdot x_1 + -0.249 \cdot x_2 - 0.089$$
 <br>
 <br>
 As we can see the planes are not identical. It seems that the purple plane explains the *Voter turnout* better than the restricted regression model in which the *Percentage of foreign nationals* has no impact on the *Voter turnout*. We can test this by calculating an f-statistic. To do this, we define the restricted model as the null hypothesis with $`\beta_1 = 0`$ and $`\beta_2 \neq 0`$. The unrestricted model is our alternative hypothesis with $`\beta_1 \neq 0`$ and $`\beta_2 \neq 0`$. Detailed information on how the f-statistic was calculated can be found in the juypter notebook in this repository. We get an f-statistic value of 260.5 which is pretty good. For example, if we take a look at the f-table at a significance level of 0.01 with a degree of freedom (df2) > 120 (sample size) and df1 = 1, we get the value *6.635*. Since our f-statistic results in a much higher value, we conclude that the unrestricted model explains the Voter turnout *significantly* better than the restricted model. One reason for this is that some municipalities with a low *Social assistance rate* and a high *Percentage of foreign nationals* still have a relatively low *Voter turnout*. That phenomenon is not explained by the mediator. 
