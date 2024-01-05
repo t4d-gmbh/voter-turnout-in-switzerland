@@ -137,6 +137,7 @@ Next, we see a ridgeline plot showing the distributions of the voter turnouts of
   
 </p>
 
+In the canton of *Appenzell Innerrhoden*, the existing member of the National Council was re-elected (pro forma). There were no new candidates. This was the reason for the low voter turnout in 2023.
 
 ### Input variables
 
